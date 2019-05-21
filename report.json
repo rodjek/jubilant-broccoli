@@ -1,0 +1,5810 @@
+{
+  "puppetlabs/puppetlabs-docker": {
+    "summary": {
+      "pulls": {
+        "total": 29,
+        "open": 3,
+        "merged": 25,
+        "closed": 1
+      },
+      "issues": {
+        "total": 18,
+        "open": 11,
+        "closed": 7
+      }
+    },
+    "issues": [
+      {
+        "user": "catsem",
+        "id": 485,
+        "title": "Exec auth runs with every catalog apply",
+        "created_at": "2019-05-16 14:05:31 UTC",
+        "state": "open"
+      },
+      {
+        "user": "traylenator",
+        "id": 481,
+        "title": "Allow priority of yum repo to be specified",
+        "created_at": "2019-05-06 14:29:10 UTC",
+        "state": "open"
+      },
+      {
+        "user": "f4rx",
+        "id": 479,
+        "title": "Question: the relationship between docker::image and docker::run",
+        "created_at": "2019-05-06 11:01:41 UTC",
+        "state": "open"
+      },
+      {
+        "user": "Dan33l",
+        "id": 476,
+        "title": "question : docker service does it take care of /etc/default/docker on debian like OSes ?",
+        "created_at": "2019-04-18 09:59:27 UTC",
+        "state": "open"
+      },
+      {
+        "user": "glennsarti",
+        "id": 474,
+        "title": "Documentation is misleading about Windows Support.",
+        "created_at": "2019-04-15 08:29:40 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "brightdroid",
+        "id": 472,
+        "title": "multiple networks and restart param",
+        "created_at": "2019-04-08 21:53:24 UTC",
+        "state": "open"
+      },
+      {
+        "user": "brightdroid",
+        "id": 469,
+        "title": "restart unless condition missmatches",
+        "created_at": "2019-04-05 12:15:26 UTC",
+        "state": "open"
+      },
+      {
+        "user": "electrofelix",
+        "id": 467,
+        "title": "Tests require docker binary to be installed to succeed",
+        "created_at": "2019-04-01 17:05:04 UTC",
+        "state": "open"
+      },
+      {
+        "user": "hugotanure",
+        "id": 464,
+        "title": "docker::image is running images instead of just pull",
+        "created_at": "2019-03-22 17:45:28 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "tarjei",
+        "id": 463,
+        "title": "Create systemd  service for docker_compose",
+        "created_at": "2019-03-22 08:30:06 UTC",
+        "state": "open"
+      },
+      {
+        "user": "timdeluxe",
+        "id": 461,
+        "title": "docker-run.erb - undefined method `+' for nil:NilClass",
+        "created_at": "2019-03-19 14:39:04 UTC",
+        "state": "open"
+      },
+      {
+        "user": "AMoghrabi",
+        "id": 457,
+        "title": "Uninstalling Docker on Windows Injects Multiple Environment Variables",
+        "created_at": "2019-03-13 18:55:52 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "elexpander",
+        "id": 456,
+        "title": "Incorrect StarLimit systemd unit options",
+        "created_at": "2019-03-13 16:05:08 UTC",
+        "state": "open"
+      },
+      {
+        "user": "AMoghrabi",
+        "id": 455,
+        "title": "Docker EE won't install on Windows Server 2019",
+        "created_at": "2019-03-13 02:40:49 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "jacksgt",
+        "id": 449,
+        "title": "More Puppet-like deployment of Docker Services",
+        "created_at": "2019-03-07 10:15:33 UTC",
+        "state": "open"
+      },
+      {
+        "user": "brightdroid",
+        "id": 445,
+        "title": "net should allow more than one network",
+        "created_at": "2019-02-28 14:27:22 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "olavmrk",
+        "id": 444,
+        "title": "Dependency version ranges too strict",
+        "created_at": "2019-02-27 06:44:34 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "esalberg",
+        "id": 439,
+        "title": "Need to manage docker.socket on RHEL (also socket overrides)",
+        "created_at": "2019-02-21 00:00:53 UTC",
+        "state": "closed"
+      }
+    ],
+    "pulls": [
+      {
+        "user": "eimlav",
+        "id": 484,
+        "title": "(MODULES-9029) Update pdk-template to 46a1deb",
+        "created_at": "2019-05-16 11:06:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 483,
+        "title": "(MODULES-9033) Fix failing acceptance tests on all platforms",
+        "created_at": "2019-05-15 08:08:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "piquet90",
+        "id": 482,
+        "title": "Added option to override docker-compose download location",
+        "created_at": "2019-05-13 08:41:16 UTC",
+        "state": "open"
+      },
+      {
+        "user": "benningm",
+        "id": 480,
+        "title": "Update docker volume documentation",
+        "created_at": "2019-05-06 13:51:15 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "DavidS",
+        "id": 478,
+        "title": "Add missing single quote",
+        "created_at": "2019-04-27 12:02:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "esalberg",
+        "id": 477,
+        "title": "Allow bypassing curl package ensure if needed",
+        "created_at": "2019-04-25 22:32:39 UTC",
+        "state": "open"
+      },
+      {
+        "user": "florindragos",
+        "id": 475,
+        "title": "Fix supported operating systems in the readme",
+        "created_at": "2019-04-16 14:53:05 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "towo",
+        "id": 473,
+        "title": "Add missing apostrophe in array.",
+        "created_at": "2019-04-11 11:37:45 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "twistedduck",
+        "id": 471,
+        "title": "Fix publish flag being erroneously added to docker service commands",
+        "created_at": "2019-04-08 15:16:36 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "florindragos",
+        "id": 470,
+        "title": "Fix container running check to work for windows hosts",
+        "created_at": "2019-04-08 15:00:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "electrofelix",
+        "id": 468,
+        "title": "Allow images tagged latest to update on each run",
+        "created_at": "2019-04-03 15:55:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "acurus-puppetmaster",
+        "id": 466,
+        "title": "Support for docker machine download and install",
+        "created_at": "2019-03-25 19:37:07 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "hugotanure",
+        "id": 465,
+        "title": "Fix docker::image to not run images",
+        "created_at": "2019-03-22 18:00:31 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tarjei",
+        "id": 462,
+        "title": "Update docker compose version to latest",
+        "created_at": "2019-03-21 11:26:39 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "SmithJosh",
+        "id": 460,
+        "title": "WIP: Allow use of .env configuration file when running docker-compose",
+        "created_at": "2019-03-19 00:18:39 UTC",
+        "state": "open"
+      },
+      {
+        "user": "acurus-puppetmaster",
+        "id": 459,
+        "title": "Update readme for aws logging options",
+        "created_at": "2019-03-18 21:46:45 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 458,
+        "title": "release 3.5.0",
+        "created_at": "2019-03-14 12:07:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jfroche",
+        "id": 454,
+        "title": "fix(syntax): Remove duplicate parenthesis",
+        "created_at": "2019-03-12 13:24:18 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 453,
+        "title": "making dependency ranges more logical",
+        "created_at": "2019-03-11 12:39:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jacksgt",
+        "id": 452,
+        "title": "Docker::Services:: fix command parameter used with an array",
+        "created_at": "2019-03-09 11:30:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 451,
+        "title": "adding in capability to attach multiple networks to container",
+        "created_at": "2019-03-08 18:39:53 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jacksgt",
+        "id": 450,
+        "title": "Docker::Services: Add networks parameter for swarm services",
+        "created_at": "2019-03-08 16:54:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "esalberg",
+        "id": 448,
+        "title": "Add ability to set service_after_override to false",
+        "created_at": "2019-03-06 21:44:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jacksgt",
+        "id": 447,
+        "title": "docker::services: Fix using multiple published ports",
+        "created_at": "2019-03-02 09:26:53 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "esalberg",
+        "id": 446,
+        "title": "Add ability to override After for docker.service",
+        "created_at": "2019-02-28 23:30:52 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 443,
+        "title": "adding in documentation for use of stack type/provider",
+        "created_at": "2019-02-25 06:46:35 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 442,
+        "title": "release for v3.4.0",
+        "created_at": "2019-02-25 06:26:04 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "esalberg",
+        "id": 441,
+        "title": "Add docker socket group overrides for systemd (service and socket)",
+        "created_at": "2019-02-21 20:29:45 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 440,
+        "title": "changing permissions to remove systemd warning",
+        "created_at": "2019-02-21 01:09:53 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-powershell": {
+    "summary": {
+      "pulls": {
+        "total": 9,
+        "open": 0,
+        "merged": 8,
+        "closed": 1
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "michaeltlombardi",
+        "id": 256,
+        "title": "(MAINT) Update linux distro in travis",
+        "created_at": "2019-04-22 17:51:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 255,
+        "title": "Mergeback 2.3.0 Release",
+        "created_at": "2019-04-22 16:52:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "clairecadman",
+        "id": 254,
+        "title": "(MODULES-8924) DOCS Release Review",
+        "created_at": "2019-04-16 13:08:08 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "glennsarti",
+        "id": 253,
+        "title": "(MODULES-8924) Prepare module for 2.3.0 release",
+        "created_at": "2019-04-12 05:55:16 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "glennsarti",
+        "id": 252,
+        "title": "{WIP} Ignore me",
+        "created_at": "2019-03-22 02:16:12 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 251,
+        "title": "(WIN-280) add skip() unless pattern to tests",
+        "created_at": "2019-03-19 20:25:29 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "glennsarti",
+        "id": 250,
+        "title": "(MODULES-8748) Improve pipe reading in the PowerShell Manager",
+        "created_at": "2019-03-19 08:54:28 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "glennsarti",
+        "id": 249,
+        "title": "(MODULES-8359) Remove non-Windows support for powershell provider",
+        "created_at": "2019-02-28 07:44:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "glennsarti",
+        "id": 248,
+        "title": "(MODULES-8358) Fix typo for EL based test hosts",
+        "created_at": "2019-02-25 06:57:35 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-dsc": {
+    "summary": {
+      "pulls": {
+        "total": 13,
+        "open": 0,
+        "merged": 12,
+        "closed": 1
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "michaeltlombardi",
+        "id": 412,
+        "title": "Mergeback from 1.9.2 Release",
+        "created_at": "2019-04-25 17:04:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 411,
+        "title": "(MODULES-8982) Prep for 1.9.2 release",
+        "created_at": "2019-04-24 23:40:53 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "GerbenWelter",
+        "id": 410,
+        "title": "(MODULES-8856) Fix using the dsc_psdscrunascredential parameter",
+        "created_at": "2019-04-24 18:16:40 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 409,
+        "title": "(WIP) Fixing creds",
+        "created_at": "2019-04-24 16:35:01 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 408,
+        "title": "Mergeback PR for 1.9.1",
+        "created_at": "2019-04-22 21:33:18 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 407,
+        "title": "Fix file validation acceptance tests for Unicode",
+        "created_at": "2019-04-18 13:37:09 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 406,
+        "title": "(MODULES-8935) Prep for 1.9.1 release",
+        "created_at": "2019-04-17 18:16:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 405,
+        "title": "(MODULES-8856) Redact debug",
+        "created_at": "2019-04-11 20:52:12 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 404,
+        "title": "(MODULES-8811) Mergeback from 1.9.0 release",
+        "created_at": "2019-04-03 14:39:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jpogran",
+        "id": 403,
+        "title": "(MODULES-8811) Release 1.9.0",
+        "created_at": "2019-03-26 18:14:04 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 402,
+        "title": "(WIN-280) add skip() unless pattern to tests",
+        "created_at": "2019-03-14 22:32:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jpogran",
+        "id": 401,
+        "title": "(MODULES-7689) fix module folder detection",
+        "created_at": "2019-03-14 18:09:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jpogran",
+        "id": 400,
+        "title": "(MODULES-8450) 2019 DSC Resource update",
+        "created_at": "2019-03-12 16:06:47 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-acl": {
+    "summary": {
+      "pulls": {
+        "total": 1,
+        "open": 0,
+        "merged": 1,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "ThoughtCrhyme",
+        "id": 145,
+        "title": "(WIN280) add skip() unless pattern to tests ",
+        "created_at": "2019-03-14 18:50:27 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-amazon_aws": {
+    "summary": {
+      "pulls": {
+        "total": 0,
+        "open": 0,
+        "merged": 0,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+
+    ]
+  },
+  "puppetlabs/puppetlabs-azure_arm": {
+    "summary": {
+      "pulls": {
+        "total": 1,
+        "open": 1,
+        "merged": 0,
+        "closed": 0
+      },
+      "issues": {
+        "total": 5,
+        "open": 5,
+        "closed": 0
+      }
+    },
+    "issues": [
+      {
+        "user": "Monual",
+        "id": 20,
+        "title": "azure_sql_server returns as succeeded even though no server gets created",
+        "created_at": "2019-05-09 19:12:19 UTC",
+        "state": "open"
+      },
+      {
+        "user": "akkirao",
+        "id": 19,
+        "title": "Azure load balancer backend pools having issues as nic are not attaching ",
+        "created_at": "2019-05-06 22:15:09 UTC",
+        "state": "open"
+      },
+      {
+        "user": "akkirao",
+        "id": 18,
+        "title": "Azure_deployment having issues with no parameter slot",
+        "created_at": "2019-04-11 20:41:50 UTC",
+        "state": "open"
+      },
+      {
+        "user": "Monual",
+        "id": 17,
+        "title": "Trying to deploy azure_sql_database results in \"Invalid parameter elastic_pool_name\"",
+        "created_at": "2019-04-05 07:00:43 UTC",
+        "state": "open"
+      },
+      {
+        "user": "Monual",
+        "id": 15,
+        "title": "Attempting a new \"azure_server_farm_with_rich_sku\" leads to \"Invalid Parameter: allow_pending_state\"",
+        "created_at": "2019-04-03 17:22:26 UTC",
+        "state": "open"
+      }
+    ],
+    "pulls": [
+      {
+        "user": "Monual",
+        "id": 16,
+        "title": "Eliminate obsolete parameter allow_pending_state",
+        "created_at": "2019-04-03 17:38:11 UTC",
+        "state": "open"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-chocolatey": {
+    "summary": {
+      "pulls": {
+        "total": 6,
+        "open": 0,
+        "merged": 6,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "ThoughtCrhyme",
+        "id": 151,
+        "title": "3.3.0 release mergeback to master",
+        "created_at": "2019-03-19 22:33:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "clairecadman",
+        "id": 150,
+        "title": "(MODULES-8739) DOCS Release Review",
+        "created_at": "2019-03-18 10:55:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 149,
+        "title": "(WIN-280) add skip() unless pattern to tests",
+        "created_at": "2019-03-15 20:53:05 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 148,
+        "title": "(MODULES-8739) 3.3.0 Release Prep",
+        "created_at": "2019-03-14 16:54:23 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 147,
+        "title": "(MODULES-8491) Warn about `install_options` secrets",
+        "created_at": "2019-02-26 14:10:05 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 146,
+        "title": "(MODULES-8047) Fix puppet resource chocolateyconfig",
+        "created_at": "2019-02-22 23:45:39 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-reboot": {
+    "summary": {
+      "pulls": {
+        "total": 5,
+        "open": 0,
+        "merged": 5,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "ThoughtCrhyme",
+        "id": 206,
+        "title": "(WIN-280) add skip() unless pattern to tests",
+        "created_at": "2019-03-18 18:54:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "xalimar",
+        "id": 205,
+        "title": "MODULES-8726: Ensure sbin is in the path",
+        "created_at": "2019-03-06 21:54:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 204,
+        "title": "(MAINT) Fix Plan Unit Tests",
+        "created_at": "2019-03-05 18:00:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "thilinapiy",
+        "id": 203,
+        "title": "[MODULES-8718] Check for root or sudo in the reboot task nix.sh script",
+        "created_at": "2019-03-04 17:58:12 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "HelenCampbell",
+        "id": 202,
+        "title": "(MODULES-8717) Fix dependency issue on boltspec",
+        "created_at": "2019-03-04 17:09:34 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-wsus_client": {
+    "summary": {
+      "pulls": {
+        "total": 0,
+        "open": 0,
+        "merged": 0,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+
+    ]
+  },
+  "puppetlabs/puppetlabs-dsc_lite": {
+    "summary": {
+      "pulls": {
+        "total": 7,
+        "open": 1,
+        "merged": 6,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "michaeltlombardi",
+        "id": 108,
+        "title": "(MODULES-9086) Increase pipe timeout to 180",
+        "created_at": "2019-05-16 15:04:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "GerbenWelter",
+        "id": 107,
+        "title": "Fix redacting PuppetSensitive values",
+        "created_at": "2019-04-25 07:53:27 UTC",
+        "state": "open"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 106,
+        "title": "Mergeback 1.2.1",
+        "created_at": "2019-04-22 17:03:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 105,
+        "title": "(MODULES-8940) Prep for 1.2.1 release",
+        "created_at": "2019-04-17 18:18:52 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 104,
+        "title": "(MODULES-8856) Redact debug",
+        "created_at": "2019-04-11 19:09:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 103,
+        "title": "MAINT remove empty test file.",
+        "created_at": "2019-03-15 17:52:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 102,
+        "title": "(WIN-280) add skip() unless pattern to tests",
+        "created_at": "2019-03-14 23:39:12 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-scheduled_task": {
+    "summary": {
+      "pulls": {
+        "total": 7,
+        "open": 1,
+        "merged": 6,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "michaeltlombardi",
+        "id": 83,
+        "title": "(WIP)(MODULES-7203) Support nonroot task folders",
+        "created_at": "2019-05-20 20:23:28 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 82,
+        "title": "(MAINT) Fix matching on litmus tests",
+        "created_at": "2019-05-17 17:07:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 81,
+        "title": "(MODULES-7889) convert acceptance tests to Litmus",
+        "created_at": "2019-04-20 00:31:09 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 80,
+        "title": "(WIN-280) add skip() unless pattern to tests",
+        "created_at": "2019-03-19 19:51:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 79,
+        "title": "Mergeback PR from 1.0.1 release",
+        "created_at": "2019-03-04 20:59:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 78,
+        "title": "(MODULES-8705) Prep for 1.0.1 release",
+        "created_at": "2019-03-04 17:06:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "reidmv",
+        "id": 77,
+        "title": "(MODULES-8695) Remove Ruby 2.0 keyword arg syntax ",
+        "created_at": "2019-02-27 19:00:40 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-kubernetes": {
+    "summary": {
+      "pulls": {
+        "total": 22,
+        "open": 3,
+        "merged": 17,
+        "closed": 2
+      },
+      "issues": {
+        "total": 12,
+        "open": 5,
+        "closed": 7
+      }
+    },
+    "issues": [
+      {
+        "user": "KrisBuytaert",
+        "id": 288,
+        "title": "kubetool container throws errors and doesn't generate expected yaml files",
+        "created_at": "2019-05-15 11:26:31 UTC",
+        "state": "open"
+      },
+      {
+        "user": "KrisBuytaert",
+        "id": 284,
+        "title": "no parameter named 'value'",
+        "created_at": "2019-05-08 14:24:06 UTC",
+        "state": "open"
+      },
+      {
+        "user": "flostru",
+        "id": 283,
+        "title": "apiserver_cert_extra_sans has no effect",
+        "created_at": "2019-05-08 11:57:36 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "sunnz",
+        "id": 277,
+        "title": "Token need to be manually recreated for new nodes",
+        "created_at": "2019-05-02 04:16:42 UTC",
+        "state": "open"
+      },
+      {
+        "user": "nickperry",
+        "id": 276,
+        "title": "It is not possible to set apiServerExtraArgs with v1alpha3 or v1beta1 config templates without setting a cloud_provider",
+        "created_at": "2019-04-30 21:24:29 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "mrwulf",
+        "id": 275,
+        "title": "This module should manage the `front-proxy-ca`",
+        "created_at": "2019-04-26 23:28:59 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ctas582",
+        "id": 270,
+        "title": "Unable to deploy Kubernetes 1.14.0",
+        "created_at": "2019-04-09 13:00:18 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "yoshz",
+        "id": 269,
+        "title": "Exec wait_for_default_sa is executed on every puppet run",
+        "created_at": "2019-04-09 06:58:07 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "stasiek",
+        "id": 267,
+        "title": "Ubuntu dependencies on debian!?",
+        "created_at": "2019-04-07 21:05:00 UTC",
+        "state": "open"
+      },
+      {
+        "user": "puetzp",
+        "id": 260,
+        "title": "Kubelet extra args not parsed correctly for controller nodes",
+        "created_at": "2019-03-08 15:04:22 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "vrmerlin",
+        "id": 258,
+        "title": "Use controller as a worker?",
+        "created_at": "2019-03-05 18:16:48 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "vrmerlin",
+        "id": 256,
+        "title": "Timeout error during kubeadm init step",
+        "created_at": "2019-02-26 20:00:14 UTC",
+        "state": "closed"
+      }
+    ],
+    "pulls": [
+      {
+        "user": "electrofelix",
+        "id": 289,
+        "title": "Add default k8s conf directory creation for worker",
+        "created_at": "2019-05-16 18:04:19 UTC",
+        "state": "open"
+      },
+      {
+        "user": "Hillkorn",
+        "id": 287,
+        "title": "Fixed duplicate tlsBootstrapToken in config_worker.yaml.erb for kubernetes 1.14",
+        "created_at": "2019-05-14 11:28:11 UTC",
+        "state": "open"
+      },
+      {
+        "user": "lionce",
+        "id": 286,
+        "title": "MODULES-9041 Release merge-back v4.0.1 ",
+        "created_at": "2019-05-13 10:40:49 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 285,
+        "title": "(MODULES-9037) - 4.0.1 Release Prep",
+        "created_at": "2019-05-13 09:50:20 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "fydai",
+        "id": 282,
+        "title": "Add extra arguments for API server and controller manager",
+        "created_at": "2019-05-08 11:05:49 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 281,
+        "title": "WIP MODULES-9027 fix spec tests and bug",
+        "created_at": "2019-05-08 08:48:25 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "jorhett",
+        "id": 280,
+        "title": "cluster name missing tag brackets in worker config",
+        "created_at": "2019-05-03 21:18:31 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 279,
+        "title": "MODULES-8947 pdk update on K8 module",
+        "created_at": "2019-05-03 10:09:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jorhett",
+        "id": 278,
+        "title": "Avoid log message about waiting for SA when it already exists",
+        "created_at": "2019-05-03 04:06:23 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 274,
+        "title": "MODULES-8947 fixing bugs and tests",
+        "created_at": "2019-04-25 10:41:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 273,
+        "title": "Tasks 1.14 - add new tasks for version v1beta1, update changelog and metadata",
+        "created_at": "2019-04-17 07:44:52 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 272,
+        "title": "Add kubeadm v1beta1",
+        "created_at": "2019-04-16 06:51:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sw0x2A",
+        "id": 271,
+        "title": "Etcd hostname variable",
+        "created_at": "2019-04-09 13:50:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 268,
+        "title": "add in logo for certified k8s installer",
+        "created_at": "2019-04-09 06:09:52 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "SimonHoenscheid",
+        "id": 266,
+        "title": "introduce kubernetes_dashboard_url param",
+        "created_at": "2019-04-06 11:24:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "SimonHoenscheid",
+        "id": 265,
+        "title": "add support for cilium network provider",
+        "created_at": "2019-04-01 12:21:56 UTC",
+        "state": "open"
+      },
+      {
+        "user": "davejrt",
+        "id": 264,
+        "title": "removes redundant variables in the case of not using the cloud provider",
+        "created_at": "2019-03-26 16:31:20 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 263,
+        "title": "Add in Puppet Bolt tasks",
+        "created_at": "2019-03-21 15:21:46 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 262,
+        "title": "release 3.3.0",
+        "created_at": "2019-03-14 12:03:40 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jorhett",
+        "id": 261,
+        "title": "Make kubectl environment available in main class",
+        "created_at": "2019-03-08 22:09:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "jorhett",
+        "id": 259,
+        "title": "Store cgroup driver in kubeadm configuration file for kubernetes 1.12+",
+        "created_at": "2019-03-06 00:33:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ralimi",
+        "id": 257,
+        "title": "Pass environment to kubectl when waiting for service account",
+        "created_at": "2019-03-05 06:21:19 UTC",
+        "state": "closed"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-iis": {
+    "summary": {
+      "pulls": {
+        "total": 13,
+        "open": 5,
+        "merged": 7,
+        "closed": 1
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "ThoughtCrhyme",
+        "id": 219,
+        "title": "WIP(MODULES-8955) add type and provider for webhandler",
+        "created_at": "2019-04-17 17:36:02 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 218,
+        "title": "WIP(MODULES-8954) add type and provider for webconfigurationproperty",
+        "created_at": "2019-04-17 17:35:45 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 217,
+        "title": "WIP(MODULES-8953) add type and provider for mimetype",
+        "created_at": "2019-04-17 17:35:20 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 216,
+        "title": "WIP(MODULES-8952) add isapfilter type and provider",
+        "created_at": "2019-04-17 17:34:58 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 215,
+        "title": "WIP(MODULES-8951) Add type and provider for iis_httperror",
+        "created_at": "2019-04-17 17:34:35 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 214,
+        "title": "Mergeback PR for 4.5.1",
+        "created_at": "2019-04-01 16:42:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 213,
+        "title": "(MAINT) Remove redundant changelog entry",
+        "created_at": "2019-03-27 18:35:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 212,
+        "title": "Remove redundant entry",
+        "created_at": "2019-03-27 18:31:44 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 211,
+        "title": "Release Prep 4.5.1",
+        "created_at": "2019-03-27 17:47:46 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 210,
+        "title": "Update Changelog for release",
+        "created_at": "2019-03-27 17:35:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 209,
+        "title": "(MODULES-6080) Ensure virtualdir removal idempotent",
+        "created_at": "2019-03-22 18:47:52 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 208,
+        "title": "(MODULES-6061) Fix virtual directory update",
+        "created_at": "2019-03-21 20:50:07 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 207,
+        "title": "(WIN-280) add skip() unless pattern to tests",
+        "created_at": "2019-03-15 21:36:19 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-sqlserver": {
+    "summary": {
+      "pulls": {
+        "total": 19,
+        "open": 0,
+        "merged": 18,
+        "closed": 1
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "RandomNoun7",
+        "id": 312,
+        "title": "(MODULES-7553) Add Example Clarification",
+        "created_at": "2019-05-17 16:50:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 311,
+        "title": "(MODULES-6582) Add ability to test against sql server 2017",
+        "created_at": "2019-04-10 22:42:38 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ThoughtCrhyme",
+        "id": 310,
+        "title": "(MAINT) add support for 2019 to test helpers",
+        "created_at": "2019-03-29 17:15:58 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 309,
+        "title": "(MAINT) Update Paths in Helpers",
+        "created_at": "2019-03-29 03:48:03 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 308,
+        "title": "(MODULES-8761) Mergeback from 2.5.0 Release",
+        "created_at": "2019-03-26 18:29:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 307,
+        "title": "(MODULES-8671) Release Prep",
+        "created_at": "2019-03-25 20:55:38 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 306,
+        "title": "(MAINT) Increase timeout interval",
+        "created_at": "2019-03-22 22:01:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "clairecadman",
+        "id": 305,
+        "title": "(MODULES-8761) Docs release review",
+        "created_at": "2019-03-21 10:55:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 304,
+        "title": "(MAINT) Edit changelog prior to release prep.",
+        "created_at": "2019-03-20 17:05:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 303,
+        "title": "(MODULES-8749) Make job_name param required.",
+        "created_at": "2019-03-18 19:32:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 302,
+        "title": "(MAINT) Refactor tasks to use shared code file",
+        "created_at": "2019-03-15 21:23:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 301,
+        "title": "(MODULES-8610) Add start agent job task",
+        "created_at": "2019-03-14 19:06:41 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 300,
+        "title": "(MAINT) Fix ommitted type declaration in task json",
+        "created_at": "2019-03-13 14:55:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "michaeltlombardi",
+        "id": 299,
+        "title": "Mergeback 2.4.0 Release",
+        "created_at": "2019-03-12 12:05:29 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 298,
+        "title": "Release Prep 2.4.0",
+        "created_at": "2019-03-11 14:52:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "clairecadman",
+        "id": 297,
+        "title": "(MODULES-8721) README edit",
+        "created_at": "2019-03-07 18:13:05 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "dylanratcliffe",
+        "id": 296,
+        "title": "(MODULES-8677) Made resource title unique among many instances",
+        "created_at": "2019-02-26 16:55:12 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "dylanratcliffe",
+        "id": 295,
+        "title": "(MODULES-8685) Changed END to be in the same conditional as BEGIN",
+        "created_at": "2019-02-26 16:54:14 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "RandomNoun7",
+        "id": 294,
+        "title": "(MODULES-8692) Get Agent Jobs Task",
+        "created_at": "2019-02-22 23:07:47 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-registry": {
+    "summary": {
+      "pulls": {
+        "total": 1,
+        "open": 0,
+        "merged": 1,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "ThoughtCrhyme",
+        "id": 176,
+        "title": "(WIN-280) add skip() unless pattern to unit tests",
+        "created_at": "2019-03-19 20:45:19 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-helm": {
+    "summary": {
+      "pulls": {
+        "total": 8,
+        "open": 0,
+        "merged": 7,
+        "closed": 1
+      },
+      "issues": {
+        "total": 3,
+        "open": 1,
+        "closed": 2
+      }
+    },
+    "issues": [
+      {
+        "user": "tclh123",
+        "id": 78,
+        "title": "Add `--values` option for helm chart upgrade",
+        "created_at": "2019-05-15 06:18:20 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "puetzp",
+        "id": 73,
+        "title": "helm init flags being parsed incorrectly",
+        "created_at": "2019-03-18 12:52:36 UTC",
+        "state": "open"
+      },
+      {
+        "user": "dhollinger",
+        "id": 68,
+        "title": "helm::chart generates invalid command and fails",
+        "created_at": "2019-02-25 19:53:26 UTC",
+        "state": "closed"
+      }
+    ],
+    "pulls": [
+      {
+        "user": "sheenaajay",
+        "id": 77,
+        "title": "MODULES-8946 pdk update on helm module",
+        "created_at": "2019-05-08 09:47:07 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 76,
+        "title": "MODULES-8946 fix helm testcases",
+        "created_at": "2019-04-25 13:50:04 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 75,
+        "title": "WIP (MODULES-8911) pdk update on helm module",
+        "created_at": "2019-04-10 13:14:18 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "hdeadman",
+        "id": 74,
+        "title": "Fix chart update",
+        "created_at": "2019-03-23 00:39:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 72,
+        "title": "fixing incorrect boundaries  with dependencies",
+        "created_at": "2019-02-28 22:24:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 71,
+        "title": "release 2.0.1",
+        "created_at": "2019-02-26 08:54:06 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 70,
+        "title": "updating GO version for tests",
+        "created_at": "2019-02-26 07:22:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 69,
+        "title": "updating dependencies",
+        "created_at": "2019-02-26 07:02:25 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-rook": {
+    "summary": {
+      "pulls": {
+        "total": 7,
+        "open": 0,
+        "merged": 6,
+        "closed": 1
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "sheenaajay",
+        "id": 45,
+        "title": "MODULES-8948 pdk update on rook",
+        "created_at": "2019-05-08 12:40:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 44,
+        "title": "MODULES-8948 rook testcase fix",
+        "created_at": "2019-04-25 14:17:43 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 43,
+        "title": "Release 0.2.0 prep",
+        "created_at": "2019-02-26 08:51:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 42,
+        "title": "updating module dependencies",
+        "created_at": "2019-02-26 07:12:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 41,
+        "title": "updating GO for acceptance tests",
+        "created_at": "2019-02-25 19:48:15 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "davejrt",
+        "id": 40,
+        "title": "updating GO for acceptance tests",
+        "created_at": "2019-02-25 19:42:26 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "davejrt",
+        "id": 39,
+        "title": "adding in default storage class",
+        "created_at": "2019-02-25 11:10:24 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-stdlib": {
+    "summary": {
+      "pulls": {
+        "total": 20,
+        "open": 7,
+        "merged": 8,
+        "closed": 5
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 1020,
+        "title": "FM-7950 stringify stdlib",
+        "created_at": "2019-05-20 12:51:52 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ehom",
+        "id": 1019,
+        "title": "(maint) Change UTF8 to UTF-8",
+        "created_at": "2019-05-17 20:28:39 UTC",
+        "state": "open"
+      },
+      {
+        "user": "lionce",
+        "id": 1018,
+        "title": "(WIP) - FM-7950 stringify stdlib",
+        "created_at": "2019-05-14 13:30:52 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "ghoneycutt",
+        "id": 1017,
+        "title": "(MODULES-9049) Add type alias for 'yes' and 'no'.",
+        "created_at": "2019-05-08 17:59:12 UTC",
+        "state": "open"
+      },
+      {
+        "user": "clairecadman",
+        "id": 1016,
+        "title": "(MODULES-8992) Docs review",
+        "created_at": "2019-05-03 08:58:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1015,
+        "title": "(MODULES-8992)- Supported Release (puppetlabs-stdlib)",
+        "created_at": "2019-05-02 12:53:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "chadh",
+        "id": 1014,
+        "title": "(MODULES-8949) add stdlib::has_value() function",
+        "created_at": "2019-04-16 14:14:04 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1013,
+        "title": "(WIP) (FM-7950) - Implement Puppet Strings",
+        "created_at": "2019-04-15 14:23:29 UTC",
+        "state": "open"
+      },
+      {
+        "user": "eimlav",
+        "id": 1012,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:43 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1011,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1010,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:23 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1009,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:56 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "hlindberg",
+        "id": 1008,
+        "title": "(MODULES-8760) Add iterative feature to merge() function",
+        "created_at": "2019-03-20 12:03:06 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 1007,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:45:48 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "runejuhl",
+        "id": 1006,
+        "title": "Add more ensure types",
+        "created_at": "2019-03-12 20:29:49 UTC",
+        "state": "open"
+      },
+      {
+        "user": "bastelfreak",
+        "id": 1005,
+        "title": "add Stdlib::Syslogfacility type",
+        "created_at": "2019-03-09 08:44:07 UTC",
+        "state": "open"
+      },
+      {
+        "user": "Rathios",
+        "id": 1004,
+        "title": "(MODULES-8732) Cron types",
+        "created_at": "2019-03-08 00:08:02 UTC",
+        "state": "open"
+      },
+      {
+        "user": "iglov",
+        "id": 1003,
+        "title": "Add a stdlib::ip_in_range() function",
+        "created_at": "2019-03-07 18:14:05 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1002,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ekohl",
+        "id": 1001,
+        "title": "(maint) Match HTTP[S]Url case to the actual types",
+        "created_at": "2019-02-25 13:41:00 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-apache": {
+    "summary": {
+      "pulls": {
+        "total": 40,
+        "open": 5,
+        "merged": 25,
+        "closed": 10
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "sheenaajay",
+        "id": 1926,
+        "title": "(MODULES-9151) - Release Merge back 5.0.0",
+        "created_at": "2019-05-20 15:03:49 UTC",
+        "state": "open"
+      },
+      {
+        "user": "lionce",
+        "id": 1925,
+        "title": "MODULES-9150 - release version 5.0.0",
+        "created_at": "2019-05-20 12:36:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1924,
+        "title": "MODULES-9120 - update metadata to support current version concat",
+        "created_at": "2019-05-17 12:35:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "FredericLespez",
+        "id": 1923,
+        "title": "(MODULES-9014) Improve SSLSessionTickets handling",
+        "created_at": "2019-05-15 12:15:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "stevegarn",
+        "id": 1922,
+        "title": "(MODULES-9104) Add file_mode to config files.",
+        "created_at": "2019-05-14 17:21:14 UTC",
+        "state": "open"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 1921,
+        "title": "WIP (MODULES-9093) Update ssl_sessiontickets default",
+        "created_at": "2019-05-14 09:51:55 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "jnguiot",
+        "id": 1920,
+        "title": "MODULES-9083: remove double quotes to allow flags in SSLCARevocationCheck",
+        "created_at": "2019-05-13 16:17:11 UTC",
+        "state": "open"
+      },
+      {
+        "user": "FredericLespez",
+        "id": 1919,
+        "title": "(MODULES-9018) Customize SSLStaplingCache parameter",
+        "created_at": "2019-05-03 12:29:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1918,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 11:32:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "FredericLespez",
+        "id": 1917,
+        "title": "(MODULES-9014) Add SSLSessionTickets parameter",
+        "created_at": "2019-05-01 19:54:18 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1916,
+        "title": "(FM-7923) Implement Puppet Strings",
+        "created_at": "2019-05-01 12:33:56 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "youeyoue",
+        "id": 1915,
+        "title": "MODULES-9003 Parameterize location for ldap-status",
+        "created_at": "2019-04-26 18:16:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1914,
+        "title": "(MODULES-8931) Fix stahnma/epel failures",
+        "created_at": "2019-04-17 17:04:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "turnopil",
+        "id": 1913,
+        "title": "(bugfix) Add default package name for mod_ldap",
+        "created_at": "2019-04-15 11:05:27 UTC",
+        "state": "open"
+      },
+      {
+        "user": "eimlav",
+        "id": 1912,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:41:20 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1911,
+        "title": "(WIP) (FM-7923) - Implement Puppet Strings",
+        "created_at": "2019-04-12 14:01:29 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 1910,
+        "title": "(WIP)(MODULES-8931) apache - epel failing on RedHat 5",
+        "created_at": "2019-04-12 13:40:05 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "turnopil",
+        "id": 1909,
+        "title": "Remove mod_ldap dependency from mod_authz_ldap module",
+        "created_at": "2019-04-12 10:59:07 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1908,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:39:58 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1907,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:49:34 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1906,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:07 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "tuxmea",
+        "id": 1905,
+        "title": "Remove event mpm when using prefork, worker or itk",
+        "created_at": "2019-04-08 19:18:01 UTC",
+        "state": "open"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 1904,
+        "title": "(MODULES-8841) - Release Merge back 4.1.0",
+        "created_at": "2019-04-05 11:41:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1903,
+        "title": "(MODULES-8837) - Prep Fix",
+        "created_at": "2019-04-05 09:18:19 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "clairecadman",
+        "id": 1902,
+        "title": "(MODULES-8837) DOCS Release Review",
+        "created_at": "2019-04-04 10:12:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1901,
+        "title": "(MODULES-8837) - 4.1.0 Release Prep",
+        "created_at": "2019-04-03 12:28:56 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 1900,
+        "title": "(MODULES-7196) Allow setting CASRootProxiedAs per virtualhost (replaces #1857)",
+        "created_at": "2019-03-29 08:24:53 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1899,
+        "title": "MODULES-3958 Get rid of mocha-based stubbing across all modules",
+        "created_at": "2019-03-26 16:04:07 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1898,
+        "title": "(feat) - Amazon Linux 2 compatibility added",
+        "created_at": "2019-03-22 11:55:39 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1897,
+        "title": "(L10n) Updating translations for readmes/README_ja_JP.md",
+        "created_at": "2019-03-22 11:39:09 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1896,
+        "title": "FM-7782 - cleanup ",
+        "created_at": "2019-03-21 11:37:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 1895,
+        "title": "(bugfix) set kernel for facter version test",
+        "created_at": "2019-03-20 17:15:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Rabie-Zamane",
+        "id": 1894,
+        "title": "Avoid duplicate declaration of the module headers.",
+        "created_at": "2019-03-20 10:44:49 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "treydock",
+        "id": 1893,
+        "title": "Define SCL package name for mod_ldap",
+        "created_at": "2019-03-18 15:22:39 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 1892,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:41:37 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "JAORMX",
+        "id": 1891,
+        "title": "(MODULES-8731) Allow CIDRs for proxy_ips/internal_proxy in remoteip",
+        "created_at": "2019-03-08 07:16:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1890,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:44:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 1889,
+        "title": "WIP (maint) moving mod_dav acceptance test to unit",
+        "created_at": "2019-03-05 15:48:55 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 1888,
+        "title": "(WIP) - Test audit",
+        "created_at": "2019-03-04 17:32:01 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "HelenCampbell",
+        "id": 1887,
+        "title": "Update README to include new param for mod::php",
+        "created_at": "2019-02-26 16:00:33 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-apt": {
+    "summary": {
+      "pulls": {
+        "total": 15,
+        "open": 2,
+        "merged": 10,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "carabasdaniel",
+        "id": 860,
+        "title": "Release merge-back",
+        "created_at": "2019-05-14 13:14:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 859,
+        "title": "MODULES-9066 - release prep v7.0.1",
+        "created_at": "2019-05-13 11:09:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 858,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 11:35:39 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 857,
+        "title": "Release mergeback v7.0.0",
+        "created_at": "2019-04-24 12:56:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 856,
+        "title": "release prep 7.0.0",
+        "created_at": "2019-04-24 08:25:14 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "daenney",
+        "id": 855,
+        "title": "key: Don't include dirmngr unless necessary",
+        "created_at": "2019-04-20 14:48:04 UTC",
+        "state": "open"
+      },
+      {
+        "user": "eimlav",
+        "id": 854,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:42:28 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 853,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 852,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:49:39 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 851,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:12 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "dkrand",
+        "id": 850,
+        "title": "Allow URI escaping in any user/pass in the URL",
+        "created_at": "2019-04-09 21:07:20 UTC",
+        "state": "open"
+      },
+      {
+        "user": "tuxmea",
+        "id": 849,
+        "title": "Allow weak SSL verification for apt_key",
+        "created_at": "2019-03-20 09:20:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 848,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:41:49 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "anarcat",
+        "id": 847,
+        "title": "don't hardcode an old key from official mirrors for Debian backports",
+        "created_at": "2019-03-11 19:11:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 846,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:44:41 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-firewall": {
+    "summary": {
+      "pulls": {
+        "total": 29,
+        "open": 2,
+        "merged": 22,
+        "closed": 5
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "eimlav",
+        "id": 847,
+        "title": "(FM-8025) Add RedHat 8 support",
+        "created_at": "2019-05-20 14:02:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 846,
+        "title": "(MODULES-9098) Release mergeback v2.0.0",
+        "created_at": "2019-05-15 09:46:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 845,
+        "title": "MODULES-9097 release prep 2.0.0",
+        "created_at": "2019-05-14 13:36:35 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "GeorgeCox",
+        "id": 844,
+        "title": "Typo fixes",
+        "created_at": "2019-05-10 15:09:15 UTC",
+        "state": "open"
+      },
+      {
+        "user": "lionce",
+        "id": 843,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 11:45:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 842,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:42:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 841,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 840,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:03 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 839,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:45 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 838,
+        "title": "(FM-7903) - Implement Puppet Strings",
+        "created_at": "2019-04-08 11:26:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 837,
+        "title": "Release mergeback 1.15.3",
+        "created_at": "2019-04-05 08:26:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 836,
+        "title": "(MODULES-8849) Release prep 1.15.3",
+        "created_at": "2019-04-04 13:00:16 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 835,
+        "title": "Modules 8849",
+        "created_at": "2019-04-04 12:57:09 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 834,
+        "title": "(MODULES-8855) Move ipvs test to exception spec",
+        "created_at": "2019-04-04 07:55:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 833,
+        "title": "(MODULES-8842) Fix ipvs not idempotent",
+        "created_at": "2019-04-03 12:10:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 832,
+        "title": "(maint) Convert resource_cmd_spec to rspec-mock",
+        "created_at": "2019-03-27 17:00:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 831,
+        "title": "(MODULES-8777) Release mergeback 1.15.2",
+        "created_at": "2019-03-26 14:34:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "raphink",
+        "id": 830,
+        "title": "Support ctdir",
+        "created_at": "2019-03-26 14:05:14 UTC",
+        "state": "open"
+      },
+      {
+        "user": "david22swan",
+        "id": 829,
+        "title": "(MODULES-8773) - 1.15.2 Release Prep",
+        "created_at": "2019-03-26 09:39:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 828,
+        "title": "(MODULES-8615) Fix rules with ipvs not parsing",
+        "created_at": "2019-03-25 09:42:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 827,
+        "title": "(MODULES-7333) - Change hashing method from MD5 to SHA256",
+        "created_at": "2019-03-21 16:28:42 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 826,
+        "title": "(MODULES-6547) Fix existing rules with --dport not parsing",
+        "created_at": "2019-03-20 16:35:06 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 825,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:42:47 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "EmilienM",
+        "id": 824,
+        "title": "(MODULES-8736) IPtables support on RHEL8",
+        "created_at": "2019-03-11 15:40:12 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 823,
+        "title": "(FM-7785) Additional test cleanup",
+        "created_at": "2019-03-11 13:09:09 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "blackknight36",
+        "id": 822,
+        "title": "Bug - Ensure that iptables-services package is installed before attem…",
+        "created_at": "2019-03-08 15:59:20 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 821,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:15 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 820,
+        "title": "(FM-7785) dont use default function in spec/acceptance",
+        "created_at": "2019-03-04 15:42:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 819,
+        "title": "(maint) continued acceptance test cleaning",
+        "created_at": "2019-02-21 15:48:43 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-mysql": {
+    "summary": {
+      "pulls": {
+        "total": 35,
+        "open": 7,
+        "merged": 21,
+        "closed": 7
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "Spuffnduff",
+        "id": 1196,
+        "title": "Allow backupcompress for xtrabackup profile",
+        "created_at": "2019-05-17 19:52:42 UTC",
+        "state": "open"
+      },
+      {
+        "user": "alexjfisher",
+        "id": 1195,
+        "title": "(MODULES-6875,MODULES-7487) - Fix mariadb mysql_user password idempotency",
+        "created_at": "2019-05-14 11:55:41 UTC",
+        "state": "open"
+      },
+      {
+        "user": "elfranne",
+        "id": 1194,
+        "title": "Debian dirs ",
+        "created_at": "2019-05-06 08:49:16 UTC",
+        "state": "open"
+      },
+      {
+        "user": "lionce",
+        "id": 1193,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 12:07:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "mauricemeyer",
+        "id": 1192,
+        "title": "Enable module to not use default options",
+        "created_at": "2019-05-02 10:41:51 UTC",
+        "state": "open"
+      },
+      {
+        "user": "elfranne",
+        "id": 1191,
+        "title": "Manage directories on Ubuntu",
+        "created_at": "2019-04-30 13:42:38 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "mauricemeyer",
+        "id": 1190,
+        "title": "Fix the contribution guide URL",
+        "created_at": "2019-04-30 12:26:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "SaschaDoering",
+        "id": 1189,
+        "title": "Allow own Xtrabackup script",
+        "created_at": "2019-04-26 13:04:03 UTC",
+        "state": "open"
+      },
+      {
+        "user": "SaschaDoering",
+        "id": 1188,
+        "title": "Make incremental backups deactivable",
+        "created_at": "2019-04-16 11:44:20 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "SaschaDoering",
+        "id": 1187,
+        "title": "Allow multiple backupmethods",
+        "created_at": "2019-04-15 13:16:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1186,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:49 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "elfranne",
+        "id": 1185,
+        "title": "Binlogs -> install",
+        "created_at": "2019-04-15 09:32:06 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1184,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:55 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1183,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:41 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1182,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:19 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 1181,
+        "title": "(MODULES-8886) Revert removal of deepmerge function",
+        "created_at": "2019-04-09 14:19:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "mauricemeyer",
+        "id": 1180,
+        "title": "Fixed Changelog links for 8.1.0",
+        "created_at": "2019-04-03 13:58:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1179,
+        "title": "(MODULES-8830) Release mergeback 8.1.0",
+        "created_at": "2019-04-03 12:50:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1178,
+        "title": "TEST",
+        "created_at": "2019-04-02 14:57:40 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1177,
+        "title": "(MODULES-8826) - 8.1.0 Release Prep",
+        "created_at": "2019-04-01 08:29:36 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "elfranne",
+        "id": 1176,
+        "title": "Rotate option for xtrabackup script",
+        "created_at": "2019-03-29 12:54:41 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 1175,
+        "title": "Litmus conversion",
+        "created_at": "2019-03-28 12:43:14 UTC",
+        "state": "open"
+      },
+      {
+        "user": "david22swan",
+        "id": 1174,
+        "title": "(MODULES-6627) Remove unused --host flags from mysqlcaller",
+        "created_at": "2019-03-28 10:45:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 1173,
+        "title": "(MODULES-8757) - Release mergeback 8.0.1",
+        "created_at": "2019-03-20 16:52:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1172,
+        "title": "(MODULES-8753) - 8.0.1 Release Prep",
+        "created_at": "2019-03-20 09:11:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "danquack",
+        "id": 1171,
+        "title": "Add support for dynamic backupmethods/mariabackup",
+        "created_at": "2019-03-19 14:50:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1170,
+        "title": "(MODULES-8684) - Removing private tags from Puppet Types",
+        "created_at": "2019-03-19 14:16:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1169,
+        "title": "(maint) Merging returned translations into master",
+        "created_at": "2019-03-19 13:53:45 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 1168,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:44:10 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 1167,
+        "title": "(WIP) - Litmus conversion",
+        "created_at": "2019-03-12 12:21:46 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "albac",
+        "id": 1166,
+        "title": "Darwin OS family support",
+        "created_at": "2019-03-09 09:15:41 UTC",
+        "state": "open"
+      },
+      {
+        "user": "zpetr",
+        "id": 1165,
+        "title": "Update Percona example",
+        "created_at": "2019-03-08 11:29:39 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1164,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "datty",
+        "id": 1163,
+        "title": "Set correct packagename for ruby_mysql on Ubuntu 18.04",
+        "created_at": "2019-03-01 02:31:19 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1162,
+        "title": "FM 7783 - Test Audit making testing more efficient",
+        "created_at": "2019-02-27 13:32:59 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-ntp": {
+    "summary": {
+      "pulls": {
+        "total": 11,
+        "open": 0,
+        "merged": 7,
+        "closed": 4
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "carabasdaniel",
+        "id": 515,
+        "title": "Fix travis for centos-7",
+        "created_at": "2019-05-15 14:14:56 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 514,
+        "title": "Release merge-back",
+        "created_at": "2019-05-15 09:03:29 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 513,
+        "title": "(MODULES-9099) Release Prep 8.0.0",
+        "created_at": "2019-05-14 14:38:19 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 512,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 12:09:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 511,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:56 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 510,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:59 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 509,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:46 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 508,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:24 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "smortex",
+        "id": 507,
+        "title": "Set the path of FreeBSD's leapfile",
+        "created_at": "2019-03-25 16:43:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 506,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:44:21 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 505,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:10 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-postgresql": {
+    "summary": {
+      "pulls": {
+        "total": 21,
+        "open": 2,
+        "merged": 13,
+        "closed": 6
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 1082,
+        "title": "MODULES-9138 - release_prep v 6.0.1",
+        "created_at": "2019-05-17 12:45:58 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "tphoney",
+        "id": 1081,
+        "title": "(FM-7500) conversion to use litmus",
+        "created_at": "2019-05-17 12:45:30 UTC",
+        "state": "open"
+      },
+      {
+        "user": "ehelms",
+        "id": 1080,
+        "title": "Add a RHEL 8 default to version 10",
+        "created_at": "2019-05-16 12:03:22 UTC",
+        "state": "open"
+      },
+      {
+        "user": "lionce",
+        "id": 1079,
+        "title": "MODULES-9120 - update metadata to support concat version 6.0.0",
+        "created_at": "2019-05-16 11:00:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1078,
+        "title": "merge back v6.0.0.",
+        "created_at": "2019-05-14 12:47:49 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 1077,
+        "title": "MODULES-9088 release prep 6.0.0",
+        "created_at": "2019-05-14 11:06:00 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 1076,
+        "title": "(MODULES-9088) release prep 5.13.0",
+        "created_at": "2019-05-14 08:01:47 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 1075,
+        "title": "[FM-7936] Puppet Strings",
+        "created_at": "2019-05-07 09:20:58 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 1074,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib…",
+        "created_at": "2019-05-03 12:32:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "pillarsdotnet",
+        "id": 1073,
+        "title": "Support current version of puppetlabs/apt.",
+        "created_at": "2019-05-02 12:55:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "dhoppe",
+        "id": 1072,
+        "title": "Bump dependency, because of new major release",
+        "created_at": "2019-04-26 09:07:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 1071,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1070,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:08 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1069,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:55 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 1068,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:34 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "blackknight36",
+        "id": 1067,
+        "title": "Add Fedora 30 compatibility",
+        "created_at": "2019-03-21 14:59:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "blackknight36",
+        "id": 1066,
+        "title": "Add Fedora 30 compatibility",
+        "created_at": "2019-03-21 14:49:09 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 1065,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:44:43 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 1064,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:23 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "olevole",
+        "id": 1063,
+        "title": "change username/group/datadir defaults for FreeBSD",
+        "created_at": "2019-02-26 16:16:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 1062,
+        "title": "(FM-7789) - Clean up of PostgreSQL Test's",
+        "created_at": "2019-02-22 13:49:59 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-concat": {
+    "summary": {
+      "pulls": {
+        "total": 11,
+        "open": 0,
+        "merged": 8,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "tphoney",
+        "id": 580,
+        "title": "(FM-8073) litmus block support",
+        "created_at": "2019-05-14 12:52:15 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 579,
+        "title": "(cleanup) simplify acceptance tests",
+        "created_at": "2019-05-07 13:15:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 578,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 11:42:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 577,
+        "title": "(FM-7606) enable litmus for concat",
+        "created_at": "2019-04-26 13:18:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 576,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:42:40 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 575,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:12 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 574,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:49:48 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 573,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:26 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 572,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:42:13 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 571,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:44:53 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 570,
+        "title": "Release mergeback 5.3.0",
+        "created_at": "2019-02-21 14:43:44 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-java": {
+    "summary": {
+      "pulls": {
+        "total": 16,
+        "open": 1,
+        "merged": 11,
+        "closed": 4
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "eimlav",
+        "id": 362,
+        "title": "(MODULES-9132) Release mergeback v4.0.0",
+        "created_at": "2019-05-20 09:08:23 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 361,
+        "title": "(MODULES-9128) Release 4.0.0",
+        "created_at": "2019-05-17 10:06:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 360,
+        "title": "(MODULES-9128) Release 4.0.0",
+        "created_at": "2019-05-16 13:43:22 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "lionce",
+        "id": 359,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 11:55:07 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 358,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "mhjacks",
+        "id": 357,
+        "title": "Support defaults for ubuntu cosmic and dingo",
+        "created_at": "2019-04-14 20:09:38 UTC",
+        "state": "open"
+      },
+      {
+        "user": "david22swan",
+        "id": 356,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:43 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 355,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:24 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 354,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:05 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 353,
+        "title": "(FM-7921) - Implement Puppet Strings",
+        "created_at": "2019-04-09 09:19:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 352,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:43:35 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 351,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:42 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 350,
+        "title": "(FM-7795) Cleanup java tests",
+        "created_at": "2019-02-26 11:10:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "fraenki",
+        "id": 349,
+        "title": "MODULES-8698: Fix $install_path on CentOS with tar.gz package type",
+        "created_at": "2019-02-25 15:20:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "fraenki",
+        "id": 348,
+        "title": "MODULES-8699: Add option to manage symlink",
+        "created_at": "2019-02-25 13:51:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "valentinsavenko",
+        "id": 347,
+        "title": "Update default version & java 8 version from 8u192 to 8u201",
+        "created_at": "2019-02-21 13:03:09 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-tomcat": {
+    "summary": {
+      "pulls": {
+        "total": 14,
+        "open": 0,
+        "merged": 10,
+        "closed": 4
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "carabasdaniel",
+        "id": 353,
+        "title": "Release merge-back",
+        "created_at": "2019-05-17 12:28:33 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 352,
+        "title": "(MODULES-9121) Release 3.0.0",
+        "created_at": "2019-05-17 08:40:29 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 351,
+        "title": "MODULES-9120 - update metadata to support concat version 6.0.0",
+        "created_at": "2019-05-16 11:09:37 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 350,
+        "title": "(MODULES-9121) Update dependency",
+        "created_at": "2019-05-16 10:14:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 349,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 12:23:43 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 348,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:55 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 347,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:41 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 346,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:31 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 345,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:38:07 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 344,
+        "title": "(MODULES-8817) - Update to account for loss of SVN Tomcat archive",
+        "created_at": "2019-03-29 08:53:23 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 343,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:46:12 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 342,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:47:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 341,
+        "title": "FM-7788 cleanup tests for tomcat",
+        "created_at": "2019-03-06 12:38:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "HelenCampbell",
+        "id": 340,
+        "title": "Update daemon version uri for newly archived files",
+        "created_at": "2019-02-28 10:52:29 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-vcsrepo": {
+    "summary": {
+      "pulls": {
+        "total": 13,
+        "open": 1,
+        "merged": 9,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "evanstachowiak",
+        "id": 418,
+        "title": "Don't set --branch equal to revision when depth > 0",
+        "created_at": "2019-05-10 10:19:53 UTC",
+        "state": "open"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 417,
+        "title": "[FM-7940] Puppet Strings",
+        "created_at": "2019-05-08 10:01:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 416,
+        "title": "(MODULES-8738) Allow Sensitive value for basic_auth_password",
+        "created_at": "2019-04-25 10:52:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 415,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:45:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 414,
+        "title": "MODULES-8910 fix for failing git install using RepoForge instead of epel",
+        "created_at": "2019-04-11 15:21:52 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 413,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 412,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:40 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 411,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:38:16 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 410,
+        "title": "(MODULES-8857) - 2.5.0 Release Preparation",
+        "created_at": "2019-04-08 08:39:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "hlaf",
+        "id": 409,
+        "title": "Use clearer error message for \"This client is too old to work with the working copy\"",
+        "created_at": "2019-03-22 12:24:39 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 408,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:46:32 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 407,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:47:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 406,
+        "title": "(FM 7791) - VCSRepo Test Cleanup",
+        "created_at": "2019-02-28 10:12:18 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-inifile": {
+    "summary": {
+      "pulls": {
+        "total": 9,
+        "open": 0,
+        "merged": 6,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "eimlav",
+        "id": 339,
+        "title": "(FM-8041) Add RedHat 8 support",
+        "created_at": "2019-05-17 13:51:40 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 338,
+        "title": "Merge back to master v3.0.0",
+        "created_at": "2019-04-24 07:15:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 337,
+        "title": "release prep 3.0.0",
+        "created_at": "2019-04-19 14:04:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 336,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:18 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 335,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:39 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 334,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:20 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 333,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:59 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 332,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:43:24 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 331,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:35 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-vsphere": {
+    "summary": {
+      "pulls": {
+        "total": 3,
+        "open": 1,
+        "merged": 2,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 154,
+        "title": "FM-7941 - stringify vsphere",
+        "created_at": "2019-05-10 10:41:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 153,
+        "title": "(MODULES-9019) Bump Windows customization spec timeout",
+        "created_at": "2019-05-07 10:37:09 UTC",
+        "state": "open"
+      },
+      {
+        "user": "eimlav",
+        "id": 152,
+        "title": "(DOCUMENT-1001) Clarify installation dependencies",
+        "created_at": "2019-05-03 12:51:08 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-haproxy": {
+    "summary": {
+      "pulls": {
+        "total": 13,
+        "open": 1,
+        "merged": 9,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "sheenaajay",
+        "id": 369,
+        "title": "(MODULES-9119) - Release Merge back 4.0.0",
+        "created_at": "2019-05-17 13:15:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 368,
+        "title": "MODULES-9118 - release 4.0.0",
+        "created_at": "2019-05-16 10:51:46 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 367,
+        "title": "MODULES-9120 - update metadata to support curent version of concat",
+        "created_at": "2019-05-15 13:06:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 366,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 11:48:23 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 365,
+        "title": "[FM-7934] - Puppet Strings",
+        "created_at": "2019-05-03 10:52:28 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 364,
+        "title": "(MODULES-8930) Fix stahnma/epel dependency failures",
+        "created_at": "2019-04-15 15:49:01 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 363,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:04 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 362,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:29 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 361,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:10 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 360,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:49 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 359,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:42:58 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "ds2000",
+        "id": 358,
+        "title": "Issue with accepted_payload_size",
+        "created_at": "2019-03-07 13:30:37 UTC",
+        "state": "open"
+      },
+      {
+        "user": "eimlav",
+        "id": 357,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:22 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/cisco_ios": {
+    "summary": {
+      "pulls": {
+        "total": 11,
+        "open": 1,
+        "merged": 9,
+        "closed": 1
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "Thomas-Franklin",
+        "id": 307,
+        "title": "(maint) acl and access conversion to match other providers",
+        "created_at": "2019-05-20 14:57:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Thomas-Franklin",
+        "id": 306,
+        "title": "(FM-7748) checking of support for network interface and xe",
+        "created_at": "2019-05-20 12:40:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Thomas-Franklin",
+        "id": 305,
+        "title": "(maint) making enable_password optional",
+        "created_at": "2019-05-16 12:37:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Thomas-Franklin",
+        "id": 304,
+        "title": "(maint) adding the new devices to readme test matrix",
+        "created_at": "2019-05-15 09:33:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Thomas-Franklin",
+        "id": 303,
+        "title": "(maint) adding in an os family fact value for allowing xe exclusions",
+        "created_at": "2019-05-14 09:57:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "luisesiman",
+        "id": 302,
+        "title": "Update README: \"Install dependencies\" section",
+        "created_at": "2019-05-08 20:29:38 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "da-ar",
+        "id": 301,
+        "title": "Revert \"(maint) remove task_helper \"",
+        "created_at": "2019-05-02 15:13:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "willmeek",
+        "id": 300,
+        "title": "(maint) Update Spec Helper Acceptance to reflect new transport schema",
+        "created_at": "2019-05-01 13:33:05 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "willmeek",
+        "id": 299,
+        "title": "(maint) Unit tests - ACL entry types should be integers",
+        "created_at": "2019-02-26 15:21:36 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "seppeel",
+        "id": 298,
+        "title": "make \"des\" working",
+        "created_at": "2019-02-26 13:22:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "willmeek",
+        "id": 297,
+        "title": "(WIP) Ios aaa authentication xe",
+        "created_at": "2019-02-22 16:30:59 UTC",
+        "state": "open"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-websphere_application_server": {
+    "summary": {
+      "pulls": {
+        "total": 16,
+        "open": 0,
+        "merged": 13,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "eimlav",
+        "id": 172,
+        "title": "(MODULES-9073) Release mergeback v2.0.0",
+        "created_at": "2019-05-20 10:46:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 171,
+        "title": "(MODULES-9120) update dependency",
+        "created_at": "2019-05-15 11:18:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 170,
+        "title": "(MODULES-9069) Release Prep 2.0.0",
+        "created_at": "2019-05-15 08:47:42 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 169,
+        "title": "(MODULES-9074) update dependencies",
+        "created_at": "2019-05-14 12:36:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 168,
+        "title": "(MODULES-9069) - 2.0.0 Release Prep",
+        "created_at": "2019-05-13 12:45:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 167,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib…",
+        "created_at": "2019-05-03 12:28:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 166,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:45:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 165,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 164,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:45 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 163,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:38:21 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "lionce",
+        "id": 162,
+        "title": "Modules 7472 - Websphere_application_server: Instance installation fails with nil conversion",
+        "created_at": "2019-04-05 14:26:43 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 161,
+        "title": "(FM-7880) Change QA_resources location to internal server",
+        "created_at": "2019-03-26 09:41:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 160,
+        "title": "pdksync - pdksync_heads/master-0-gfde5699",
+        "created_at": "2019-03-13 12:46:43 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 159,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:47:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 158,
+        "title": "(FM-7786) Clean up websphere tests",
+        "created_at": "2019-03-07 09:24:45 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 157,
+        "title": "(MODULES-8710) Add missing facts documentation",
+        "created_at": "2019-03-04 13:41:06 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-netscaler": {
+    "summary": {
+      "pulls": {
+        "total": 0,
+        "open": 0,
+        "merged": 0,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+
+    ]
+  },
+  "puppetlabs/puppetlabs-satellite_pe_tools": {
+    "summary": {
+      "pulls": {
+        "total": 14,
+        "open": 0,
+        "merged": 9,
+        "closed": 5
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "carabasdaniel",
+        "id": 111,
+        "title": "Release merge-back",
+        "created_at": "2019-05-17 12:48:25 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 110,
+        "title": "(MODULES-9114) Release mergeback v3.0.0",
+        "created_at": "2019-05-17 12:42:50 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 109,
+        "title": "(MODULES-9114) Release mergeback 3.0.0",
+        "created_at": "2019-05-17 11:11:04 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 108,
+        "title": "(MODULES-9110) Release prep 3.0.0",
+        "created_at": "2019-05-15 11:10:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 107,
+        "title": "(FM-7937) Implement Puppet Strings",
+        "created_at": "2019-05-07 09:42:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 106,
+        "title": "(MODULES-6809) Clarify debugging with Puppetserver log",
+        "created_at": "2019-05-07 08:59:36 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 105,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 12:12:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 104,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 103,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 102,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:13 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 101,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:47 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 100,
+        "title": "pdksync - pdksync_heads/master-0-gfde5699",
+        "created_at": "2019-03-13 12:45:20 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 99,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:42 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 98,
+        "title": "(FM-7787) Minor test cleanup",
+        "created_at": "2019-03-04 10:58:46 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-exec": {
+    "summary": {
+      "pulls": {
+        "total": 17,
+        "open": 0,
+        "merged": 12,
+        "closed": 5
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "carabasdaniel",
+        "id": 78,
+        "title": "[FM-7943] Puppet Strings",
+        "created_at": "2019-05-08 10:22:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 77,
+        "title": "(temp) Test out pdk-templates change",
+        "created_at": "2019-04-16 10:48:44 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 76,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:42:46 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 75,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 74,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:49:53 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 73,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:31 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 72,
+        "title": "(MODULES-8866) - Release mergeback 0.4.0",
+        "created_at": "2019-04-05 10:54:11 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 71,
+        "title": "(MODULES-8862) - 0.4.0 Release Prep Update",
+        "created_at": "2019-04-04 13:13:16 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 70,
+        "title": "(MODULES-8862) - 0.4.0 Release Prep",
+        "created_at": "2019-04-04 13:01:04 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 69,
+        "title": "(MODULES-8862) - 0.4.0 Release Prep",
+        "created_at": "2019-04-04 10:05:54 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 68,
+        "title": "(SEN-788) Make linux and windows private",
+        "created_at": "2019-03-22 17:05:31 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 67,
+        "title": "(SEN-788) Add discovery extension metadata",
+        "created_at": "2019-03-19 11:56:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 66,
+        "title": "(SEN-788) Add implementation metadata",
+        "created_at": "2019-03-19 09:17:20 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 65,
+        "title": "pdksync - pdksync_heads/master-0-gfde5699",
+        "created_at": "2019-03-13 12:42:24 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "HelenCampbell",
+        "id": 64,
+        "title": "(FM-7803) Test Audit Cleanup",
+        "created_at": "2019-03-12 14:55:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 63,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:44:59 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "HelenCampbell",
+        "id": 62,
+        "title": "(MODULES-8717) Move testing from task_helper to BoltSpec & Fix BoltSpec dependency issue",
+        "created_at": "2019-03-01 14:58:39 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-ibm_installation_manager": {
+    "summary": {
+      "pulls": {
+        "total": 13,
+        "open": 1,
+        "merged": 8,
+        "closed": 4
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "eimlav",
+        "id": 124,
+        "title": "(FM-8027) Add RedHat 8 support",
+        "created_at": "2019-05-20 15:12:58 UTC",
+        "state": "open"
+      },
+      {
+        "user": "eimlav",
+        "id": 123,
+        "title": "(MODULES-9079) Release mergeback v2.0.0",
+        "created_at": "2019-05-14 13:20:41 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 122,
+        "title": "(MODULES-9080) update dependency",
+        "created_at": "2019-05-13 15:14:16 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 121,
+        "title": "(MODULES-9080) - v2.0.0 Release Prep",
+        "created_at": "2019-05-13 14:19:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 120,
+        "title": "(FM-7935) Update REFERENCE.md",
+        "created_at": "2019-05-07 11:12:19 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 119,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib…",
+        "created_at": "2019-05-03 11:52:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 118,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:12 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 117,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 116,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:15 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 115,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:54 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 114,
+        "title": "pdksync - pdksync_heads/master-0-gfde5699",
+        "created_at": "2019-03-13 12:43:13 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 113,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:29 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 112,
+        "title": "(FM-7793) Cleanup ibm_installation_manager tests",
+        "created_at": "2019-02-22 14:25:26 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-accounts": {
+    "summary": {
+      "pulls": {
+        "total": 18,
+        "open": 0,
+        "merged": 13,
+        "closed": 5
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "pillarsdotnet",
+        "id": 226,
+        "title": "(MODULES-8968) Test account removal.",
+        "created_at": "2019-05-15 16:35:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 225,
+        "title": "Release merge-back",
+        "created_at": "2019-05-10 09:38:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 224,
+        "title": "MODULES-9021 release prep 4.0.0",
+        "created_at": "2019-05-07 08:03:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 223,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 11:27:42 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "pillarsdotnet",
+        "id": 222,
+        "title": "(MODULES-8968) Test account removal.",
+        "created_at": "2019-05-02 14:33:49 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 221,
+        "title": "(MODULES-7469) Add password_max_age parameter",
+        "created_at": "2019-05-01 15:41:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "pillarsdotnet",
+        "id": 220,
+        "title": "(MODULES-8909) Allow periods in usernames.",
+        "created_at": "2019-04-30 16:02:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 219,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:41:14 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 218,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:39:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 217,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:49:30 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 216,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:01 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 215,
+        "title": "pdksync - pdksync_1.10.0-0-gbba9ac3",
+        "created_at": "2019-04-10 14:02:54 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "pillarsdotnet",
+        "id": 214,
+        "title": "(MODULES-8909) Add type-aliases and auto-loading.",
+        "created_at": "2019-04-09 12:27:50 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tuxmea",
+        "id": 213,
+        "title": "Remove user when custom sshkey file is set",
+        "created_at": "2019-03-17 09:20:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 212,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:32:18 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 211,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:44:28 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 210,
+        "title": "(maint) Update README translations",
+        "created_at": "2019-02-27 16:11:37 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 209,
+        "title": "(FM-7797) Cleanup account tests",
+        "created_at": "2019-02-27 11:12:53 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-java_ks": {
+    "summary": {
+      "pulls": {
+        "total": 12,
+        "open": 0,
+        "merged": 8,
+        "closed": 4
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 279,
+        "title": "FM-7945 stringify java_ks",
+        "created_at": "2019-05-08 08:43:12 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 278,
+        "title": "Modules 8962 - java_ks - Windows 2012 failing smoke",
+        "created_at": "2019-04-24 15:17:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 277,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 276,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:47 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 275,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:29 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 274,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:10 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "surcouf",
+        "id": 273,
+        "title": "Add initial support for DSA private keys.",
+        "created_at": "2019-04-03 16:02:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "KrlWil",
+        "id": 272,
+        "title": "fix keytool list pkcs12 command",
+        "created_at": "2019-03-15 13:17:11 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 271,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:43:45 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 270,
+        "title": "(FM-7790) Cleanup of Java_KS Test's",
+        "created_at": "2019-03-12 13:42:35 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 269,
+        "title": "(MODULES-3958) - Utilize rspec-mock and add code coverage",
+        "created_at": "2019-03-12 10:47:58 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 268,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:49 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-motd": {
+    "summary": {
+      "pulls": {
+        "total": 22,
+        "open": 0,
+        "merged": 17,
+        "closed": 5
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 220,
+        "title": "Mergeback v3.0.0",
+        "created_at": "2019-05-20 08:15:59 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 219,
+        "title": "(MODULES-9140) release prep 3.0.0",
+        "created_at": "2019-05-17 15:03:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 218,
+        "title": "(MODULES-9140) release prep 3.0.0",
+        "created_at": "2019-05-17 14:39:05 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "tphoney",
+        "id": 217,
+        "title": "(bugfix) remove scientific 5 testing",
+        "created_at": "2019-05-17 13:51:31 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 216,
+        "title": "(FM-8073) litmus block support",
+        "created_at": "2019-05-14 12:44:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 215,
+        "title": "(MODULES-9017) - update metadata to support current version of stdlib",
+        "created_at": "2019-05-03 12:05:20 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 214,
+        "title": "(bugfix) changes needed for litmus 0.1.0 release",
+        "created_at": "2019-04-29 09:35:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 213,
+        "title": "(maint) - More consistent ENV vars for .travis.yml",
+        "created_at": "2019-04-25 14:57:00 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "abuxton",
+        "id": 212,
+        "title": "simplistic support for vscode integration to litmus added",
+        "created_at": "2019-04-18 17:02:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 211,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:43:40 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 210,
+        "title": "(maint) add more oses to test in pipelines",
+        "created_at": "2019-04-11 17:52:29 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "smortex",
+        "id": 209,
+        "title": "Fix typo",
+        "created_at": "2019-04-10 18:31:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 208,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 207,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:34 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 206,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:15 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 205,
+        "title": "(MODULES-8767) Add support for SLES 15",
+        "created_at": "2019-04-10 12:10:42 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 204,
+        "title": "(MODULES-8758) Change memoryfree to memorysize in template",
+        "created_at": "2019-03-27 11:05:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 203,
+        "title": "(WIP) - POC DO NOT MERGE - litmus",
+        "created_at": "2019-03-14 14:12:36 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 202,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:43:56 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 201,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:55 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tphoney",
+        "id": 200,
+        "title": "(FM-7647) use puppet_litmus for acceptance testing",
+        "created_at": "2019-03-06 17:07:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 199,
+        "title": "(FM-7799) - Cleanup of MOTD Testing",
+        "created_at": "2019-03-01 15:35:24 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-tagmail": {
+    "summary": {
+      "pulls": {
+        "total": 8,
+        "open": 0,
+        "merged": 5,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 126,
+        "title": "Merge back release v3.0.0",
+        "created_at": "2019-04-25 11:22:43 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 125,
+        "title": "release prep 3.0.0",
+        "created_at": "2019-04-25 08:44:31 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 124,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:49 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 123,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:35 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 122,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:27 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 121,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:38:01 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 120,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:45:58 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 119,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:47:02 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-bootstrap": {
+    "summary": {
+      "pulls": {
+        "total": 16,
+        "open": 0,
+        "merged": 12,
+        "closed": 4
+      },
+      "issues": {
+        "total": 4,
+        "open": 4,
+        "closed": 0
+      }
+    },
+    "issues": [
+      {
+        "user": "jessereynolds",
+        "id": 82,
+        "title": "Provide a non-JSON method of specifying extension requests and certificate attributes at the command line",
+        "created_at": "2019-04-11 14:50:58 UTC",
+        "state": "open"
+      },
+      {
+        "user": "jessereynolds",
+        "id": 81,
+        "title": "extension_request and custom_attribute should be pluralised ",
+        "created_at": "2019-04-11 13:56:28 UTC",
+        "state": "open"
+      },
+      {
+        "user": "jessereynolds",
+        "id": 80,
+        "title": "Specifying extension requests and custom attributes as per README fails with data type validation error",
+        "created_at": "2019-04-11 13:20:26 UTC",
+        "state": "open"
+      },
+      {
+        "user": "jessereynolds",
+        "id": 79,
+        "title": "Instructions in the README are inconsistent with module inbuilt help",
+        "created_at": "2019-04-11 13:11:01 UTC",
+        "state": "open"
+      }
+    ],
+    "pulls": [
+      {
+        "user": "carabasdaniel",
+        "id": 86,
+        "title": "[FM-7942] Puppet Strings",
+        "created_at": "2019-05-08 10:10:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "steveax",
+        "id": 85,
+        "title": "(maint) add note about WMF/.NET versions supported",
+        "created_at": "2019-04-16 21:08:29 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "steveax",
+        "id": 84,
+        "title": "(FM-7919) Ensure TLSv1.2 is used when temporarily disabling ssl",
+        "created_at": "2019-04-15 20:41:15 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 83,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:42:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 78,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:08 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 77,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:49:43 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 76,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:21 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 75,
+        "title": "(MODULES-8848) - Release mergeback 0.5.0",
+        "created_at": "2019-04-04 14:48:32 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 74,
+        "title": "(MODULES-8844) - 0.5.0 Release Prep",
+        "created_at": "2019-04-03 13:45:41 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 73,
+        "title": "(SEN-787) Make linux and windows private",
+        "created_at": "2019-03-22 17:12:20 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 72,
+        "title": "(SEN-787) Add discovery extension metadata",
+        "created_at": "2019-03-19 11:52:55 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 71,
+        "title": "(SEN-787) Add implementation metadata",
+        "created_at": "2019-03-19 09:22:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 70,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:41:59 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 69,
+        "title": "(WIP) (FM-7841) Convert bootstrap to test using BoltSpec",
+        "created_at": "2019-03-07 17:02:50 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 68,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:44:46 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "dylanratcliffe",
+        "id": 67,
+        "title": "Ensure certnames are *always* lowercase",
+        "created_at": "2019-02-27 21:21:21 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-facter_task": {
+    "summary": {
+      "pulls": {
+        "total": 10,
+        "open": 0,
+        "merged": 7,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 71,
+        "title": "FM-7944 - stringify facter_task",
+        "created_at": "2019-05-08 12:08:18 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 70,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:42:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 69,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:40:21 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 68,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:49:58 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 67,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:36:38 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 66,
+        "title": "(MODULES-8885) - Release Merge back 0.4.1",
+        "created_at": "2019-04-08 09:13:57 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 65,
+        "title": "(MODULES-8881) - 0.4.1 Release Prep",
+        "created_at": "2019-04-05 11:08:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 64,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:42:36 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 63,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:45:06 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 62,
+        "title": "(FM-7842) Convert tests to use BoltSpec",
+        "created_at": "2019-03-07 10:45:09 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-hocon": {
+    "summary": {
+      "pulls": {
+        "total": 0,
+        "open": 0,
+        "merged": 0,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+
+    ]
+  },
+  "puppetlabs/puppetlabs-package": {
+    "summary": {
+      "pulls": {
+        "total": 15,
+        "open": 0,
+        "merged": 12,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 127,
+        "title": "FM-7946 stringify package",
+        "created_at": "2019-05-08 06:55:44 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "m0dular",
+        "id": 126,
+        "title": "Bolt 1104 linux package task refactor",
+        "created_at": "2019-05-06 21:48:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 125,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:03 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 124,
+        "title": "(MODULES-8896) Release mergeback 0.5.0",
+        "created_at": "2019-04-10 15:52:55 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 123,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:04 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 122,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:50:50 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 121,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:29 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 120,
+        "title": "(MODULES-8892) - v0.5.0 Release Prep",
+        "created_at": "2019-04-05 15:30:02 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 119,
+        "title": "(SEN-795) Move extension metadata to init.json",
+        "created_at": "2019-03-22 16:54:54 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 118,
+        "title": "(SEN-795) Add discovery extension metadata",
+        "created_at": "2019-03-19 12:09:52 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "donoghuc",
+        "id": 117,
+        "title": "(BOLT-1104) Unify task implementation output",
+        "created_at": "2019-03-18 23:47:55 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 116,
+        "title": "FM 7800 - Test Audit making testing more efficient",
+        "created_at": "2019-03-13 14:11:08 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 115,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:44:31 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 114,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:16 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "HelenCampbell",
+        "id": 113,
+        "title": "(MODULES-8717) Fix for boltspec run dependancy issue",
+        "created_at": "2019-03-04 16:25:07 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-puppet_agent": {
+    "summary": {
+      "pulls": {
+        "total": 22,
+        "open": 4,
+        "merged": 17,
+        "closed": 1
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "donoghuc",
+        "id": 411,
+        "title": "(maint) Fix task acceptance tests for fedora 29",
+        "created_at": "2019-05-13 20:21:51 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "mihaibuzgau",
+        "id": 410,
+        "title": "(packaging) Update changelog/metadata for 2.1.2",
+        "created_at": "2019-05-13 15:55:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "mihaibuzgau",
+        "id": 409,
+        "title": "(maint) update apt url",
+        "created_at": "2019-05-13 15:18:41 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sebastian-miclea",
+        "id": 408,
+        "title": "(maint) Puppet agent on Windows has manual startup, debian spec fix",
+        "created_at": "2019-05-13 14:23:46 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "mihaibuzgau",
+        "id": 407,
+        "title": "(maint) use PC1 as default",
+        "created_at": "2019-05-13 13:11:07 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "mihaibuzgau",
+        "id": 406,
+        "title": "(maint) use PC1 as default",
+        "created_at": "2019-05-13 12:57:26 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "sebastian-miclea",
+        "id": 405,
+        "title": "(maint) Changes to windows public release package links",
+        "created_at": "2019-05-13 11:10:56 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "sebastian-miclea",
+        "id": 404,
+        "title": "(packaging) Update changelog/metadata for 2.1.2",
+        "created_at": "2019-05-13 10:10:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "gguillotte",
+        "id": 403,
+        "title": "(docs) Fix bad aix_source example.",
+        "created_at": "2019-05-03 18:39:24 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 402,
+        "title": "(RE-12326) Changes to public release package links",
+        "created_at": "2019-04-29 12:37:36 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "tkishel",
+        "id": 401,
+        "title": "(MODULES-8923) autodetect package_version based upon the master",
+        "created_at": "2019-04-11 21:48:28 UTC",
+        "state": "open"
+      },
+      {
+        "user": "coreone",
+        "id": 400,
+        "title": "Fix Yum URL path for RedHat systems still using the PC1 collection",
+        "created_at": "2019-04-10 20:19:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "kkarthee",
+        "id": 399,
+        "title": "installdir parameter not defined in install_shell task",
+        "created_at": "2019-04-03 06:23:56 UTC",
+        "state": "open"
+      },
+      {
+        "user": "gguillotte",
+        "id": 398,
+        "title": "(docs) Revise macOS limitations note.",
+        "created_at": "2019-03-29 18:32:57 UTC",
+        "state": "open"
+      },
+      {
+        "user": "McdonaldSeanp",
+        "id": 397,
+        "title": "(MODULES-8821) Update win install to use production environment",
+        "created_at": "2019-03-28 17:06:39 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "hpcprofessional",
+        "id": 396,
+        "title": "Readme naming consistency",
+        "created_at": "2019-03-23 00:18:39 UTC",
+        "state": "open"
+      },
+      {
+        "user": "McdonaldSeanp",
+        "id": 395,
+        "title": "(MODULES-6604) Add new source parameters",
+        "created_at": "2019-03-12 22:06:53 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "McdonaldSeanp",
+        "id": 394,
+        "title": "(MODULES-8720) Update source calculation to prefer source user param",
+        "created_at": "2019-03-05 18:51:40 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "McdonaldSeanp",
+        "id": 393,
+        "title": "(MODULES-8554) Add error reporting for background upgrades",
+        "created_at": "2019-03-05 00:16:18 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "ragnarkon",
+        "id": 392,
+        "title": "Fix unnecessary changes in load balanced envs due to pkg source",
+        "created_at": "2019-03-01 21:54:27 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "McdonaldSeanp",
+        "id": 391,
+        "title": " (PA-2385) Update service management to run always for windows",
+        "created_at": "2019-02-26 19:11:19 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "McdonaldSeanp",
+        "id": 390,
+        "title": "(FM-7628) Update install_puppet.ps1 to catch hanging pxp-agent processes",
+        "created_at": "2019-02-21 01:01:27 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-puppet_conf": {
+    "summary": {
+      "pulls": {
+        "total": 15,
+        "open": 0,
+        "merged": 8,
+        "closed": 7
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 67,
+        "title": "FM-7947 - stringify puppet_conf",
+        "created_at": "2019-05-07 13:13:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 66,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:19 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 65,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 64,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:00 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 63,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:38 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 62,
+        "title": "(MODULES-8868) - Release mergeback 0.3.1",
+        "created_at": "2019-04-05 11:46:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 61,
+        "title": "(MODULES-8868) - 0.3.1 Release Preperation",
+        "created_at": "2019-04-04 14:26:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 60,
+        "title": "(MODULES-8868) - 0.3.1 Release Prep",
+        "created_at": "2019-04-04 14:16:20 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 59,
+        "title": "(MODULES-8868) - 0.3.1 Release Prep",
+        "created_at": "2019-04-04 14:12:59 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 58,
+        "title": "(MODULES-8868) - 0.3.1 Release Prep",
+        "created_at": "2019-04-04 14:10:00 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 57,
+        "title": "(MODULES-8868) - 0.3.1 Release Prep",
+        "created_at": "2019-04-04 14:09:08 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 56,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:44:54 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 55,
+        "title": "(maint) Update supported PE version",
+        "created_at": "2019-03-07 14:18:34 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 54,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:30 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 53,
+        "title": "(FM-7845) Use BoltSpec for acceptance tests",
+        "created_at": "2019-03-06 10:37:05 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-resource": {
+    "summary": {
+      "pulls": {
+        "total": 11,
+        "open": 0,
+        "merged": 8,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "lionce",
+        "id": 53,
+        "title": "(FM-7948) - stringify resource",
+        "created_at": "2019-05-03 11:11:16 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 52,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 51,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:18 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 50,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:08 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 49,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:42 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "sheenaajay",
+        "id": 48,
+        "title": "(MODULES-8878) - Release Merge back 0.3.1",
+        "created_at": "2019-04-08 12:51:13 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 47,
+        "title": "(MODULES-8874) - 0.3.1 Release Prep",
+        "created_at": "2019-04-05 10:01:15 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 46,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:45:05 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 45,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:36 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 44,
+        "title": "(maint) Clarify supported PE and Bolt versions",
+        "created_at": "2019-03-06 16:47:28 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 43,
+        "title": "(MODULES-8717) Fix dependency issue with BoltSpec",
+        "created_at": "2019-03-05 10:41:12 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-service": {
+    "summary": {
+      "pulls": {
+        "total": 17,
+        "open": 1,
+        "merged": 13,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "m0dular",
+        "id": 96,
+        "title": "Refactor to use common.sh",
+        "created_at": "2019-05-20 16:05:44 UTC",
+        "state": "open"
+      },
+      {
+        "user": "lionce",
+        "id": 95,
+        "title": "(FM-7949) - stringify service",
+        "created_at": "2019-05-02 14:29:17 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 94,
+        "title": "Release mergeback v1.0.0",
+        "created_at": "2019-04-24 12:21:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "carabasdaniel",
+        "id": 93,
+        "title": "Prep-release v1.0.0",
+        "created_at": "2019-04-24 07:32:35 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 92,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:44:38 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 91,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:26 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 90,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:17 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 89,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:37:51 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "pmcmaw",
+        "id": 88,
+        "title": "(maint) - Release mergeback v0.6.0",
+        "created_at": "2019-04-09 13:46:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 87,
+        "title": "(MODULES-8887) - v0.6.0 Release Prep",
+        "created_at": "2019-04-05 15:13:36 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 86,
+        "title": "(SEN-796) Move extension metadata",
+        "created_at": "2019-03-22 16:59:59 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "conormurraypuppet",
+        "id": 85,
+        "title": "(SEN-796) Add discovery extension metadata",
+        "created_at": "2019-03-19 12:14:22 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 84,
+        "title": "pdksync - pdksync_heads/master-0-gfde5699",
+        "created_at": "2019-03-13 12:45:33 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "donoghuc",
+        "id": 83,
+        "title": "(BOLT-1103) Unify output of task implementations",
+        "created_at": "2019-03-11 20:01:10 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 82,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:46:48 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "lionce",
+        "id": 81,
+        "title": "FM-7798 - Test Audit making testing more efficient ",
+        "created_at": "2019-03-07 11:20:05 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 80,
+        "title": "(MODULES-8717) Fix dependency issue with BoltSpec",
+        "created_at": "2019-03-04 16:31:08 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-translate": {
+    "summary": {
+      "pulls": {
+        "total": 7,
+        "open": 0,
+        "merged": 4,
+        "closed": 3
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+      {
+        "user": "carabasdaniel",
+        "id": 41,
+        "title": "[FM-7939] Puppet Strings",
+        "created_at": "2019-05-07 12:19:25 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "eimlav",
+        "id": 40,
+        "title": "pdksync - (maint) Update pdk-template to f778803",
+        "created_at": "2019-04-15 09:45:00 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 39,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 15:41:45 UTC",
+        "state": "merged"
+      },
+      {
+        "user": "david22swan",
+        "id": 38,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:51:36 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "david22swan",
+        "id": 37,
+        "title": "pdksync - (MODULES-8444) - Raise lower Puppet bound",
+        "created_at": "2019-04-10 14:38:11 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "Lavinia-Dan",
+        "id": 36,
+        "title": "pdksync - pdksync_tags/1.9.1-0-g6945d31",
+        "created_at": "2019-03-13 12:46:21 UTC",
+        "state": "closed"
+      },
+      {
+        "user": "eimlav",
+        "id": 35,
+        "title": "pdksync - Remove .project from .gitignore",
+        "created_at": "2019-03-07 12:47:17 UTC",
+        "state": "merged"
+      }
+    ]
+  },
+  "puppetlabs/puppetlabs-yumrepo_core": {
+    "summary": {
+      "pulls": {
+        "total": 0,
+        "open": 0,
+        "merged": 0,
+        "closed": 0
+      },
+      "issues": {
+        "total": 0,
+        "open": 0,
+        "closed": 0
+      }
+    },
+    "issues": [
+
+    ],
+    "pulls": [
+
+    ]
+  }
+}

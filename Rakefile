@@ -113,7 +113,7 @@ def parse_result_item(item)
 end
 
 def parse_pull_request(pr)
-  {
+  result = {
     :type       => :pr,
     :user       => pr.user.login,
     :id         => pr.number,
@@ -121,6 +121,10 @@ def parse_pull_request(pr)
     :created_at => pr.created_at,
     :state      => pr.merged? ? 'merged' : pr.state,
   }
+
+  result[:merged_at] = pr.merged_at if pr.merged?
+
+  result
 end
 
 def parse_issue(issue)

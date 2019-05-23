@@ -1,0 +1,668 @@
+repo,id,title,state,user,user_type,created_at,merged_at
+puppetlabs/puppetlabs-docker,487,(FM-8055) Add RedHat 8 support,open,eimlav,member,2019-05-22 12:08:34 UTC,
+puppetlabs/puppetlabs-docker,486,(FM-8100) Update minimum supported Puppet version to 5.5.10,merged,eimlav,member,2019-05-22 11:28:47 UTC,2019-05-22 11:59:14 UTC
+puppetlabs/puppetlabs-docker,484,(MODULES-9029) Update pdk-template to 46a1deb,merged,eimlav,member,2019-05-16 11:06:37 UTC,2019-05-17 11:28:52 UTC
+puppetlabs/puppetlabs-docker,483,(MODULES-9033) Fix failing acceptance tests on all platforms,merged,eimlav,member,2019-05-15 08:08:44 UTC,2019-05-15 08:24:40 UTC
+puppetlabs/puppetlabs-docker,482,Added option to override docker-compose download location,open,piquet90,first_time_contributor,2019-05-13 08:41:16 UTC,
+puppetlabs/puppetlabs-docker,480,Update docker volume documentation,merged,benningm,contributor,2019-05-06 13:51:15 UTC,2019-05-07 07:31:12 UTC
+puppetlabs/puppetlabs-docker,478,Add missing single quote,merged,DavidS,member,2019-04-27 12:02:32 UTC,2019-05-01 12:44:56 UTC
+puppetlabs/puppetlabs-docker,477,Allow bypassing curl package ensure if needed,open,esalberg,contributor,2019-04-25 22:32:39 UTC,
+puppetlabs/puppetlabs-docker,475,Fix supported operating systems in the readme,merged,florindragos,member,2019-04-16 14:53:05 UTC,2019-04-16 15:02:26 UTC
+puppetlabs/puppetlabs-docker,473,Add missing apostrophe in array.,merged,towo,contributor,2019-04-11 11:37:45 UTC,2019-04-16 12:21:41 UTC
+puppetlabs/puppetlabs-docker,471,Fix publish flag being erroneously added to docker service commands,merged,twistedduck,contributor,2019-04-08 15:16:36 UTC,2019-04-09 07:51:48 UTC
+puppetlabs/puppetlabs-docker,470,Fix container running check to work for windows hosts,merged,florindragos,member,2019-04-08 15:00:50 UTC,2019-04-16 14:17:26 UTC
+puppetlabs/puppetlabs-docker,468,Allow images tagged latest to update on each run,merged,electrofelix,contributor,2019-04-03 15:55:13 UTC,2019-04-18 07:45:29 UTC
+puppetlabs/puppetlabs-docker,466,Support for docker machine download and install,merged,acurus-puppetmaster,contributor,2019-03-25 19:37:07 UTC,2019-04-08 09:05:07 UTC
+puppetlabs/puppetlabs-docker,465,Fix docker::image to not run images,merged,hugotanure,contributor,2019-03-22 18:00:31 UTC,2019-04-03 18:24:45 UTC
+puppetlabs/puppetlabs-docker,462,Update docker compose version to latest,closed,tarjei,contributor,2019-03-21 11:26:39 UTC,
+puppetlabs/puppetlabs-docker,460,WIP: Allow use of .env configuration file when running docker-compose,open,SmithJosh,first_time_contributor,2019-03-19 00:18:39 UTC,
+puppetlabs/puppetlabs-docker,459,Update readme for aws logging options,merged,acurus-puppetmaster,contributor,2019-03-18 21:46:45 UTC,2019-03-18 22:51:19 UTC
+puppetlabs/puppetlabs-docker,458,release 3.5.0,merged,davejrt,member,2019-03-14 12:07:48 UTC,2019-03-14 12:17:09 UTC
+puppetlabs/puppetlabs-docker,454,fix(syntax): Remove duplicate parenthesis,merged,jfroche,contributor,2019-03-12 13:24:18 UTC,2019-03-13 11:28:01 UTC
+puppetlabs/puppetlabs-docker,453,making dependency ranges more logical,merged,davejrt,member,2019-03-11 12:39:10 UTC,2019-03-11 13:27:49 UTC
+puppetlabs/puppetlabs-docker,452,Docker::Services:: fix command parameter used with an array,merged,jacksgt,contributor,2019-03-09 11:30:50 UTC,2019-03-11 11:16:17 UTC
+puppetlabs/puppetlabs-docker,451,adding in capability to attach multiple networks to container,merged,davejrt,member,2019-03-08 18:39:53 UTC,2019-03-12 13:07:49 UTC
+puppetlabs/puppetlabs-docker,450,Docker::Services: Add networks parameter for swarm services,merged,jacksgt,contributor,2019-03-08 16:54:21 UTC,2019-03-08 19:33:06 UTC
+puppetlabs/puppetlabs-docker,448,Add ability to set service_after_override to false,merged,esalberg,contributor,2019-03-06 21:44:13 UTC,2019-03-08 19:27:47 UTC
+puppetlabs/puppetlabs-docker,447,docker::services: Fix using multiple published ports,merged,jacksgt,contributor,2019-03-02 09:26:53 UTC,2019-03-04 10:11:34 UTC
+puppetlabs/puppetlabs-docker,446,Add ability to override After for docker.service,merged,esalberg,contributor,2019-02-28 23:30:52 UTC,2019-03-04 15:08:11 UTC
+puppetlabs/puppetlabs-docker,443,adding in documentation for use of stack type/provider,merged,davejrt,member,2019-02-25 06:46:35 UTC,2019-02-25 08:12:47 UTC
+puppetlabs/puppetlabs-docker,442,release for v3.4.0,merged,davejrt,member,2019-02-25 06:26:04 UTC,2019-02-25 08:13:11 UTC
+puppetlabs/puppetlabs-powershell,257,(MODULES-9084) Increase pipe timeout to 180s,open,michaeltlombardi,member,2019-05-22 17:27:26 UTC,
+puppetlabs/puppetlabs-powershell,256,(MAINT) Update linux distro in travis,merged,michaeltlombardi,member,2019-04-22 17:51:37 UTC,2019-04-22 18:05:05 UTC
+puppetlabs/puppetlabs-powershell,255,Mergeback 2.3.0 Release,merged,michaeltlombardi,member,2019-04-22 16:52:24 UTC,2019-04-22 18:15:35 UTC
+puppetlabs/puppetlabs-powershell,254,(MODULES-8924) DOCS Release Review,merged,clairecadman,member,2019-04-16 13:08:08 UTC,2019-04-16 13:10:43 UTC
+puppetlabs/puppetlabs-powershell,253,(MODULES-8924) Prepare module for 2.3.0 release,merged,glennsarti,member,2019-04-12 05:55:16 UTC,2019-04-15 15:35:44 UTC
+puppetlabs/puppetlabs-powershell,252,{WIP} Ignore me,closed,glennsarti,member,2019-03-22 02:16:12 UTC,
+puppetlabs/puppetlabs-powershell,251,(WIN-280) add skip() unless pattern to tests,merged,ThoughtCrhyme,member,2019-03-19 20:25:29 UTC,2019-04-08 16:24:01 UTC
+puppetlabs/puppetlabs-powershell,250,(MODULES-8748) Improve pipe reading in the PowerShell Manager,merged,glennsarti,member,2019-03-19 08:54:28 UTC,2019-04-03 22:17:54 UTC
+puppetlabs/puppetlabs-powershell,249,(MODULES-8359) Remove non-Windows support for powershell provider,merged,glennsarti,member,2019-02-28 07:44:32 UTC,2019-03-01 18:51:32 UTC
+puppetlabs/puppetlabs-powershell,248,(MODULES-8358) Fix typo for EL based test hosts,merged,glennsarti,member,2019-02-25 06:57:35 UTC,2019-02-25 18:58:23 UTC
+puppetlabs/puppetlabs-dsc,413,(MODULES-9085) Increase pipe timeout to 180s,open,michaeltlombardi,member,2019-05-22 17:40:01 UTC,
+puppetlabs/puppetlabs-dsc,412,Mergeback from 1.9.2 Release,merged,michaeltlombardi,member,2019-04-25 17:04:51 UTC,2019-04-25 17:24:39 UTC
+puppetlabs/puppetlabs-dsc,411,(MODULES-8982) Prep for 1.9.2 release,merged,michaeltlombardi,member,2019-04-24 23:40:53 UTC,2019-04-24 23:52:25 UTC
+puppetlabs/puppetlabs-dsc,410,(MODULES-8856) Fix using the dsc_psdscrunascredential parameter,merged,GerbenWelter,contributor,2019-04-24 18:16:40 UTC,2019-04-24 23:37:34 UTC
+puppetlabs/puppetlabs-dsc,409,(WIP) Fixing creds,closed,michaeltlombardi,member,2019-04-24 16:35:01 UTC,
+puppetlabs/puppetlabs-dsc,408,Mergeback PR for 1.9.1,merged,ThoughtCrhyme,member,2019-04-22 21:33:18 UTC,2019-04-24 00:13:24 UTC
+puppetlabs/puppetlabs-dsc,407,Fix file validation acceptance tests for Unicode,merged,carabasdaniel,member,2019-04-18 13:37:09 UTC,2019-04-18 20:05:47 UTC
+puppetlabs/puppetlabs-dsc,406,(MODULES-8935) Prep for 1.9.1 release,merged,michaeltlombardi,member,2019-04-17 18:16:44 UTC,2019-04-18 19:46:38 UTC
+puppetlabs/puppetlabs-dsc,405,(MODULES-8856) Redact debug,merged,michaeltlombardi,member,2019-04-11 20:52:12 UTC,2019-04-12 20:01:26 UTC
+puppetlabs/puppetlabs-dsc,404,(MODULES-8811) Mergeback from 1.9.0 release,merged,michaeltlombardi,member,2019-04-03 14:39:30 UTC,2019-04-03 14:55:25 UTC
+puppetlabs/puppetlabs-dsc,403,(MODULES-8811) Release 1.9.0,merged,jpogran,member,2019-03-26 18:14:04 UTC,2019-03-28 20:49:28 UTC
+puppetlabs/puppetlabs-dsc,402,(WIN-280) add skip() unless pattern to tests,merged,ThoughtCrhyme,member,2019-03-14 22:32:21 UTC,2019-03-15 17:35:53 UTC
+puppetlabs/puppetlabs-dsc,401,(MODULES-7689) fix module folder detection,merged,jpogran,member,2019-03-14 18:09:03 UTC,2019-03-22 16:15:33 UTC
+puppetlabs/puppetlabs-dsc,400,(MODULES-8450) 2019 DSC Resource update,merged,jpogran,member,2019-03-12 16:06:47 UTC,2019-03-12 20:55:29 UTC
+puppetlabs/puppetlabs-acl,145,(WIN280) add skip() unless pattern to tests ,merged,ThoughtCrhyme,member,2019-03-14 18:50:27 UTC,2019-03-19 22:24:19 UTC
+puppetlabs/puppetlabs-azure_arm,16,Eliminate obsolete parameter allow_pending_state for azure_server_farm_with_rich_sku; Fix dependencies for elastic_pool_name for azure_sql_database,open,Monual,first_time_contributor,2019-04-03 17:38:11 UTC,
+puppetlabs/puppetlabs-chocolatey,151,3.3.0 release mergeback to master,merged,ThoughtCrhyme,member,2019-03-19 22:33:11 UTC,2019-03-19 22:44:45 UTC
+puppetlabs/puppetlabs-chocolatey,150,(MODULES-8739) DOCS Release Review,merged,clairecadman,member,2019-03-18 10:55:27 UTC,2019-03-18 15:09:09 UTC
+puppetlabs/puppetlabs-chocolatey,149,(WIN-280) add skip() unless pattern to tests,merged,ThoughtCrhyme,member,2019-03-15 20:53:05 UTC,2019-03-19 22:56:09 UTC
+puppetlabs/puppetlabs-chocolatey,148,(MODULES-8739) 3.3.0 Release Prep,merged,michaeltlombardi,member,2019-03-14 16:54:23 UTC,2019-03-14 18:33:42 UTC
+puppetlabs/puppetlabs-chocolatey,147,(MODULES-8491) Warn about `install_options` secrets,merged,michaeltlombardi,member,2019-02-26 14:10:05 UTC,2019-02-27 17:27:30 UTC
+puppetlabs/puppetlabs-reboot,207,(FM-8051) Add RedHat 8 support,open,eimlav,member,2019-05-22 10:48:53 UTC,
+puppetlabs/puppetlabs-reboot,206,(WIN-280) add skip() unless pattern to tests,merged,ThoughtCrhyme,member,2019-03-18 18:54:13 UTC,2019-03-18 20:42:42 UTC
+puppetlabs/puppetlabs-reboot,205,MODULES-8726: Ensure sbin is in the path,merged,xalimar,contributor,2019-03-06 21:54:54 UTC,2019-03-21 17:27:36 UTC
+puppetlabs/puppetlabs-reboot,204,(MAINT) Fix Plan Unit Tests,merged,RandomNoun7,member,2019-03-05 18:00:26 UTC,2019-03-06 17:50:23 UTC
+puppetlabs/puppetlabs-reboot,203,[MODULES-8718] Check for root or sudo in the reboot task nix.sh script,merged,thilinapiy,contributor,2019-03-04 17:58:12 UTC,2019-03-13 02:42:42 UTC
+puppetlabs/puppetlabs-reboot,202,(MODULES-8717) Fix dependency issue on boltspec,merged,HelenCampbell,member,2019-03-04 17:09:34 UTC,2019-03-06 21:43:56 UTC
+puppetlabs/puppetlabs-dsc_lite,108,(MODULES-9086) Increase pipe timeout to 180,merged,michaeltlombardi,member,2019-05-16 15:04:44 UTC,2019-05-17 17:34:47 UTC
+puppetlabs/puppetlabs-dsc_lite,107,Fix redacting PuppetSensitive values,open,GerbenWelter,first_time_contributor,2019-04-25 07:53:27 UTC,
+puppetlabs/puppetlabs-dsc_lite,106,Mergeback 1.2.1,merged,RandomNoun7,member,2019-04-22 17:03:10 UTC,2019-04-22 17:09:21 UTC
+puppetlabs/puppetlabs-dsc_lite,105,(MODULES-8940) Prep for 1.2.1 release,merged,michaeltlombardi,member,2019-04-17 18:18:52 UTC,2019-04-18 19:47:15 UTC
+puppetlabs/puppetlabs-dsc_lite,104,(MODULES-8856) Redact debug,merged,michaeltlombardi,member,2019-04-11 19:09:34 UTC,2019-04-12 20:00:05 UTC
+puppetlabs/puppetlabs-dsc_lite,103,MAINT remove empty test file.,merged,ThoughtCrhyme,member,2019-03-15 17:52:27 UTC,2019-04-09 18:07:27 UTC
+puppetlabs/puppetlabs-dsc_lite,102,(WIN-280) add skip() unless pattern to tests,merged,ThoughtCrhyme,member,2019-03-14 23:39:12 UTC,2019-03-15 18:36:51 UTC
+puppetlabs/puppetlabs-scheduled_task,83,(MODULES-7203) Support nonroot task folders,merged,michaeltlombardi,member,2019-05-20 20:23:28 UTC,2019-05-22 15:21:05 UTC
+puppetlabs/puppetlabs-scheduled_task,82,(MAINT) Fix matching on litmus tests,merged,ThoughtCrhyme,member,2019-05-17 17:07:24 UTC,2019-05-17 17:23:45 UTC
+puppetlabs/puppetlabs-scheduled_task,81,(MODULES-7889) convert acceptance tests to Litmus,merged,ThoughtCrhyme,member,2019-04-20 00:31:09 UTC,2019-04-23 23:59:26 UTC
+puppetlabs/puppetlabs-scheduled_task,80,(WIN-280) add skip() unless pattern to tests,merged,ThoughtCrhyme,member,2019-03-19 19:51:02 UTC,2019-03-19 22:27:41 UTC
+puppetlabs/puppetlabs-scheduled_task,79,Mergeback PR from 1.0.1 release,merged,ThoughtCrhyme,member,2019-03-04 20:59:32 UTC,2019-03-04 21:37:48 UTC
+puppetlabs/puppetlabs-scheduled_task,78,(MODULES-8705) Prep for 1.0.1 release,merged,michaeltlombardi,member,2019-03-04 17:06:22 UTC,2019-03-04 19:42:28 UTC
+puppetlabs/puppetlabs-scheduled_task,77,(MODULES-8695) Remove Ruby 2.0 keyword arg syntax ,merged,reidmv,member,2019-02-27 19:00:40 UTC,2019-02-28 19:12:09 UTC
+puppetlabs/puppetlabs-kubernetes,289,Add default k8s conf directory creation for worker,open,electrofelix,first_time_contributor,2019-05-16 18:04:19 UTC,
+puppetlabs/puppetlabs-kubernetes,287,Fixed duplicate tlsBootstrapToken in config_worker.yaml.erb for kubernetes 1.14,open,Hillkorn,first_time_contributor,2019-05-14 11:28:11 UTC,
+puppetlabs/puppetlabs-kubernetes,286,MODULES-9041 Release merge-back v4.0.1 ,merged,lionce,member,2019-05-13 10:40:49 UTC,2019-05-13 10:51:24 UTC
+puppetlabs/puppetlabs-kubernetes,285,(MODULES-9037) - 4.0.1 Release Prep,merged,sheenaajay,member,2019-05-13 09:50:20 UTC,2019-05-13 10:00:30 UTC
+puppetlabs/puppetlabs-kubernetes,282,Add extra arguments for API server and controller manager,merged,fydai,contributor,2019-05-08 11:05:49 UTC,2019-05-10 12:12:25 UTC
+puppetlabs/puppetlabs-kubernetes,281,WIP MODULES-9027 fix spec tests and bug,closed,sheenaajay,member,2019-05-08 08:48:25 UTC,
+puppetlabs/puppetlabs-kubernetes,280,cluster name missing tag brackets in worker config,merged,jorhett,contributor,2019-05-03 21:18:31 UTC,2019-05-06 10:51:13 UTC
+puppetlabs/puppetlabs-kubernetes,279,MODULES-8947 pdk update on K8 module,merged,sheenaajay,member,2019-05-03 10:09:25 UTC,2019-05-08 10:25:52 UTC
+puppetlabs/puppetlabs-kubernetes,278,Avoid log message about waiting for SA when it already exists,merged,jorhett,contributor,2019-05-03 04:06:23 UTC,2019-05-07 11:18:34 UTC
+puppetlabs/puppetlabs-kubernetes,274,MODULES-8947 fixing bugs and tests,merged,sheenaajay,member,2019-04-25 10:41:30 UTC,2019-04-26 09:07:07 UTC
+puppetlabs/puppetlabs-kubernetes,273,"Tasks 1.14 - add new tasks for version v1beta1, update changelog and metadata",merged,lionce,member,2019-04-17 07:44:52 UTC,2019-04-17 08:55:35 UTC
+puppetlabs/puppetlabs-kubernetes,272,Add kubeadm v1beta1,merged,carabasdaniel,member,2019-04-16 06:51:44 UTC,2019-04-16 08:19:24 UTC
+puppetlabs/puppetlabs-kubernetes,271,Etcd hostname variable,merged,sw0x2A,contributor,2019-04-09 13:50:13 UTC,2019-04-16 10:38:10 UTC
+puppetlabs/puppetlabs-kubernetes,268,add in logo for certified k8s installer,merged,davejrt,member,2019-04-09 06:09:52 UTC,2019-04-09 07:18:29 UTC
+puppetlabs/puppetlabs-kubernetes,266,introduce kubernetes_dashboard_url param,merged,SimonHoenscheid,contributor,2019-04-06 11:24:54 UTC,2019-04-15 10:53:23 UTC
+puppetlabs/puppetlabs-kubernetes,265,add support for cilium network provider,open,SimonHoenscheid,contributor,2019-04-01 12:21:56 UTC,
+puppetlabs/puppetlabs-kubernetes,264,removes redundant variables in the case of not using the cloud provider,merged,davejrt,member,2019-03-26 16:31:20 UTC,2019-04-01 17:26:13 UTC
+puppetlabs/puppetlabs-kubernetes,263,Add in Puppet Bolt tasks,merged,carabasdaniel,member,2019-03-21 15:21:46 UTC,2019-03-21 16:15:45 UTC
+puppetlabs/puppetlabs-kubernetes,262,release 3.3.0,merged,davejrt,member,2019-03-14 12:03:40 UTC,2019-03-14 12:16:30 UTC
+puppetlabs/puppetlabs-kubernetes,261,Make kubectl environment available in main class,merged,jorhett,contributor,2019-03-08 22:09:50 UTC,2019-03-11 16:48:59 UTC
+puppetlabs/puppetlabs-kubernetes,259,Store cgroup driver in kubeadm configuration file for kubernetes 1.12+,merged,jorhett,contributor,2019-03-06 00:33:47 UTC,2019-03-11 11:31:17 UTC
+puppetlabs/puppetlabs-kubernetes,257,Pass environment to kubectl when waiting for service account,closed,ralimi,contributor,2019-03-05 06:21:19 UTC,
+puppetlabs/puppetlabs-iis,220,(MODULES-9087) Increase pipe timeout to 180s,open,michaeltlombardi,member,2019-05-22 17:33:34 UTC,
+puppetlabs/puppetlabs-iis,219,WIP(MODULES-8955) add type and provider for webhandler,open,ThoughtCrhyme,member,2019-04-17 17:36:02 UTC,
+puppetlabs/puppetlabs-iis,218,WIP(MODULES-8954) add type and provider for webconfigurationproperty,open,ThoughtCrhyme,member,2019-04-17 17:35:45 UTC,
+puppetlabs/puppetlabs-iis,217,WIP(MODULES-8953) add type and provider for mimetype,open,ThoughtCrhyme,member,2019-04-17 17:35:20 UTC,
+puppetlabs/puppetlabs-iis,216,WIP(MODULES-8952) add isapfilter type and provider,open,ThoughtCrhyme,member,2019-04-17 17:34:58 UTC,
+puppetlabs/puppetlabs-iis,215,WIP(MODULES-8951) Add type and provider for iis_httperror,open,ThoughtCrhyme,member,2019-04-17 17:34:35 UTC,
+puppetlabs/puppetlabs-iis,214,Mergeback PR for 4.5.1,merged,ThoughtCrhyme,member,2019-04-01 16:42:37 UTC,2019-04-03 14:27:09 UTC
+puppetlabs/puppetlabs-iis,213,(MAINT) Remove redundant changelog entry,merged,michaeltlombardi,member,2019-03-27 18:35:24 UTC,2019-03-27 18:37:13 UTC
+puppetlabs/puppetlabs-iis,212,Remove redundant entry,closed,michaeltlombardi,member,2019-03-27 18:31:44 UTC,
+puppetlabs/puppetlabs-iis,211,Release Prep 4.5.1,merged,RandomNoun7,member,2019-03-27 17:47:46 UTC,2019-03-27 18:22:32 UTC
+puppetlabs/puppetlabs-iis,210,Update Changelog for release,merged,RandomNoun7,member,2019-03-27 17:35:03 UTC,2019-03-27 17:44:30 UTC
+puppetlabs/puppetlabs-iis,209,(MODULES-6080) Ensure virtualdir removal idempotent,merged,michaeltlombardi,member,2019-03-22 18:47:52 UTC,2019-03-26 17:34:40 UTC
+puppetlabs/puppetlabs-iis,208,(MODULES-6061) Fix virtual directory update,merged,RandomNoun7,member,2019-03-21 20:50:07 UTC,2019-03-21 21:26:42 UTC
+puppetlabs/puppetlabs-iis,207,(WIN-280) add skip() unless pattern to tests,merged,ThoughtCrhyme,member,2019-03-15 21:36:19 UTC,2019-03-18 16:41:23 UTC
+puppetlabs/puppetlabs-sqlserver,313,(MODULES-8600) add DQC to sqlserver_features,merged,tphoney,member,2019-05-21 17:47:37 UTC,2019-05-22 16:36:07 UTC
+puppetlabs/puppetlabs-sqlserver,312,(MODULES-7553) Add Example Clarification,merged,RandomNoun7,member,2019-05-17 16:50:47 UTC,2019-05-17 17:30:12 UTC
+puppetlabs/puppetlabs-sqlserver,311,(MODULES-6582) Add ability to test against sql server 2017,merged,ThoughtCrhyme,member,2019-04-10 22:42:38 UTC,2019-04-12 16:18:42 UTC
+puppetlabs/puppetlabs-sqlserver,310,(MAINT) add support for 2019 to test helpers,merged,ThoughtCrhyme,member,2019-03-29 17:15:58 UTC,2019-03-29 17:56:19 UTC
+puppetlabs/puppetlabs-sqlserver,309,(MAINT) Update Paths in Helpers,closed,RandomNoun7,member,2019-03-29 03:48:03 UTC,
+puppetlabs/puppetlabs-sqlserver,308,(MODULES-8761) Mergeback from 2.5.0 Release,merged,michaeltlombardi,member,2019-03-26 18:29:30 UTC,2019-03-26 18:38:16 UTC
+puppetlabs/puppetlabs-sqlserver,307,(MODULES-8671) Release Prep,merged,RandomNoun7,member,2019-03-25 20:55:38 UTC,2019-03-26 17:54:39 UTC
+puppetlabs/puppetlabs-sqlserver,306,(MAINT) Increase timeout interval,merged,RandomNoun7,member,2019-03-22 22:01:47 UTC,2019-03-25 20:25:18 UTC
+puppetlabs/puppetlabs-sqlserver,305,(MODULES-8761) Docs release review,merged,clairecadman,member,2019-03-21 10:55:37 UTC,2019-03-22 15:51:21 UTC
+puppetlabs/puppetlabs-sqlserver,304,(MAINT) Edit changelog prior to release prep.,merged,RandomNoun7,member,2019-03-20 17:05:21 UTC,2019-03-20 17:09:52 UTC
+puppetlabs/puppetlabs-sqlserver,303,(MODULES-8749) Make job_name param required.,merged,RandomNoun7,member,2019-03-18 19:32:10 UTC,2019-03-19 14:22:14 UTC
+puppetlabs/puppetlabs-sqlserver,302,(MAINT) Refactor tasks to use shared code file,merged,RandomNoun7,member,2019-03-15 21:23:02 UTC,2019-03-18 19:17:20 UTC
+puppetlabs/puppetlabs-sqlserver,301,(MODULES-8610) Add start agent job task,merged,RandomNoun7,member,2019-03-14 19:06:41 UTC,2019-03-15 18:23:51 UTC
+puppetlabs/puppetlabs-sqlserver,300,(MAINT) Fix ommitted type declaration in task json,merged,RandomNoun7,member,2019-03-13 14:55:30 UTC,2019-03-13 15:41:35 UTC
+puppetlabs/puppetlabs-sqlserver,299,Mergeback 2.4.0 Release,merged,michaeltlombardi,member,2019-03-12 12:05:29 UTC,2019-03-13 14:50:09 UTC
+puppetlabs/puppetlabs-sqlserver,298,Release Prep 2.4.0,merged,RandomNoun7,member,2019-03-11 14:52:11 UTC,2019-03-12 01:09:55 UTC
+puppetlabs/puppetlabs-sqlserver,297,(MODULES-8721) README edit,merged,clairecadman,member,2019-03-07 18:13:05 UTC,2019-03-11 14:30:13 UTC
+puppetlabs/puppetlabs-sqlserver,296,(MODULES-8677) Made resource title unique among many instances,merged,dylanratcliffe,member,2019-02-26 16:55:12 UTC,2019-02-28 20:57:19 UTC
+puppetlabs/puppetlabs-sqlserver,295,(MODULES-8685) Changed END to be in the same conditional as BEGIN,merged,dylanratcliffe,member,2019-02-26 16:54:14 UTC,2019-03-01 21:40:34 UTC
+puppetlabs/puppetlabs-registry,176,(WIN-280) add skip() unless pattern to unit tests,merged,ThoughtCrhyme,member,2019-03-19 20:45:19 UTC,2019-03-19 22:25:12 UTC
+puppetlabs/puppetlabs-helm,77,MODULES-8946 pdk update on helm module,merged,sheenaajay,member,2019-05-08 09:47:07 UTC,2019-05-13 11:07:19 UTC
+puppetlabs/puppetlabs-helm,76,MODULES-8946 fix helm testcases,merged,sheenaajay,member,2019-04-25 13:50:04 UTC,2019-04-26 09:07:35 UTC
+puppetlabs/puppetlabs-helm,75,WIP (MODULES-8911) pdk update on helm module,closed,sheenaajay,member,2019-04-10 13:14:18 UTC,
+puppetlabs/puppetlabs-helm,74,Fix chart update,merged,hdeadman,contributor,2019-03-23 00:39:50 UTC,2019-04-22 08:44:37 UTC
+puppetlabs/puppetlabs-helm,72,fixing incorrect boundaries  with dependencies,merged,davejrt,member,2019-02-28 22:24:48 UTC,2019-03-01 10:40:14 UTC
+puppetlabs/puppetlabs-helm,71,release 2.0.1,merged,davejrt,member,2019-02-26 08:54:06 UTC,2019-02-26 08:58:31 UTC
+puppetlabs/puppetlabs-helm,70,updating GO version for tests,merged,davejrt,member,2019-02-26 07:22:57 UTC,2019-02-26 08:29:11 UTC
+puppetlabs/puppetlabs-helm,69,updating dependencies,merged,davejrt,member,2019-02-26 07:02:25 UTC,2019-02-26 08:17:06 UTC
+puppetlabs/puppetlabs-rook,45,MODULES-8948 pdk update on rook,merged,sheenaajay,member,2019-05-08 12:40:10 UTC,2019-05-08 13:36:53 UTC
+puppetlabs/puppetlabs-rook,44,MODULES-8948 rook testcase fix,merged,sheenaajay,member,2019-04-25 14:17:43 UTC,2019-04-26 09:06:59 UTC
+puppetlabs/puppetlabs-rook,43,Release 0.2.0 prep,merged,davejrt,member,2019-02-26 08:51:22 UTC,2019-02-26 08:58:05 UTC
+puppetlabs/puppetlabs-rook,42,updating module dependencies,merged,davejrt,member,2019-02-26 07:12:17 UTC,2019-02-26 08:30:28 UTC
+puppetlabs/puppetlabs-rook,41,updating GO for acceptance tests,merged,davejrt,member,2019-02-25 19:48:15 UTC,2019-02-26 08:30:06 UTC
+puppetlabs/puppetlabs-rook,40,updating GO for acceptance tests,closed,davejrt,member,2019-02-25 19:42:26 UTC,
+puppetlabs/puppetlabs-rook,39,adding in default storage class,merged,davejrt,member,2019-02-25 11:10:24 UTC,2019-02-25 19:12:42 UTC
+puppetlabs/puppetlabs-stdlib,1023,Limit the maximum array size produced by range().,open,mbaynton,first_time_contributor,2019-05-22 22:00:09 UTC,
+puppetlabs/puppetlabs-stdlib,1022,(FM-8048) Add RedHat 8 support,merged,eimlav,member,2019-05-22 10:43:23 UTC,2019-05-22 12:20:11 UTC
+puppetlabs/puppetlabs-stdlib,1021,(MODULES-8996) - Release Merge back 6.0.0,merged,sheenaajay,member,2019-05-22 08:24:35 UTC,2019-05-22 09:07:42 UTC
+puppetlabs/puppetlabs-stdlib,1020,FM-7950 stringify stdlib,open,lionce,member,2019-05-20 12:51:52 UTC,
+puppetlabs/puppetlabs-stdlib,1019,(maint) Change UTF8 to UTF-8,open,ehom,member,2019-05-17 20:28:39 UTC,
+puppetlabs/puppetlabs-stdlib,1018,(WIP) - FM-7950 stringify stdlib,closed,lionce,member,2019-05-14 13:30:52 UTC,
+puppetlabs/puppetlabs-stdlib,1017,(MODULES-9049) Add type alias for 'yes' and 'no'.,open,ghoneycutt,contributor,2019-05-08 17:59:12 UTC,
+puppetlabs/puppetlabs-stdlib,1016,(MODULES-8992) Docs review,merged,clairecadman,member,2019-05-03 08:58:51 UTC,2019-05-03 10:32:37 UTC
+puppetlabs/puppetlabs-stdlib,1015,(MODULES-8992)- Supported Release (puppetlabs-stdlib),merged,lionce,member,2019-05-02 12:53:50 UTC,2019-05-02 13:05:40 UTC
+puppetlabs/puppetlabs-stdlib,1014,(MODULES-8949) add stdlib::has_value() function,closed,chadh,contributor,2019-04-16 14:14:04 UTC,
+puppetlabs/puppetlabs-stdlib,1013,(WIP) (FM-7950) - Implement Puppet Strings,open,david22swan,member,2019-04-15 14:23:29 UTC,
+puppetlabs/puppetlabs-stdlib,1012,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:43 UTC,2019-04-16 09:54:21 UTC
+puppetlabs/puppetlabs-stdlib,1011,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:30 UTC,2019-04-15 08:34:56 UTC
+puppetlabs/puppetlabs-stdlib,1010,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:23 UTC,
+puppetlabs/puppetlabs-stdlib,1009,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:56 UTC,
+puppetlabs/puppetlabs-stdlib,1008,(MODULES-8760) Add iterative feature to merge() function,merged,hlindberg,member,2019-03-20 12:03:06 UTC,2019-03-26 10:53:00 UTC
+puppetlabs/puppetlabs-stdlib,1007,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:45:48 UTC,
+puppetlabs/puppetlabs-stdlib,1006,Add more ensure types,open,runejuhl,contributor,2019-03-12 20:29:49 UTC,
+puppetlabs/puppetlabs-stdlib,1005,add Stdlib::Syslogfacility type,open,bastelfreak,contributor,2019-03-09 08:44:07 UTC,
+puppetlabs/puppetlabs-stdlib,1004,(MODULES-8732) Cron types,open,Rathios,first_time_contributor,2019-03-08 00:08:02 UTC,
+puppetlabs/puppetlabs-stdlib,1003,Add a stdlib::ip_in_range() function,merged,iglov,contributor,2019-03-07 18:14:05 UTC,2019-04-15 09:54:35 UTC
+puppetlabs/puppetlabs-stdlib,1002,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:54 UTC,2019-03-07 13:57:00 UTC
+puppetlabs/puppetlabs-stdlib,1001,(maint) Match HTTP[S]Url case to the actual types,merged,ekohl,contributor,2019-02-25 13:41:00 UTC,2019-03-06 10:13:53 UTC
+puppetlabs/puppetlabs-apache,1926,(MODULES-9151) - Release Merge back 5.0.0,merged,sheenaajay,member,2019-05-20 15:03:49 UTC,2019-05-21 06:04:37 UTC
+puppetlabs/puppetlabs-apache,1925,MODULES-9150 - release version 5.0.0,merged,lionce,member,2019-05-20 12:36:26 UTC,2019-05-20 13:28:09 UTC
+puppetlabs/puppetlabs-apache,1924,MODULES-9120 - update metadata to support current version concat,merged,lionce,member,2019-05-17 12:35:47 UTC,2019-05-20 08:06:51 UTC
+puppetlabs/puppetlabs-apache,1923,(MODULES-9014) Improve SSLSessionTickets handling,merged,FredericLespez,contributor,2019-05-15 12:15:21 UTC,2019-05-16 12:15:58 UTC
+puppetlabs/puppetlabs-apache,1922,(MODULES-9104) Add file_mode to config files.,open,stevegarn,first_time_contributor,2019-05-14 17:21:14 UTC,
+puppetlabs/puppetlabs-apache,1921,WIP (MODULES-9093) Update ssl_sessiontickets default,closed,sheenaajay,member,2019-05-14 09:51:55 UTC,
+puppetlabs/puppetlabs-apache,1920,MODULES-9083: remove double quotes to allow flags in SSLCARevocationCheck,open,jnguiot,first_time_contributor,2019-05-13 16:17:11 UTC,
+puppetlabs/puppetlabs-apache,1919,(MODULES-9018) Customize SSLStaplingCache parameter,merged,FredericLespez,contributor,2019-05-03 12:29:54 UTC,2019-05-09 12:55:57 UTC
+puppetlabs/puppetlabs-apache,1918,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 11:32:50 UTC,2019-05-03 12:53:21 UTC
+puppetlabs/puppetlabs-apache,1917,(MODULES-9014) Add SSLSessionTickets parameter,merged,FredericLespez,contributor,2019-05-01 19:54:18 UTC,2019-05-13 08:22:28 UTC
+puppetlabs/puppetlabs-apache,1916,(FM-7923) Implement Puppet Strings,merged,eimlav,member,2019-05-01 12:33:56 UTC,2019-05-07 08:35:44 UTC
+puppetlabs/puppetlabs-apache,1915,MODULES-9003 Parameterize location for ldap-status,merged,youeyoue,contributor,2019-04-26 18:16:21 UTC,2019-05-09 11:51:49 UTC
+puppetlabs/puppetlabs-apache,1914,(MODULES-8931) Fix stahnma/epel failures,merged,eimlav,member,2019-04-17 17:04:48 UTC,2019-04-18 08:13:11 UTC
+puppetlabs/puppetlabs-apache,1913,(bugfix) Add default package name for mod_ldap,open,turnopil,first_time_contributor,2019-04-15 11:05:27 UTC,
+puppetlabs/puppetlabs-apache,1912,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:41:20 UTC,2019-04-18 11:15:25 UTC
+puppetlabs/puppetlabs-apache,1911,(WIP) (FM-7923) - Implement Puppet Strings,closed,david22swan,member,2019-04-12 14:01:29 UTC,
+puppetlabs/puppetlabs-apache,1910,(WIP)(MODULES-8931) apache - epel failing on RedHat 5,closed,Lavinia-Dan,member,2019-04-12 13:40:05 UTC,
+puppetlabs/puppetlabs-apache,1909,Remove mod_ldap dependency from mod_authz_ldap module,closed,turnopil,first_time_contributor,2019-04-12 10:59:07 UTC,
+puppetlabs/puppetlabs-apache,1908,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:39:58 UTC,2019-04-11 12:38:07 UTC
+puppetlabs/puppetlabs-apache,1907,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:49:34 UTC,
+puppetlabs/puppetlabs-apache,1906,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:07 UTC,
+puppetlabs/puppetlabs-apache,1905,"Remove event mpm when using prefork, worker or itk",open,tuxmea,member,2019-04-08 19:18:01 UTC,
+puppetlabs/puppetlabs-apache,1904,(MODULES-8841) - Release Merge back 4.1.0,merged,sheenaajay,member,2019-04-05 11:41:57 UTC,2019-04-05 12:34:14 UTC
+puppetlabs/puppetlabs-apache,1903,(MODULES-8837) - Prep Fix,merged,david22swan,member,2019-04-05 09:18:19 UTC,2019-04-05 10:00:03 UTC
+puppetlabs/puppetlabs-apache,1902,(MODULES-8837) DOCS Release Review,merged,clairecadman,member,2019-04-04 10:12:02 UTC,2019-04-04 12:45:43 UTC
+puppetlabs/puppetlabs-apache,1901,(MODULES-8837) - 4.1.0 Release Prep,merged,david22swan,member,2019-04-03 12:28:56 UTC,2019-04-03 13:15:41 UTC
+puppetlabs/puppetlabs-apache,1900,(MODULES-7196) Allow setting CASRootProxiedAs per virtualhost (replaces #1857),merged,Lavinia-Dan,member,2019-03-29 08:24:53 UTC,2019-03-29 16:00:49 UTC
+puppetlabs/puppetlabs-apache,1899,MODULES-3958 Get rid of mocha-based stubbing across all modules,merged,lionce,member,2019-03-26 16:04:07 UTC,2019-04-03 08:16:19 UTC
+puppetlabs/puppetlabs-apache,1898,(feat) - Amazon Linux 2 compatibility added,merged,david22swan,member,2019-03-22 11:55:39 UTC,2019-03-22 13:00:58 UTC
+puppetlabs/puppetlabs-apache,1897,(L10n) Updating translations for readmes/README_ja_JP.md,merged,david22swan,member,2019-03-22 11:39:09 UTC,2019-03-22 13:01:38 UTC
+puppetlabs/puppetlabs-apache,1896,FM-7782 - cleanup ,merged,lionce,member,2019-03-21 11:37:11 UTC,2019-03-26 09:21:04 UTC
+puppetlabs/puppetlabs-apache,1895,(bugfix) set kernel for facter version test,merged,tphoney,member,2019-03-20 17:15:11 UTC,2019-03-21 09:09:54 UTC
+puppetlabs/puppetlabs-apache,1894,Avoid duplicate declaration of the module headers.,closed,Rabie-Zamane,contributor,2019-03-20 10:44:49 UTC,
+puppetlabs/puppetlabs-apache,1893,Define SCL package name for mod_ldap,merged,treydock,contributor,2019-03-18 15:22:39 UTC,2019-04-23 10:19:22 UTC
+puppetlabs/puppetlabs-apache,1892,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:41:37 UTC,
+puppetlabs/puppetlabs-apache,1891,(MODULES-8731) Allow CIDRs for proxy_ips/internal_proxy in remoteip,merged,JAORMX,contributor,2019-03-08 07:16:34 UTC,2019-03-08 17:50:00 UTC
+puppetlabs/puppetlabs-apache,1890,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:44:34 UTC,2019-03-07 14:35:57 UTC
+puppetlabs/puppetlabs-apache,1889,WIP (maint) moving mod_dav acceptance test to unit,closed,tphoney,member,2019-03-05 15:48:55 UTC,
+puppetlabs/puppetlabs-apache,1888,(WIP) - Test audit,closed,pmcmaw,member,2019-03-04 17:32:01 UTC,
+puppetlabs/puppetlabs-apache,1887,Update README to include new param for mod::php,merged,HelenCampbell,member,2019-02-26 16:00:33 UTC,2019-02-26 16:34:40 UTC
+puppetlabs/puppetlabs-apt,860,Release merge-back,merged,carabasdaniel,member,2019-05-14 13:14:32 UTC,2019-05-14 15:19:22 UTC
+puppetlabs/puppetlabs-apt,859,MODULES-9066 - release prep v7.0.1,merged,lionce,member,2019-05-13 11:09:11 UTC,2019-05-13 13:24:19 UTC
+puppetlabs/puppetlabs-apt,858,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 11:35:39 UTC,2019-05-03 12:50:44 UTC
+puppetlabs/puppetlabs-apt,857,Release mergeback v7.0.0,merged,carabasdaniel,member,2019-04-24 12:56:26 UTC,2019-04-25 07:39:22 UTC
+puppetlabs/puppetlabs-apt,856,release prep 7.0.0,merged,lionce,member,2019-04-24 08:25:14 UTC,2019-04-24 09:11:47 UTC
+puppetlabs/puppetlabs-apt,855,key: Don't include dirmngr unless necessary,open,daenney,member,2019-04-20 14:48:04 UTC,
+puppetlabs/puppetlabs-apt,854,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:42:28 UTC,2019-04-15 11:07:25 UTC
+puppetlabs/puppetlabs-apt,853,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:02 UTC,2019-04-11 12:38:27 UTC
+puppetlabs/puppetlabs-apt,852,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:49:39 UTC,
+puppetlabs/puppetlabs-apt,851,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:12 UTC,
+puppetlabs/puppetlabs-apt,850,Allow URI escaping in any user/pass in the URL,open,dkrand,first_time_contributor,2019-04-09 21:07:20 UTC,
+puppetlabs/puppetlabs-apt,849,Allow weak SSL verification for apt_key,merged,tuxmea,member,2019-03-20 09:20:03 UTC,2019-03-20 13:40:52 UTC
+puppetlabs/puppetlabs-apt,848,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:41:49 UTC,
+puppetlabs/puppetlabs-apt,847,don't hardcode an old key from official mirrors for Debian backports,merged,anarcat,contributor,2019-03-11 19:11:13 UTC,2019-04-19 14:15:47 UTC
+puppetlabs/puppetlabs-apt,846,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:44:41 UTC,2019-03-07 14:35:41 UTC
+puppetlabs/puppetlabs-firewall,847,(FM-8025) Add RedHat 8 support,merged,eimlav,member,2019-05-20 14:02:51 UTC,2019-05-20 20:12:47 UTC
+puppetlabs/puppetlabs-firewall,846,(MODULES-9098) Release mergeback v2.0.0,merged,eimlav,member,2019-05-15 09:46:10 UTC,2019-05-16 09:44:16 UTC
+puppetlabs/puppetlabs-firewall,845,MODULES-9097 release prep 2.0.0,merged,lionce,member,2019-05-14 13:36:35 UTC,2019-05-14 14:04:56 UTC
+puppetlabs/puppetlabs-firewall,844,Typo fixes,open,GeorgeCox,contributor,2019-05-10 15:09:15 UTC,
+puppetlabs/puppetlabs-firewall,843,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 11:45:24 UTC,2019-05-03 12:54:31 UTC
+puppetlabs/puppetlabs-firewall,842,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:42:57 UTC,2019-04-16 10:09:41 UTC
+puppetlabs/puppetlabs-firewall,841,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:25 UTC,2019-04-11 12:53:46 UTC
+puppetlabs/puppetlabs-firewall,840,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:03 UTC,
+puppetlabs/puppetlabs-firewall,839,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:45 UTC,
+puppetlabs/puppetlabs-firewall,838,(FM-7903) - Implement Puppet Strings,merged,david22swan,member,2019-04-08 11:26:50 UTC,2019-04-12 11:38:53 UTC
+puppetlabs/puppetlabs-firewall,837,Release mergeback 1.15.3,merged,tphoney,member,2019-04-05 08:26:57 UTC,2019-04-05 08:42:46 UTC
+puppetlabs/puppetlabs-firewall,836,(MODULES-8849) Release prep 1.15.3,merged,eimlav,member,2019-04-04 13:00:16 UTC,2019-04-04 13:22:59 UTC
+puppetlabs/puppetlabs-firewall,835,Modules 8849,closed,eimlav,member,2019-04-04 12:57:09 UTC,
+puppetlabs/puppetlabs-firewall,834,(MODULES-8855) Move ipvs test to exception spec,merged,eimlav,member,2019-04-04 07:55:27 UTC,2019-04-04 11:25:32 UTC
+puppetlabs/puppetlabs-firewall,833,(MODULES-8842) Fix ipvs not idempotent,merged,eimlav,member,2019-04-03 12:10:11 UTC,2019-04-03 12:54:22 UTC
+puppetlabs/puppetlabs-firewall,832,(maint) Convert resource_cmd_spec to rspec-mock,merged,eimlav,member,2019-03-27 17:00:25 UTC,2019-04-01 08:17:52 UTC
+puppetlabs/puppetlabs-firewall,831,(MODULES-8777) Release mergeback 1.15.2,merged,eimlav,member,2019-03-26 14:34:17 UTC,2019-03-26 14:48:18 UTC
+puppetlabs/puppetlabs-firewall,830,Support ctdir,open,raphink,member,2019-03-26 14:05:14 UTC,
+puppetlabs/puppetlabs-firewall,829,(MODULES-8773) - 1.15.2 Release Prep,merged,david22swan,member,2019-03-26 09:39:32 UTC,2019-03-26 10:26:27 UTC
+puppetlabs/puppetlabs-firewall,828,(MODULES-8615) Fix rules with ipvs not parsing,merged,eimlav,member,2019-03-25 09:42:27 UTC,2019-03-25 12:06:28 UTC
+puppetlabs/puppetlabs-firewall,827,(MODULES-7333) - Change hashing method from MD5 to SHA256,merged,david22swan,member,2019-03-21 16:28:42 UTC,2019-03-22 09:03:38 UTC
+puppetlabs/puppetlabs-firewall,826,(MODULES-6547) Fix existing rules with --dport not parsing,merged,eimlav,member,2019-03-20 16:35:06 UTC,2019-03-22 09:40:47 UTC
+puppetlabs/puppetlabs-firewall,825,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:42:47 UTC,
+puppetlabs/puppetlabs-firewall,824,(MODULES-8736) IPtables support on RHEL8,merged,EmilienM,member,2019-03-11 15:40:12 UTC,2019-04-09 11:52:42 UTC
+puppetlabs/puppetlabs-firewall,823,(FM-7785) Additional test cleanup,merged,eimlav,member,2019-03-11 13:09:09 UTC,2019-03-14 13:02:37 UTC
+puppetlabs/puppetlabs-firewall,822,Bug - Ensure that iptables-services package is installed before attem…,closed,blackknight36,contributor,2019-03-08 15:59:20 UTC,
+puppetlabs/puppetlabs-firewall,821,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:45:15 UTC,2019-03-07 14:23:48 UTC
+puppetlabs/puppetlabs-firewall,820,(FM-7785) dont use default function in spec/acceptance,merged,tphoney,member,2019-03-04 15:42:47 UTC,2019-03-06 08:50:32 UTC
+puppetlabs/puppetlabs-mysql,1198,(MODULES-9161) Release Merge back 9.0.0,merged,sheenaajay,member,2019-05-22 08:10:08 UTC,2019-05-22 09:11:26 UTC
+puppetlabs/puppetlabs-mysql,1197,MODULES-9160 - release 9.0.0,merged,lionce,member,2019-05-21 12:53:02 UTC,2019-05-21 12:56:27 UTC
+puppetlabs/puppetlabs-mysql,1196,Allow backupcompress for xtrabackup profile,open,Spuffnduff,first_time_contributor,2019-05-17 19:52:42 UTC,
+puppetlabs/puppetlabs-mysql,1195,"(MODULES-6875,MODULES-7487) - Fix mariadb mysql_user password idempotency",open,alexjfisher,first_time_contributor,2019-05-14 11:55:41 UTC,
+puppetlabs/puppetlabs-mysql,1194,Debian dirs ,open,elfranne,first_time_contributor,2019-05-06 08:49:16 UTC,
+puppetlabs/puppetlabs-mysql,1193,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 12:07:57 UTC,2019-05-03 13:00:46 UTC
+puppetlabs/puppetlabs-mysql,1192,Enable module to not use default options,open,mauricemeyer,contributor,2019-05-02 10:41:51 UTC,
+puppetlabs/puppetlabs-mysql,1191,Manage directories on Ubuntu,closed,elfranne,first_time_contributor,2019-04-30 13:42:38 UTC,
+puppetlabs/puppetlabs-mysql,1190,Fix the contribution guide URL,merged,mauricemeyer,contributor,2019-04-30 12:26:34 UTC,2019-05-17 12:37:32 UTC
+puppetlabs/puppetlabs-mysql,1189,Allow own Xtrabackup script,open,SaschaDoering,contributor,2019-04-26 13:04:03 UTC,
+puppetlabs/puppetlabs-mysql,1188,Make incremental backups deactivable,merged,SaschaDoering,contributor,2019-04-16 11:44:20 UTC,2019-04-22 10:08:12 UTC
+puppetlabs/puppetlabs-mysql,1187,Allow multiple backupmethods,merged,SaschaDoering,contributor,2019-04-15 13:16:10 UTC,2019-04-22 11:50:45 UTC
+puppetlabs/puppetlabs-mysql,1186,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:49 UTC,2019-04-16 10:11:10 UTC
+puppetlabs/puppetlabs-mysql,1185,Binlogs -> install,closed,elfranne,first_time_contributor,2019-04-15 09:32:06 UTC,
+puppetlabs/puppetlabs-mysql,1184,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:55 UTC,2019-04-11 13:08:07 UTC
+puppetlabs/puppetlabs-mysql,1183,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:41 UTC,
+puppetlabs/puppetlabs-mysql,1182,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:19 UTC,
+puppetlabs/puppetlabs-mysql,1181,(MODULES-8886) Revert removal of deepmerge function,merged,eimlav,member,2019-04-09 14:19:48 UTC,2019-04-12 12:34:09 UTC
+puppetlabs/puppetlabs-mysql,1180,Fixed Changelog links for 8.1.0,merged,mauricemeyer,contributor,2019-04-03 13:58:22 UTC,2019-04-04 13:14:42 UTC
+puppetlabs/puppetlabs-mysql,1179,(MODULES-8830) Release mergeback 8.1.0,merged,eimlav,member,2019-04-03 12:50:02 UTC,2019-04-03 13:02:08 UTC
+puppetlabs/puppetlabs-mysql,1178,TEST,closed,david22swan,member,2019-04-02 14:57:40 UTC,
+puppetlabs/puppetlabs-mysql,1177,(MODULES-8826) - 8.1.0 Release Prep,merged,david22swan,member,2019-04-01 08:29:36 UTC,2019-04-03 08:01:02 UTC
+puppetlabs/puppetlabs-mysql,1176,Rotate option for xtrabackup script,merged,elfranne,first_time_contributor,2019-03-29 12:54:41 UTC,2019-04-01 11:39:09 UTC
+puppetlabs/puppetlabs-mysql,1175,Litmus conversion,open,pmcmaw,member,2019-03-28 12:43:14 UTC,
+puppetlabs/puppetlabs-mysql,1174,(MODULES-6627) Remove unused --host flags from mysqlcaller,merged,david22swan,member,2019-03-28 10:45:37 UTC,2019-03-29 16:10:04 UTC
+puppetlabs/puppetlabs-mysql,1173,(MODULES-8757) - Release mergeback 8.0.1,merged,pmcmaw,member,2019-03-20 16:52:22 UTC,2019-03-20 17:11:21 UTC
+puppetlabs/puppetlabs-mysql,1172,(MODULES-8753) - 8.0.1 Release Prep,merged,david22swan,member,2019-03-20 09:11:32 UTC,2019-03-20 10:10:48 UTC
+puppetlabs/puppetlabs-mysql,1171,Add support for dynamic backupmethods/mariabackup,merged,danquack,contributor,2019-03-19 14:50:17 UTC,2019-03-20 13:08:38 UTC
+puppetlabs/puppetlabs-mysql,1170,(MODULES-8684) - Removing private tags from Puppet Types,merged,david22swan,member,2019-03-19 14:16:48 UTC,2019-03-19 17:08:07 UTC
+puppetlabs/puppetlabs-mysql,1169,(maint) Merging returned translations into master,merged,david22swan,member,2019-03-19 13:53:45 UTC,2019-03-19 14:33:11 UTC
+puppetlabs/puppetlabs-mysql,1168,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:44:10 UTC,
+puppetlabs/puppetlabs-mysql,1167,(WIP) - Litmus conversion,closed,pmcmaw,member,2019-03-12 12:21:46 UTC,
+puppetlabs/puppetlabs-mysql,1166,Darwin OS family support,open,albac,first_time_contributor,2019-03-09 09:15:41 UTC,
+puppetlabs/puppetlabs-mysql,1165,Update Percona example,merged,zpetr,contributor,2019-03-08 11:29:39 UTC,2019-03-22 09:12:08 UTC
+puppetlabs/puppetlabs-mysql,1164,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:02 UTC,2019-03-07 16:21:11 UTC
+puppetlabs/puppetlabs-mysql,1163,Set correct packagename for ruby_mysql on Ubuntu 18.04,merged,datty,contributor,2019-03-01 02:31:19 UTC,2019-04-02 13:18:49 UTC
+puppetlabs/puppetlabs-mysql,1162,FM 7783 - Test Audit making testing more efficient,merged,lionce,member,2019-02-27 13:32:59 UTC,2019-03-04 13:20:01 UTC
+puppetlabs/puppetlabs-ntp,515,Fix travis for centos-7,closed,carabasdaniel,member,2019-05-15 14:14:56 UTC,
+puppetlabs/puppetlabs-ntp,514,Release merge-back,merged,carabasdaniel,member,2019-05-15 09:03:29 UTC,2019-05-16 07:13:38 UTC
+puppetlabs/puppetlabs-ntp,513,(MODULES-9099) Release Prep 8.0.0,merged,sheenaajay,member,2019-05-14 14:38:19 UTC,2019-05-14 15:17:33 UTC
+puppetlabs/puppetlabs-ntp,512,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 12:09:48 UTC,2019-05-03 13:01:30 UTC
+puppetlabs/puppetlabs-ntp,511,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:56 UTC,2019-04-16 10:11:39 UTC
+puppetlabs/puppetlabs-ntp,510,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:59 UTC,2019-04-11 13:08:19 UTC
+puppetlabs/puppetlabs-ntp,509,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:46 UTC,
+puppetlabs/puppetlabs-ntp,508,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:24 UTC,
+puppetlabs/puppetlabs-ntp,507,Set the path of FreeBSD's leapfile,merged,smortex,contributor,2019-03-25 16:43:37 UTC,2019-04-08 09:56:02 UTC
+puppetlabs/puppetlabs-ntp,506,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:44:21 UTC,
+puppetlabs/puppetlabs-ntp,505,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:10 UTC,2019-03-07 14:14:26 UTC
+puppetlabs/puppetlabs-postgresql,1083,(FM-8031) Add RedHat 8 support,merged,eimlav,member,2019-05-21 09:23:05 UTC,2019-05-21 10:43:35 UTC
+puppetlabs/puppetlabs-postgresql,1082,MODULES-9138 - release_prep v 6.0.1,closed,lionce,member,2019-05-17 12:45:58 UTC,
+puppetlabs/puppetlabs-postgresql,1081,(FM-7500) conversion to use litmus,open,tphoney,member,2019-05-17 12:45:30 UTC,
+puppetlabs/puppetlabs-postgresql,1080,Add a RHEL 8 default to version 10,closed,ehelms,contributor,2019-05-16 12:03:22 UTC,
+puppetlabs/puppetlabs-postgresql,1079,MODULES-9120 - update metadata to support concat version 6.0.0,merged,lionce,member,2019-05-16 11:00:54 UTC,2019-05-17 12:20:55 UTC
+puppetlabs/puppetlabs-postgresql,1078,merge back v6.0.0.,merged,lionce,member,2019-05-14 12:47:49 UTC,2019-05-14 13:11:02 UTC
+puppetlabs/puppetlabs-postgresql,1077,MODULES-9088 release prep 6.0.0,merged,carabasdaniel,member,2019-05-14 11:06:00 UTC,2019-05-14 11:28:16 UTC
+puppetlabs/puppetlabs-postgresql,1076,(MODULES-9088) release prep 5.13.0,closed,carabasdaniel,member,2019-05-14 08:01:47 UTC,
+puppetlabs/puppetlabs-postgresql,1075,[FM-7936] Puppet Strings,merged,carabasdaniel,member,2019-05-07 09:20:58 UTC,2019-05-09 07:49:53 UTC
+puppetlabs/puppetlabs-postgresql,1074,(MODULES-9017) - update metadata to support current version of stdlib…,merged,lionce,member,2019-05-03 12:32:21 UTC,2019-05-06 12:33:28 UTC
+puppetlabs/puppetlabs-postgresql,1073,Support current version of puppetlabs/apt.,merged,pillarsdotnet,contributor,2019-05-02 12:55:21 UTC,2019-05-03 09:11:59 UTC
+puppetlabs/puppetlabs-postgresql,1072,"Bump dependency, because of new major release",merged,dhoppe,contributor,2019-04-26 09:07:24 UTC,2019-05-03 12:42:26 UTC
+puppetlabs/puppetlabs-postgresql,1071,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:11 UTC,2019-04-16 10:12:12 UTC
+puppetlabs/puppetlabs-postgresql,1070,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:08 UTC,2019-04-12 12:12:35 UTC
+puppetlabs/puppetlabs-postgresql,1069,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:55 UTC,
+puppetlabs/puppetlabs-postgresql,1068,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:34 UTC,
+puppetlabs/puppetlabs-postgresql,1067,Add Fedora 30 compatibility,merged,blackknight36,contributor,2019-03-21 14:59:48 UTC,2019-04-03 10:18:18 UTC
+puppetlabs/puppetlabs-postgresql,1066,Add Fedora 30 compatibility,closed,blackknight36,contributor,2019-03-21 14:49:09 UTC,
+puppetlabs/puppetlabs-postgresql,1065,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:44:43 UTC,
+puppetlabs/puppetlabs-postgresql,1064,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:23 UTC,2019-03-07 14:03:06 UTC
+puppetlabs/puppetlabs-postgresql,1063,change username/group/datadir defaults for FreeBSD,merged,olevole,contributor,2019-02-26 16:16:32 UTC,2019-03-20 13:04:24 UTC
+puppetlabs/puppetlabs-concat,584,FM-8049 - add redhat8 support,open,lionce,member,2019-05-22 12:06:30 UTC,
+puppetlabs/puppetlabs-concat,583,DO NOT MERGE (POC) testing the removal of windows work around for litmus,open,tphoney,member,2019-05-22 10:52:04 UTC,
+puppetlabs/puppetlabs-concat,582,(MODULES-9109) Release mergeback v6.0.0,merged,eimlav,member,2019-05-21 11:33:18 UTC,2019-05-21 12:24:27 UTC
+puppetlabs/puppetlabs-concat,581,MODULES-9105 - release v6.0.0,merged,lionce,member,2019-05-21 06:50:12 UTC,2019-05-21 07:48:39 UTC
+puppetlabs/puppetlabs-concat,580,(FM-8073) litmus block support,merged,tphoney,member,2019-05-14 12:52:15 UTC,2019-05-15 12:07:03 UTC
+puppetlabs/puppetlabs-concat,579,(cleanup) simplify acceptance tests,merged,tphoney,member,2019-05-07 13:15:13 UTC,2019-05-07 14:17:26 UTC
+puppetlabs/puppetlabs-concat,578,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 11:42:30 UTC,2019-05-03 12:54:02 UTC
+puppetlabs/puppetlabs-concat,577,(FM-7606) enable litmus for concat,merged,tphoney,member,2019-04-26 13:18:30 UTC,2019-05-07 11:45:05 UTC
+puppetlabs/puppetlabs-concat,576,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:42:40 UTC,2019-04-16 07:29:58 UTC
+puppetlabs/puppetlabs-concat,575,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:12 UTC,2019-04-11 12:39:32 UTC
+puppetlabs/puppetlabs-concat,574,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:49:48 UTC,
+puppetlabs/puppetlabs-concat,573,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:26 UTC,
+puppetlabs/puppetlabs-concat,572,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:42:13 UTC,
+puppetlabs/puppetlabs-concat,571,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:44:53 UTC,2019-03-07 14:34:12 UTC
+puppetlabs/puppetlabs-java,363,(FM-8028) Add RedHat 8 support,merged,eimlav,member,2019-05-21 08:21:24 UTC,2019-05-21 09:04:18 UTC
+puppetlabs/puppetlabs-java,362,(MODULES-9132) Release mergeback v4.0.0,merged,eimlav,member,2019-05-20 09:08:23 UTC,2019-05-20 09:19:59 UTC
+puppetlabs/puppetlabs-java,361,(MODULES-9128) Release 4.0.0,merged,sheenaajay,member,2019-05-17 10:06:03 UTC,2019-05-20 07:34:18 UTC
+puppetlabs/puppetlabs-java,360,(MODULES-9128) Release 4.0.0,closed,sheenaajay,member,2019-05-16 13:43:22 UTC,
+puppetlabs/puppetlabs-java,359,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 11:55:07 UTC,2019-05-03 12:59:27 UTC
+puppetlabs/puppetlabs-java,358,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:25 UTC,2019-04-16 10:10:33 UTC
+puppetlabs/puppetlabs-java,357,Support defaults for ubuntu cosmic and dingo,open,mhjacks,contributor,2019-04-14 20:09:38 UTC,
+puppetlabs/puppetlabs-java,356,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:43 UTC,2019-04-11 13:07:21 UTC
+puppetlabs/puppetlabs-java,355,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:24 UTC,
+puppetlabs/puppetlabs-java,354,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:05 UTC,
+puppetlabs/puppetlabs-java,353,(FM-7921) - Implement Puppet Strings,merged,david22swan,member,2019-04-09 09:19:03 UTC,2019-04-15 09:33:37 UTC
+puppetlabs/puppetlabs-java,352,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:43:35 UTC,
+puppetlabs/puppetlabs-java,351,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:45:42 UTC,2019-03-07 14:19:10 UTC
+puppetlabs/puppetlabs-java,350,(FM-7795) Cleanup java tests,merged,eimlav,member,2019-02-26 11:10:27 UTC,2019-02-26 12:22:27 UTC
+puppetlabs/puppetlabs-java,349,MODULES-8698: Fix $install_path on CentOS with tar.gz package type,merged,fraenki,contributor,2019-02-25 15:20:17 UTC,2019-03-06 15:25:24 UTC
+puppetlabs/puppetlabs-java,348,MODULES-8699: Add option to manage symlink,merged,fraenki,contributor,2019-02-25 13:51:11 UTC,2019-03-06 12:00:07 UTC
+puppetlabs/puppetlabs-tomcat,354,FM-8050 - add redhat8 support,open,lionce,member,2019-05-22 11:53:19 UTC,
+puppetlabs/puppetlabs-tomcat,353,Release merge-back,merged,carabasdaniel,member,2019-05-17 12:28:33 UTC,2019-05-17 12:58:29 UTC
+puppetlabs/puppetlabs-tomcat,352,(MODULES-9121) Release 3.0.0,merged,sheenaajay,member,2019-05-17 08:40:29 UTC,2019-05-17 09:53:25 UTC
+puppetlabs/puppetlabs-tomcat,351,MODULES-9120 - update metadata to support concat version 6.0.0,closed,lionce,member,2019-05-16 11:09:37 UTC,
+puppetlabs/puppetlabs-tomcat,350,(MODULES-9121) Update dependency,merged,sheenaajay,member,2019-05-16 10:14:25 UTC,2019-05-16 12:20:10 UTC
+puppetlabs/puppetlabs-tomcat,349,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 12:23:43 UTC,2019-05-06 13:11:18 UTC
+puppetlabs/puppetlabs-tomcat,348,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:55 UTC,2019-04-16 09:53:37 UTC
+puppetlabs/puppetlabs-tomcat,347,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:41 UTC,2019-04-15 08:36:27 UTC
+puppetlabs/puppetlabs-tomcat,346,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:31 UTC,
+puppetlabs/puppetlabs-tomcat,345,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:38:07 UTC,
+puppetlabs/puppetlabs-tomcat,344,(MODULES-8817) - Update to account for loss of SVN Tomcat archive,merged,david22swan,member,2019-03-29 08:53:23 UTC,2019-04-01 14:06:46 UTC
+puppetlabs/puppetlabs-tomcat,343,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:46:12 UTC,
+puppetlabs/puppetlabs-tomcat,342,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:47:10 UTC,2019-03-07 14:00:59 UTC
+puppetlabs/puppetlabs-tomcat,341,FM-7788 cleanup tests for tomcat,merged,Lavinia-Dan,member,2019-03-06 12:38:02 UTC,2019-03-06 13:55:37 UTC
+puppetlabs/puppetlabs-tomcat,340,Update daemon version uri for newly archived files,merged,HelenCampbell,member,2019-02-28 10:52:29 UTC,2019-02-28 11:07:07 UTC
+puppetlabs/puppetlabs-vcsrepo,419,(FM-8035) Add RedHat 8 support,merged,eimlav,member,2019-05-21 14:08:40 UTC,2019-05-21 16:01:52 UTC
+puppetlabs/puppetlabs-vcsrepo,418,Don't set --branch equal to revision when depth > 0,open,evanstachowiak,first_time_contributor,2019-05-10 10:19:53 UTC,
+puppetlabs/puppetlabs-vcsrepo,417,[FM-7940] Puppet Strings,merged,carabasdaniel,member,2019-05-08 10:01:24 UTC,2019-05-09 14:29:18 UTC
+puppetlabs/puppetlabs-vcsrepo,416,(MODULES-8738) Allow Sensitive value for basic_auth_password,merged,eimlav,member,2019-04-25 10:52:47 UTC,2019-04-29 13:23:07 UTC
+puppetlabs/puppetlabs-vcsrepo,415,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:45:10 UTC,2019-04-16 09:52:58 UTC
+puppetlabs/puppetlabs-vcsrepo,414,MODULES-8910 fix for failing git install using RepoForge instead of epel,merged,Lavinia-Dan,member,2019-04-11 15:21:52 UTC,2019-04-12 09:36:59 UTC
+puppetlabs/puppetlabs-vcsrepo,413,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:50 UTC,2019-04-15 08:35:54 UTC
+puppetlabs/puppetlabs-vcsrepo,412,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:40 UTC,
+puppetlabs/puppetlabs-vcsrepo,411,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:38:16 UTC,
+puppetlabs/puppetlabs-vcsrepo,410,(MODULES-8857) - 2.5.0 Release Preparation,merged,Lavinia-Dan,member,2019-04-08 08:39:02 UTC,2019-04-08 13:22:56 UTC
+puppetlabs/puppetlabs-vcsrepo,409,"Use clearer error message for ""This client is too old to work with the working copy""",merged,hlaf,contributor,2019-03-22 12:24:39 UTC,2019-04-09 10:02:09 UTC
+puppetlabs/puppetlabs-vcsrepo,408,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:46:32 UTC,
+puppetlabs/puppetlabs-vcsrepo,407,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:47:24 UTC,2019-03-07 13:51:34 UTC
+puppetlabs/puppetlabs-vcsrepo,406,(FM 7791) - VCSRepo Test Cleanup,merged,david22swan,member,2019-02-28 10:12:18 UTC,2019-03-04 11:55:03 UTC
+puppetlabs/puppetlabs-inifile,339,(FM-8041) Add RedHat 8 support,merged,eimlav,member,2019-05-17 13:51:40 UTC,2019-05-20 07:17:24 UTC
+puppetlabs/puppetlabs-inifile,338,Merge back to master v3.0.0,merged,carabasdaniel,member,2019-04-24 07:15:30 UTC,2019-04-24 07:33:23 UTC
+puppetlabs/puppetlabs-inifile,337,release prep 3.0.0,merged,lionce,member,2019-04-19 14:04:10 UTC,2019-04-22 07:12:24 UTC
+puppetlabs/puppetlabs-inifile,336,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:18 UTC,2019-04-16 10:10:15 UTC
+puppetlabs/puppetlabs-inifile,335,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:39 UTC,2019-04-11 13:07:06 UTC
+puppetlabs/puppetlabs-inifile,334,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:20 UTC,
+puppetlabs/puppetlabs-inifile,333,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:59 UTC,
+puppetlabs/puppetlabs-inifile,332,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:43:24 UTC,
+puppetlabs/puppetlabs-inifile,331,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:45:35 UTC,2019-03-07 14:19:31 UTC
+puppetlabs/puppetlabs-vsphere,154,FM-7941 - stringify vsphere,merged,lionce,member,2019-05-10 10:41:48 UTC,2019-05-10 11:43:46 UTC
+puppetlabs/puppetlabs-vsphere,153,(MODULES-9019) Bump Windows customization spec timeout,open,eimlav,member,2019-05-07 10:37:09 UTC,
+puppetlabs/puppetlabs-vsphere,152,(DOCUMENT-1001) Clarify installation dependencies,merged,eimlav,member,2019-05-03 12:51:08 UTC,2019-05-03 14:02:19 UTC
+puppetlabs/puppetlabs-haproxy,369,(MODULES-9119) - Release Merge back 4.0.0,merged,sheenaajay,member,2019-05-17 13:15:37 UTC,2019-05-20 07:08:10 UTC
+puppetlabs/puppetlabs-haproxy,368,MODULES-9118 - release 4.0.0,merged,lionce,member,2019-05-16 10:51:46 UTC,2019-05-16 12:23:09 UTC
+puppetlabs/puppetlabs-haproxy,367,MODULES-9120 - update metadata to support curent version of concat,merged,lionce,member,2019-05-15 13:06:25 UTC,2019-05-16 09:42:24 UTC
+puppetlabs/puppetlabs-haproxy,366,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 11:48:23 UTC,2019-05-03 12:46:52 UTC
+puppetlabs/puppetlabs-haproxy,365,[FM-7934] - Puppet Strings,merged,carabasdaniel,member,2019-05-03 10:52:28 UTC,2019-05-03 11:18:26 UTC
+puppetlabs/puppetlabs-haproxy,364,(MODULES-8930) Fix stahnma/epel dependency failures,merged,eimlav,member,2019-04-15 15:49:01 UTC,2019-04-17 12:24:32 UTC
+puppetlabs/puppetlabs-haproxy,363,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:04 UTC,2019-04-17 13:01:08 UTC
+puppetlabs/puppetlabs-haproxy,362,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:29 UTC,2019-04-11 12:52:52 UTC
+puppetlabs/puppetlabs-haproxy,361,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:10 UTC,
+puppetlabs/puppetlabs-haproxy,360,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:49 UTC,
+puppetlabs/puppetlabs-haproxy,359,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:42:58 UTC,
+puppetlabs/puppetlabs-haproxy,358,Issue with accepted_payload_size,open,ds2000,first_time_contributor,2019-03-07 13:30:37 UTC,
+puppetlabs/puppetlabs-haproxy,357,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:45:22 UTC,2019-03-07 14:23:29 UTC
+puppetlabs/cisco_ios,311,(maint) updating the error and warning checks,open,Thomas-Franklin,member,2019-05-22 08:45:28 UTC,
+puppetlabs/cisco_ios,310,(FM-7750) - Network Trunk update to account for XE,open,david22swan,member,2019-05-21 15:59:52 UTC,
+puppetlabs/cisco_ios,309,"Revert ""(maint) making enable_password optional""",open,Thomas-Franklin,member,2019-05-21 13:57:41 UTC,
+puppetlabs/cisco_ios,308,"Revert ""Merge pull request #305 from Thomas-Franklin/enable_password""",closed,Thomas-Franklin,member,2019-05-21 13:46:56 UTC,
+puppetlabs/cisco_ios,307,(maint) acl and access conversion to match other providers,merged,Thomas-Franklin,member,2019-05-20 14:57:37 UTC,2019-05-20 15:16:46 UTC
+puppetlabs/cisco_ios,306,(FM-7748) checking of support for network interface and xe,merged,Thomas-Franklin,member,2019-05-20 12:40:26 UTC,2019-05-20 15:17:10 UTC
+puppetlabs/cisco_ios,305,(maint) making enable_password optional,merged,Thomas-Franklin,member,2019-05-16 12:37:44 UTC,2019-05-16 12:41:56 UTC
+puppetlabs/cisco_ios,304,(maint) adding the new devices to readme test matrix,merged,Thomas-Franklin,member,2019-05-15 09:33:37 UTC,2019-05-16 08:28:17 UTC
+puppetlabs/cisco_ios,303,(maint) adding in an os family fact value for allowing xe exclusions,merged,Thomas-Franklin,member,2019-05-14 09:57:22 UTC,2019-05-20 15:17:31 UTC
+puppetlabs/cisco_ios,302,"Update README: ""Install dependencies"" section",closed,luisesiman,contributor,2019-05-08 20:29:38 UTC,
+puppetlabs/cisco_ios,301,"Revert ""(maint) remove task_helper """,merged,da-ar,member,2019-05-02 15:13:21 UTC,2019-05-02 15:18:01 UTC
+puppetlabs/cisco_ios,300,(maint) Update Spec Helper Acceptance to reflect new transport schema,merged,willmeek,member,2019-05-01 13:33:05 UTC,2019-05-01 14:57:15 UTC
+puppetlabs/cisco_ios,299,(maint) Unit tests - ACL entry types should be integers,merged,willmeek,member,2019-02-26 15:21:36 UTC,2019-02-26 15:25:20 UTC
+puppetlabs/cisco_ios,298,"make ""des"" working",merged,seppeel,contributor,2019-02-26 13:22:22 UTC,2019-02-26 15:40:54 UTC
+puppetlabs/puppetlabs-websphere_application_server,172,(MODULES-9073) Release mergeback v2.0.0,merged,eimlav,member,2019-05-20 10:46:44 UTC,2019-05-20 10:59:23 UTC
+puppetlabs/puppetlabs-websphere_application_server,171,(MODULES-9120) update dependency,merged,sheenaajay,member,2019-05-15 11:18:47 UTC,2019-05-16 08:39:41 UTC
+puppetlabs/puppetlabs-websphere_application_server,170,(MODULES-9069) Release Prep 2.0.0,merged,sheenaajay,member,2019-05-15 08:47:42 UTC,2019-05-20 07:36:21 UTC
+puppetlabs/puppetlabs-websphere_application_server,169,(MODULES-9074) update dependencies,merged,sheenaajay,member,2019-05-14 12:36:50 UTC,2019-05-14 15:18:14 UTC
+puppetlabs/puppetlabs-websphere_application_server,168,(MODULES-9069) - 2.0.0 Release Prep,merged,sheenaajay,member,2019-05-13 12:45:26 UTC,2019-05-13 13:21:40 UTC
+puppetlabs/puppetlabs-websphere_application_server,167,(MODULES-9017) - update metadata to support current version of stdlib…,merged,lionce,member,2019-05-03 12:28:57 UTC,2019-05-06 12:35:28 UTC
+puppetlabs/puppetlabs-websphere_application_server,166,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:45:17 UTC,2019-04-25 12:13:15 UTC
+puppetlabs/puppetlabs-websphere_application_server,165,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:54 UTC,2019-04-15 08:35:35 UTC
+puppetlabs/puppetlabs-websphere_application_server,164,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:45 UTC,
+puppetlabs/puppetlabs-websphere_application_server,163,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:38:21 UTC,
+puppetlabs/puppetlabs-websphere_application_server,162,Modules 7472 - Websphere_application_server: Instance installation fails with nil conversion,merged,lionce,member,2019-04-05 14:26:43 UTC,2019-04-16 09:26:18 UTC
+puppetlabs/puppetlabs-websphere_application_server,161,(FM-7880) Change QA_resources location to internal server,merged,eimlav,member,2019-03-26 09:41:22 UTC,2019-03-26 15:57:04 UTC
+puppetlabs/puppetlabs-websphere_application_server,160,pdksync - pdksync_heads/master-0-gfde5699,closed,Lavinia-Dan,member,2019-03-13 12:46:43 UTC,
+puppetlabs/puppetlabs-websphere_application_server,159,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:47:30 UTC,2019-03-07 13:50:54 UTC
+puppetlabs/puppetlabs-websphere_application_server,158,(FM-7786) Clean up websphere tests,merged,eimlav,member,2019-03-07 09:24:45 UTC,2019-03-08 13:54:24 UTC
+puppetlabs/puppetlabs-websphere_application_server,157,(MODULES-8710) Add missing facts documentation,merged,eimlav,member,2019-03-04 13:41:06 UTC,2019-03-04 13:58:07 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,111,Release merge-back,closed,carabasdaniel,member,2019-05-17 12:48:25 UTC,
+puppetlabs/puppetlabs-satellite_pe_tools,110,(MODULES-9114) Release mergeback v3.0.0,closed,eimlav,member,2019-05-17 12:42:50 UTC,
+puppetlabs/puppetlabs-satellite_pe_tools,109,(MODULES-9114) Release mergeback 3.0.0,merged,eimlav,member,2019-05-17 11:11:04 UTC,2019-05-17 12:59:59 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,108,(MODULES-9110) Release prep 3.0.0,merged,sheenaajay,member,2019-05-15 11:10:24 UTC,2019-05-16 08:43:07 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,107,(FM-7937) Implement Puppet Strings,merged,carabasdaniel,member,2019-05-07 09:42:48 UTC,2019-05-07 13:04:06 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,106,(MODULES-6809) Clarify debugging with Puppetserver log,merged,eimlav,member,2019-05-07 08:59:36 UTC,2019-05-13 10:08:50 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,105,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 12:12:27 UTC,2019-05-03 13:02:10 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,104,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:32 UTC,2019-04-16 10:14:25 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,103,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:22 UTC,2019-04-15 08:33:05 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,102,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:13 UTC,
+puppetlabs/puppetlabs-satellite_pe_tools,101,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:47 UTC,
+puppetlabs/puppetlabs-satellite_pe_tools,100,pdksync - pdksync_heads/master-0-gfde5699,closed,Lavinia-Dan,member,2019-03-13 12:45:20 UTC,
+puppetlabs/puppetlabs-satellite_pe_tools,99,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:42 UTC,2019-03-07 14:17:58 UTC
+puppetlabs/puppetlabs-satellite_pe_tools,98,(FM-7787) Minor test cleanup,merged,eimlav,member,2019-03-04 10:58:46 UTC,2019-03-04 11:53:42 UTC
+puppetlabs/puppetlabs-exec,79,(FM-8039) Add RedHat 8 support,merged,eimlav,member,2019-05-22 09:06:56 UTC,2019-05-22 09:55:57 UTC
+puppetlabs/puppetlabs-exec,78,[FM-7943] Puppet Strings,merged,carabasdaniel,member,2019-05-08 10:22:03 UTC,2019-05-08 13:27:00 UTC
+puppetlabs/puppetlabs-exec,77,(temp) Test out pdk-templates change,closed,eimlav,member,2019-04-16 10:48:44 UTC,
+puppetlabs/puppetlabs-exec,76,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:42:46 UTC,2019-04-15 12:24:03 UTC
+puppetlabs/puppetlabs-exec,75,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:17 UTC,2019-04-11 12:40:33 UTC
+puppetlabs/puppetlabs-exec,74,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:49:53 UTC,
+puppetlabs/puppetlabs-exec,73,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:31 UTC,
+puppetlabs/puppetlabs-exec,72,(MODULES-8866) - Release mergeback 0.4.0,merged,pmcmaw,member,2019-04-05 10:54:11 UTC,2019-04-05 11:02:22 UTC
+puppetlabs/puppetlabs-exec,71,(MODULES-8862) - 0.4.0 Release Prep Update,merged,david22swan,member,2019-04-04 13:13:16 UTC,2019-04-04 13:45:09 UTC
+puppetlabs/puppetlabs-exec,70,(MODULES-8862) - 0.4.0 Release Prep,merged,david22swan,member,2019-04-04 13:01:04 UTC,2019-04-04 13:09:01 UTC
+puppetlabs/puppetlabs-exec,69,(MODULES-8862) - 0.4.0 Release Prep,closed,david22swan,member,2019-04-04 10:05:54 UTC,
+puppetlabs/puppetlabs-exec,68,(SEN-788) Make linux and windows private,merged,conormurraypuppet,member,2019-03-22 17:05:31 UTC,2019-03-26 16:38:58 UTC
+puppetlabs/puppetlabs-exec,67,(SEN-788) Add discovery extension metadata,merged,conormurraypuppet,member,2019-03-19 11:56:17 UTC,2019-03-19 14:27:14 UTC
+puppetlabs/puppetlabs-exec,66,(SEN-788) Add implementation metadata,merged,conormurraypuppet,member,2019-03-19 09:17:20 UTC,2019-03-19 10:01:08 UTC
+puppetlabs/puppetlabs-exec,65,pdksync - pdksync_heads/master-0-gfde5699,closed,Lavinia-Dan,member,2019-03-13 12:42:24 UTC,
+puppetlabs/puppetlabs-exec,64,(FM-7803) Test Audit Cleanup,merged,HelenCampbell,member,2019-03-12 14:55:13 UTC,2019-03-12 15:30:36 UTC
+puppetlabs/puppetlabs-exec,63,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:44:59 UTC,2019-03-07 14:33:53 UTC
+puppetlabs/puppetlabs-exec,62,(MODULES-8717) Move testing from task_helper to BoltSpec & Fix BoltSpec dependency issue,merged,HelenCampbell,member,2019-03-01 14:58:39 UTC,2019-03-11 14:23:34 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,124,(FM-8027) Add RedHat 8 support,merged,eimlav,member,2019-05-20 15:12:58 UTC,2019-05-21 09:04:45 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,123,(MODULES-9079) Release mergeback v2.0.0,merged,eimlav,member,2019-05-14 13:20:41 UTC,2019-05-14 13:42:40 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,122,(MODULES-9080) update dependency,merged,sheenaajay,member,2019-05-13 15:14:16 UTC,2019-05-14 08:03:58 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,121,(MODULES-9080) - v2.0.0 Release Prep,merged,sheenaajay,member,2019-05-13 14:19:03 UTC,2019-05-14 09:35:11 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,120,(FM-7935) Update REFERENCE.md,merged,eimlav,member,2019-05-07 11:12:19 UTC,2019-05-07 11:22:26 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,119,(MODULES-9017) - update metadata to support current version of stdlib…,merged,lionce,member,2019-05-03 11:52:34 UTC,2019-05-06 12:34:53 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,118,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:12 UTC,2019-04-17 12:21:25 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,117,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:34 UTC,2019-04-11 12:54:00 UTC
+puppetlabs/puppetlabs-ibm_installation_manager,116,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:15 UTC,
+puppetlabs/puppetlabs-ibm_installation_manager,115,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:54 UTC,
+puppetlabs/puppetlabs-ibm_installation_manager,114,pdksync - pdksync_heads/master-0-gfde5699,closed,Lavinia-Dan,member,2019-03-13 12:43:13 UTC,
+puppetlabs/puppetlabs-ibm_installation_manager,113,pdksync - Remove .project from .gitignore,closed,eimlav,member,2019-03-07 12:45:29 UTC,
+puppetlabs/puppetlabs-accounts,226,(MODULES-8968) Test account removal.,merged,pillarsdotnet,contributor,2019-05-15 16:35:17 UTC,2019-05-17 11:49:12 UTC
+puppetlabs/puppetlabs-accounts,225,Release merge-back,merged,carabasdaniel,member,2019-05-10 09:38:21 UTC,2019-05-10 09:52:35 UTC
+puppetlabs/puppetlabs-accounts,224,MODULES-9021 release prep 4.0.0,merged,lionce,member,2019-05-07 08:03:57 UTC,2019-05-07 09:30:38 UTC
+puppetlabs/puppetlabs-accounts,223,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 11:27:42 UTC,2019-05-06 13:15:51 UTC
+puppetlabs/puppetlabs-accounts,222,(MODULES-8968) Test account removal.,closed,pillarsdotnet,contributor,2019-05-02 14:33:49 UTC,
+puppetlabs/puppetlabs-accounts,221,(MODULES-7469) Add password_max_age parameter,merged,eimlav,member,2019-05-01 15:41:50 UTC,2019-05-13 13:12:35 UTC
+puppetlabs/puppetlabs-accounts,220,(MODULES-8909) Allow periods in usernames.,merged,pillarsdotnet,contributor,2019-04-30 16:02:57 UTC,2019-05-01 09:01:57 UTC
+puppetlabs/puppetlabs-accounts,219,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:41:14 UTC,2019-04-15 11:06:39 UTC
+puppetlabs/puppetlabs-accounts,218,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:39:54 UTC,2019-04-11 12:37:36 UTC
+puppetlabs/puppetlabs-accounts,217,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:49:30 UTC,
+puppetlabs/puppetlabs-accounts,216,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:01 UTC,
+puppetlabs/puppetlabs-accounts,215,pdksync - pdksync_1.10.0-0-gbba9ac3,closed,david22swan,member,2019-04-10 14:02:54 UTC,
+puppetlabs/puppetlabs-accounts,214,(MODULES-8909) Add type-aliases and auto-loading.,merged,pillarsdotnet,contributor,2019-04-09 12:27:50 UTC,2019-04-29 11:02:00 UTC
+puppetlabs/puppetlabs-accounts,213,Remove user when custom sshkey file is set,merged,tuxmea,member,2019-03-17 09:20:17 UTC,2019-03-20 13:42:20 UTC
+puppetlabs/puppetlabs-accounts,212,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:32:18 UTC,
+puppetlabs/puppetlabs-accounts,211,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:44:28 UTC,2019-03-07 16:20:09 UTC
+puppetlabs/puppetlabs-accounts,210,(maint) Update README translations,merged,eimlav,member,2019-02-27 16:11:37 UTC,2019-02-27 16:20:05 UTC
+puppetlabs/puppetlabs-accounts,209,(FM-7797) Cleanup account tests,merged,eimlav,member,2019-02-27 11:12:53 UTC,2019-02-27 15:50:10 UTC
+puppetlabs/puppetlabs-java_ks,280,(FM-8042) Add RedHat 8 support,merged,eimlav,member,2019-05-22 10:07:27 UTC,2019-05-22 11:18:00 UTC
+puppetlabs/puppetlabs-java_ks,279,FM-7945 stringify java_ks,merged,lionce,member,2019-05-08 08:43:12 UTC,2019-05-08 09:21:44 UTC
+puppetlabs/puppetlabs-java_ks,278,Modules 8962 - java_ks - Windows 2012 failing smoke,merged,lionce,member,2019-04-24 15:17:51 UTC,2019-04-25 07:24:51 UTC
+puppetlabs/puppetlabs-java_ks,277,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:34 UTC,2019-04-16 10:10:51 UTC
+puppetlabs/puppetlabs-java_ks,276,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:47 UTC,2019-04-11 13:07:41 UTC
+puppetlabs/puppetlabs-java_ks,275,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:29 UTC,
+puppetlabs/puppetlabs-java_ks,274,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:10 UTC,
+puppetlabs/puppetlabs-java_ks,273,Add initial support for DSA private keys.,merged,surcouf,contributor,2019-04-03 16:02:44 UTC,2019-04-25 12:43:08 UTC
+puppetlabs/puppetlabs-java_ks,272,fix keytool list pkcs12 command,closed,KrlWil,contributor,2019-03-15 13:17:11 UTC,
+puppetlabs/puppetlabs-java_ks,271,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:43:45 UTC,
+puppetlabs/puppetlabs-java_ks,270,(FM-7790) Cleanup of Java_KS Test's,merged,david22swan,member,2019-03-12 13:42:35 UTC,2019-03-14 11:47:10 UTC
+puppetlabs/puppetlabs-java_ks,269,(MODULES-3958) - Utilize rspec-mock and add code coverage,merged,david22swan,member,2019-03-12 10:47:58 UTC,2019-03-12 12:42:17 UTC
+puppetlabs/puppetlabs-java_ks,268,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:45:49 UTC,2019-03-07 14:17:41 UTC
+puppetlabs/puppetlabs-motd,221,DO NOT MERGE testing the removal of windows work around for litmus,open,tphoney,member,2019-05-22 14:53:28 UTC,
+puppetlabs/puppetlabs-motd,220,Mergeback v3.0.0,merged,lionce,member,2019-05-20 08:15:59 UTC,2019-05-20 13:52:08 UTC
+puppetlabs/puppetlabs-motd,219,(MODULES-9140) release prep 3.0.0,merged,tphoney,member,2019-05-17 15:03:21 UTC,2019-05-20 07:28:04 UTC
+puppetlabs/puppetlabs-motd,218,(MODULES-9140) release prep 3.0.0,closed,tphoney,member,2019-05-17 14:39:05 UTC,
+puppetlabs/puppetlabs-motd,217,(bugfix) remove scientific 5 testing,merged,tphoney,member,2019-05-17 13:51:31 UTC,2019-05-17 14:15:40 UTC
+puppetlabs/puppetlabs-motd,216,(FM-8073) litmus block support,merged,tphoney,member,2019-05-14 12:44:25 UTC,2019-05-15 11:54:14 UTC
+puppetlabs/puppetlabs-motd,215,(MODULES-9017) - update metadata to support current version of stdlib,merged,lionce,member,2019-05-03 12:05:20 UTC,2019-05-03 12:59:55 UTC
+puppetlabs/puppetlabs-motd,214,(bugfix) changes needed for litmus 0.1.0 release,merged,tphoney,member,2019-04-29 09:35:10 UTC,2019-04-29 10:59:54 UTC
+puppetlabs/puppetlabs-motd,213,(maint) - More consistent ENV vars for .travis.yml,merged,pmcmaw,member,2019-04-25 14:57:00 UTC,2019-04-25 15:30:13 UTC
+puppetlabs/puppetlabs-motd,212,simplistic support for vscode integration to litmus added,merged,abuxton,member,2019-04-18 17:02:27 UTC,2019-04-22 08:22:49 UTC
+puppetlabs/puppetlabs-motd,211,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:43:40 UTC,2019-04-15 12:57:41 UTC
+puppetlabs/puppetlabs-motd,210,(maint) add more oses to test in pipelines,merged,tphoney,member,2019-04-11 17:52:29 UTC,2019-04-12 09:40:18 UTC
+puppetlabs/puppetlabs-motd,209,Fix typo,merged,smortex,contributor,2019-04-10 18:31:51 UTC,2019-04-11 10:18:52 UTC
+puppetlabs/puppetlabs-motd,208,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:51 UTC,2019-04-11 13:07:55 UTC
+puppetlabs/puppetlabs-motd,207,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:34 UTC,
+puppetlabs/puppetlabs-motd,206,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:15 UTC,
+puppetlabs/puppetlabs-motd,205,(MODULES-8767) Add support for SLES 15,merged,eimlav,member,2019-04-10 12:10:42 UTC,2019-04-10 13:12:41 UTC
+puppetlabs/puppetlabs-motd,204,(MODULES-8758) Change memoryfree to memorysize in template,merged,eimlav,member,2019-03-27 11:05:25 UTC,2019-04-02 14:36:09 UTC
+puppetlabs/puppetlabs-motd,203,(WIP) - POC DO NOT MERGE - litmus,closed,pmcmaw,member,2019-03-14 14:12:36 UTC,
+puppetlabs/puppetlabs-motd,202,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:43:56 UTC,
+puppetlabs/puppetlabs-motd,201,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:45:55 UTC,2019-03-07 15:32:43 UTC
+puppetlabs/puppetlabs-motd,200,(FM-7647) use puppet_litmus for acceptance testing,merged,tphoney,member,2019-03-06 17:07:02 UTC,2019-04-11 14:33:45 UTC
+puppetlabs/puppetlabs-motd,199,(FM-7799) - Cleanup of MOTD Testing,merged,david22swan,member,2019-03-01 15:35:24 UTC,2019-03-05 13:51:01 UTC
+puppetlabs/puppetlabs-tagmail,127,(FM-8033) Add RedHat 8 support,merged,eimlav,member,2019-05-21 10:18:40 UTC,2019-05-21 11:39:37 UTC
+puppetlabs/puppetlabs-tagmail,126,Merge back release v3.0.0,merged,lionce,member,2019-04-25 11:22:43 UTC,2019-04-25 11:45:42 UTC
+puppetlabs/puppetlabs-tagmail,125,release prep 3.0.0,merged,carabasdaniel,member,2019-04-25 08:44:31 UTC,2019-04-25 08:58:16 UTC
+puppetlabs/puppetlabs-tagmail,124,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:49 UTC,2019-04-16 09:53:59 UTC
+puppetlabs/puppetlabs-tagmail,123,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:35 UTC,2019-04-15 08:35:35 UTC
+puppetlabs/puppetlabs-tagmail,122,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:27 UTC,
+puppetlabs/puppetlabs-tagmail,121,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:38:01 UTC,
+puppetlabs/puppetlabs-tagmail,120,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:45:58 UTC,
+puppetlabs/puppetlabs-tagmail,119,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:47:02 UTC,2019-03-07 13:56:40 UTC
+puppetlabs/puppetlabs-bootstrap,87,(FM-8038) Add RedHat 8 support,merged,eimlav,member,2019-05-22 08:57:49 UTC,2019-05-22 09:09:25 UTC
+puppetlabs/puppetlabs-bootstrap,86,[FM-7942] Puppet Strings,merged,carabasdaniel,member,2019-05-08 10:10:10 UTC,2019-05-10 07:56:18 UTC
+puppetlabs/puppetlabs-bootstrap,85,(maint) add note about WMF/.NET versions supported,merged,steveax,member,2019-04-16 21:08:29 UTC,2019-04-22 08:25:14 UTC
+puppetlabs/puppetlabs-bootstrap,84,(FM-7919) Ensure TLSv1.2 is used when temporarily disabling ssl,merged,steveax,member,2019-04-15 20:41:15 UTC,2019-04-15 22:11:46 UTC
+puppetlabs/puppetlabs-bootstrap,83,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:42:34 UTC,2019-04-16 07:32:17 UTC
+puppetlabs/puppetlabs-bootstrap,78,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:08 UTC,2019-04-11 12:39:05 UTC
+puppetlabs/puppetlabs-bootstrap,77,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:49:43 UTC,
+puppetlabs/puppetlabs-bootstrap,76,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:21 UTC,
+puppetlabs/puppetlabs-bootstrap,75,(MODULES-8848) - Release mergeback 0.5.0,merged,pmcmaw,member,2019-04-04 14:48:32 UTC,2019-04-04 15:35:46 UTC
+puppetlabs/puppetlabs-bootstrap,74,(MODULES-8844) - 0.5.0 Release Prep,merged,david22swan,member,2019-04-03 13:45:41 UTC,2019-04-04 08:44:49 UTC
+puppetlabs/puppetlabs-bootstrap,73,(SEN-787) Make linux and windows private,merged,conormurraypuppet,member,2019-03-22 17:12:20 UTC,2019-03-26 16:44:35 UTC
+puppetlabs/puppetlabs-bootstrap,72,(SEN-787) Add discovery extension metadata,merged,conormurraypuppet,member,2019-03-19 11:52:55 UTC,2019-03-19 14:41:04 UTC
+puppetlabs/puppetlabs-bootstrap,71,(SEN-787) Add implementation metadata,merged,conormurraypuppet,member,2019-03-19 09:22:51 UTC,2019-03-19 10:33:34 UTC
+puppetlabs/puppetlabs-bootstrap,70,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:41:59 UTC,
+puppetlabs/puppetlabs-bootstrap,69,(WIP) (FM-7841) Convert bootstrap to test using BoltSpec,closed,david22swan,member,2019-03-07 17:02:50 UTC,
+puppetlabs/puppetlabs-bootstrap,68,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:44:46 UTC,2019-03-07 13:35:59 UTC
+puppetlabs/puppetlabs-bootstrap,67,Ensure certnames are *always* lowercase,merged,dylanratcliffe,member,2019-02-27 21:21:21 UTC,2019-03-21 15:02:23 UTC
+puppetlabs/puppetlabs-facter_task,72,(FM-8040) Add RedHat 8 support,merged,eimlav,member,2019-05-22 09:27:43 UTC,2019-05-22 10:19:31 UTC
+puppetlabs/puppetlabs-facter_task,71,FM-7944 - stringify facter_task,merged,lionce,member,2019-05-08 12:08:18 UTC,2019-05-10 10:00:17 UTC
+puppetlabs/puppetlabs-facter_task,70,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:42:51 UTC,2019-04-16 07:31:50 UTC
+puppetlabs/puppetlabs-facter_task,69,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:40:21 UTC,2019-04-11 12:53:34 UTC
+puppetlabs/puppetlabs-facter_task,68,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:49:58 UTC,
+puppetlabs/puppetlabs-facter_task,67,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:36:38 UTC,
+puppetlabs/puppetlabs-facter_task,66,(MODULES-8885) - Release Merge back 0.4.1,merged,sheenaajay,member,2019-04-08 09:13:57 UTC,2019-04-08 09:19:50 UTC
+puppetlabs/puppetlabs-facter_task,65,(MODULES-8881) - 0.4.1 Release Prep,merged,david22swan,member,2019-04-05 11:08:25 UTC,2019-04-05 12:44:28 UTC
+puppetlabs/puppetlabs-facter_task,64,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:42:36 UTC,
+puppetlabs/puppetlabs-facter_task,63,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:45:06 UTC,2019-03-07 14:24:04 UTC
+puppetlabs/puppetlabs-facter_task,62,(FM-7842) Convert tests to use BoltSpec,merged,eimlav,member,2019-03-07 10:45:09 UTC,2019-03-07 14:55:09 UTC
+puppetlabs/puppetlabs-package,128,(FM-8044) Add Redhat8 support,merged,sheenaajay,member,2019-05-22 10:20:18 UTC,2019-05-22 10:57:40 UTC
+puppetlabs/puppetlabs-package,127,FM-7946 stringify package,merged,lionce,member,2019-05-08 06:55:44 UTC,2019-05-08 09:22:35 UTC
+puppetlabs/puppetlabs-package,126,Bolt 1104 linux package task refactor,merged,m0dular,member,2019-05-06 21:48:02 UTC,2019-05-17 23:33:45 UTC
+puppetlabs/puppetlabs-package,125,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:03 UTC,2019-04-16 10:15:28 UTC
+puppetlabs/puppetlabs-package,124,(MODULES-8896) Release mergeback 0.5.0,merged,eimlav,member,2019-04-10 15:52:55 UTC,2019-04-10 16:23:52 UTC
+puppetlabs/puppetlabs-package,123,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:04 UTC,2019-04-12 12:12:22 UTC
+puppetlabs/puppetlabs-package,122,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:50:50 UTC,
+puppetlabs/puppetlabs-package,121,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:29 UTC,
+puppetlabs/puppetlabs-package,120,(MODULES-8892) - v0.5.0 Release Prep,merged,david22swan,member,2019-04-05 15:30:02 UTC,2019-04-10 08:27:40 UTC
+puppetlabs/puppetlabs-package,119,(SEN-795) Move extension metadata to init.json,merged,conormurraypuppet,member,2019-03-22 16:54:54 UTC,2019-03-26 16:38:29 UTC
+puppetlabs/puppetlabs-package,118,(SEN-795) Add discovery extension metadata,merged,conormurraypuppet,member,2019-03-19 12:09:52 UTC,2019-03-19 14:27:02 UTC
+puppetlabs/puppetlabs-package,117,(BOLT-1104) Unify task implementation output,merged,donoghuc,member,2019-03-18 23:47:55 UTC,2019-04-09 23:11:06 UTC
+puppetlabs/puppetlabs-package,116,FM 7800 - Test Audit making testing more efficient,merged,lionce,member,2019-03-13 14:11:08 UTC,2019-03-13 14:35:08 UTC
+puppetlabs/puppetlabs-package,115,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:44:31 UTC,
+puppetlabs/puppetlabs-package,114,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:16 UTC,2019-03-07 14:03:19 UTC
+puppetlabs/puppetlabs-package,113,(MODULES-8717) Fix for boltspec run dependancy issue,merged,HelenCampbell,member,2019-03-04 16:25:07 UTC,2019-03-04 17:11:29 UTC
+puppetlabs/puppetlabs-puppet_agent,411,(maint) Fix task acceptance tests for fedora 29,merged,donoghuc,member,2019-05-13 20:21:51 UTC,2019-05-14 07:24:09 UTC
+puppetlabs/puppetlabs-puppet_agent,410,(packaging) Update changelog/metadata for 2.1.2,merged,mihaibuzgau,member,2019-05-13 15:55:30 UTC,2019-05-13 16:01:16 UTC
+puppetlabs/puppetlabs-puppet_agent,409,(maint) update apt url,merged,mihaibuzgau,member,2019-05-13 15:18:41 UTC,2019-05-13 15:23:28 UTC
+puppetlabs/puppetlabs-puppet_agent,408,"(maint) Puppet agent on Windows has manual startup, debian spec fix",merged,sebastian-miclea,member,2019-05-13 14:23:46 UTC,2019-05-13 14:34:59 UTC
+puppetlabs/puppetlabs-puppet_agent,407,(maint) use PC1 as default,merged,mihaibuzgau,member,2019-05-13 13:11:07 UTC,2019-05-13 13:17:09 UTC
+puppetlabs/puppetlabs-puppet_agent,406,(maint) use PC1 as default,closed,mihaibuzgau,member,2019-05-13 12:57:26 UTC,
+puppetlabs/puppetlabs-puppet_agent,405,(maint) Changes to windows public release package links,merged,sebastian-miclea,member,2019-05-13 11:10:56 UTC,2019-05-13 11:20:59 UTC
+puppetlabs/puppetlabs-puppet_agent,404,(packaging) Update changelog/metadata for 2.1.2,merged,sebastian-miclea,member,2019-05-13 10:10:26 UTC,2019-05-13 10:34:59 UTC
+puppetlabs/puppetlabs-puppet_agent,403,(docs) Fix bad aix_source example.,merged,gguillotte,member,2019-05-03 18:39:24 UTC,2019-05-10 12:10:18 UTC
+puppetlabs/puppetlabs-puppet_agent,402,(RE-12326) Changes to public release package links,merged,eimlav,member,2019-04-29 12:37:36 UTC,2019-04-29 13:12:13 UTC
+puppetlabs/puppetlabs-puppet_agent,401,(MODULES-8923) autodetect package_version based upon the master,open,tkishel,member,2019-04-11 21:48:28 UTC,
+puppetlabs/puppetlabs-puppet_agent,400,Fix Yum URL path for RedHat systems still using the PC1 collection,merged,coreone,contributor,2019-04-10 20:19:27 UTC,2019-05-13 12:06:07 UTC
+puppetlabs/puppetlabs-puppet_agent,399,installdir parameter not defined in install_shell task,open,kkarthee,first_time_contributor,2019-04-03 06:23:56 UTC,
+puppetlabs/puppetlabs-puppet_agent,398,(docs) Revise macOS limitations note.,open,gguillotte,member,2019-03-29 18:32:57 UTC,
+puppetlabs/puppetlabs-puppet_agent,397,(MODULES-8821) Update win install to use production environment,merged,McdonaldSeanp,member,2019-03-28 17:06:39 UTC,2019-03-28 20:02:38 UTC
+puppetlabs/puppetlabs-puppet_agent,396,Readme naming consistency,open,hpcprofessional,member,2019-03-23 00:18:39 UTC,
+puppetlabs/puppetlabs-puppet_agent,395,(MODULES-6604) Add new source parameters,merged,McdonaldSeanp,member,2019-03-12 22:06:53 UTC,2019-03-25 14:05:05 UTC
+puppetlabs/puppetlabs-puppet_agent,394,(MODULES-8720) Update source calculation to prefer source user param,merged,McdonaldSeanp,member,2019-03-05 18:51:40 UTC,2019-03-05 22:42:41 UTC
+puppetlabs/puppetlabs-puppet_agent,393,(MODULES-8554) Add error reporting for background upgrades,merged,McdonaldSeanp,member,2019-03-05 00:16:18 UTC,2019-03-11 19:33:51 UTC
+puppetlabs/puppetlabs-puppet_agent,392,Fix unnecessary changes in load balanced envs due to pkg source,merged,ragnarkon,contributor,2019-03-01 21:54:27 UTC,2019-03-13 16:31:56 UTC
+puppetlabs/puppetlabs-puppet_agent,391, (PA-2385) Update service management to run always for windows,merged,McdonaldSeanp,member,2019-02-26 19:11:19 UTC,2019-02-26 22:27:09 UTC
+puppetlabs/puppetlabs-puppet_conf,68,(FM-8045) Add Redhat8 support,open,sheenaajay,member,2019-05-22 11:06:43 UTC,
+puppetlabs/puppetlabs-puppet_conf,67,FM-7947 - stringify puppet_conf,merged,lionce,member,2019-05-07 13:13:25 UTC,2019-05-08 09:23:08 UTC
+puppetlabs/puppetlabs-puppet_conf,66,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:19 UTC,2019-04-16 10:14:57 UTC
+puppetlabs/puppetlabs-puppet_conf,65,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:13 UTC,2019-04-12 12:12:57 UTC
+puppetlabs/puppetlabs-puppet_conf,64,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:00 UTC,
+puppetlabs/puppetlabs-puppet_conf,63,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:38 UTC,
+puppetlabs/puppetlabs-puppet_conf,62,(MODULES-8868) - Release mergeback 0.3.1,merged,Lavinia-Dan,member,2019-04-05 11:46:25 UTC,2019-04-05 12:35:37 UTC
+puppetlabs/puppetlabs-puppet_conf,61,(MODULES-8868) - 0.3.1 Release Preperation,merged,david22swan,member,2019-04-04 14:26:10 UTC,2019-04-05 08:23:03 UTC
+puppetlabs/puppetlabs-puppet_conf,60,(MODULES-8868) - 0.3.1 Release Prep,closed,david22swan,member,2019-04-04 14:16:20 UTC,
+puppetlabs/puppetlabs-puppet_conf,59,(MODULES-8868) - 0.3.1 Release Prep,closed,david22swan,member,2019-04-04 14:12:59 UTC,
+puppetlabs/puppetlabs-puppet_conf,58,(MODULES-8868) - 0.3.1 Release Prep,closed,david22swan,member,2019-04-04 14:10:00 UTC,
+puppetlabs/puppetlabs-puppet_conf,57,(MODULES-8868) - 0.3.1 Release Prep,closed,david22swan,member,2019-04-04 14:09:08 UTC,
+puppetlabs/puppetlabs-puppet_conf,56,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:44:54 UTC,
+puppetlabs/puppetlabs-puppet_conf,55,(maint) Update supported PE version,merged,eimlav,member,2019-03-07 14:18:34 UTC,2019-03-07 14:54:05 UTC
+puppetlabs/puppetlabs-puppet_conf,54,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:30 UTC,2019-03-07 16:20:45 UTC
+puppetlabs/puppetlabs-puppet_conf,53,(FM-7845) Use BoltSpec for acceptance tests,merged,eimlav,member,2019-03-06 10:37:05 UTC,2019-03-07 09:07:50 UTC
+puppetlabs/puppetlabs-resource,55,(FM-8046) Add Redhat 8 support,merged,sheenaajay,member,2019-05-22 09:20:20 UTC,2019-05-22 10:03:07 UTC
+puppetlabs/puppetlabs-resource,54,(FM-8046) Add Redhat 8 support,closed,sheenaajay,member,2019-05-22 09:09:54 UTC,
+puppetlabs/puppetlabs-resource,53,(FM-7948) - stringify resource,merged,lionce,member,2019-05-03 11:11:16 UTC,2019-05-07 11:27:08 UTC
+puppetlabs/puppetlabs-resource,52,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:26 UTC,2019-04-15 13:10:15 UTC
+puppetlabs/puppetlabs-resource,51,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:18 UTC,2019-04-12 12:13:16 UTC
+puppetlabs/puppetlabs-resource,50,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:08 UTC,
+puppetlabs/puppetlabs-resource,49,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:42 UTC,
+puppetlabs/puppetlabs-resource,48,(MODULES-8878) - Release Merge back 0.3.1,merged,sheenaajay,member,2019-04-08 12:51:13 UTC,2019-04-08 13:22:53 UTC
+puppetlabs/puppetlabs-resource,47,(MODULES-8874) - 0.3.1 Release Prep,merged,david22swan,member,2019-04-05 10:01:15 UTC,2019-04-05 11:12:56 UTC
+puppetlabs/puppetlabs-resource,46,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:45:05 UTC,
+puppetlabs/puppetlabs-resource,45,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:36 UTC,2019-03-07 14:02:51 UTC
+puppetlabs/puppetlabs-resource,44,(maint) Clarify supported PE and Bolt versions,merged,eimlav,member,2019-03-06 16:47:28 UTC,2019-03-11 13:43:25 UTC
+puppetlabs/puppetlabs-resource,43,(MODULES-8717) Fix dependency issue with BoltSpec,merged,eimlav,member,2019-03-05 10:41:12 UTC,2019-03-06 16:04:23 UTC
+puppetlabs/puppetlabs-service,97,(FM-8047) Add RedHat8 as supported OS,open,michaeltlombardi,member,2019-05-22 16:28:31 UTC,
+puppetlabs/puppetlabs-service,96,Refactor to use common.sh,open,m0dular,member,2019-05-20 16:05:44 UTC,
+puppetlabs/puppetlabs-service,95,(FM-7949) - stringify service,merged,lionce,member,2019-05-02 14:29:17 UTC,2019-05-07 11:25:46 UTC
+puppetlabs/puppetlabs-service,94,Release mergeback v1.0.0,merged,lionce,member,2019-04-24 12:21:26 UTC,2019-04-25 07:34:39 UTC
+puppetlabs/puppetlabs-service,93,Prep-release v1.0.0,merged,carabasdaniel,member,2019-04-24 07:32:35 UTC,2019-04-24 07:45:11 UTC
+puppetlabs/puppetlabs-service,92,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:44:38 UTC,2019-04-15 13:08:36 UTC
+puppetlabs/puppetlabs-service,91,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:26 UTC,2019-04-15 08:32:21 UTC
+puppetlabs/puppetlabs-service,90,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:17 UTC,
+puppetlabs/puppetlabs-service,89,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:37:51 UTC,
+puppetlabs/puppetlabs-service,88,(maint) - Release mergeback v0.6.0,merged,pmcmaw,member,2019-04-09 13:46:48 UTC,2019-04-09 14:01:42 UTC
+puppetlabs/puppetlabs-service,87,(MODULES-8887) - v0.6.0 Release Prep,merged,david22swan,member,2019-04-05 15:13:36 UTC,2019-04-09 08:17:06 UTC
+puppetlabs/puppetlabs-service,86,(SEN-796) Move extension metadata,merged,conormurraypuppet,member,2019-03-22 16:59:59 UTC,2019-03-26 16:39:21 UTC
+puppetlabs/puppetlabs-service,85,(SEN-796) Add discovery extension metadata,merged,conormurraypuppet,member,2019-03-19 12:14:22 UTC,2019-03-19 14:26:13 UTC
+puppetlabs/puppetlabs-service,84,pdksync - pdksync_heads/master-0-gfde5699,closed,Lavinia-Dan,member,2019-03-13 12:45:33 UTC,
+puppetlabs/puppetlabs-service,83,(BOLT-1103) Unify output of task implementations,merged,donoghuc,member,2019-03-11 20:01:10 UTC,2019-04-05 20:34:53 UTC
+puppetlabs/puppetlabs-service,82,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:46:48 UTC,2019-03-07 14:02:25 UTC
+puppetlabs/puppetlabs-service,81,FM-7798 - Test Audit making testing more efficient ,merged,lionce,member,2019-03-07 11:20:05 UTC,2019-03-12 10:40:08 UTC
+puppetlabs/puppetlabs-service,80,(MODULES-8717) Fix dependency issue with BoltSpec,merged,eimlav,member,2019-03-04 16:31:08 UTC,2019-03-04 16:45:53 UTC
+puppetlabs/puppetlabs-translate,42,(FM-8034) Add RedHat 8 support,merged,eimlav,member,2019-05-21 10:56:43 UTC,2019-05-21 13:19:02 UTC
+puppetlabs/puppetlabs-translate,41,[FM-7939] Puppet Strings,merged,carabasdaniel,member,2019-05-07 12:19:25 UTC,2019-05-08 07:21:19 UTC
+puppetlabs/puppetlabs-translate,40,pdksync - (maint) Update pdk-template to f778803,merged,eimlav,member,2019-04-15 09:45:00 UTC,2019-04-16 09:53:15 UTC
+puppetlabs/puppetlabs-translate,39,pdksync - (MODULES-8444) - Raise lower Puppet bound,merged,david22swan,member,2019-04-10 15:41:45 UTC,2019-04-15 08:36:15 UTC
+puppetlabs/puppetlabs-translate,38,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:51:36 UTC,
+puppetlabs/puppetlabs-translate,37,pdksync - (MODULES-8444) - Raise lower Puppet bound,closed,david22swan,member,2019-04-10 14:38:11 UTC,
+puppetlabs/puppetlabs-translate,36,pdksync - pdksync_tags/1.9.1-0-g6945d31,closed,Lavinia-Dan,member,2019-03-13 12:46:21 UTC,
+puppetlabs/puppetlabs-translate,35,pdksync - Remove .project from .gitignore,merged,eimlav,member,2019-03-07 12:47:17 UTC,2019-03-07 13:52:31 UTC

@@ -1,0 +1,43 @@
+repo,id,title,state,user,user_type,created_at
+puppetlabs/puppetlabs-docker,485,Exec auth runs with every catalog apply,open,catsem,contributor,2019-05-16 14:05:31 UTC
+puppetlabs/puppetlabs-docker,481,Allow priority of yum repo to be specified,open,traylenator,contributor,2019-05-06 14:29:10 UTC
+puppetlabs/puppetlabs-docker,479,Question: the relationship between docker::image and docker::run,open,f4rx,contributor,2019-05-06 11:01:41 UTC
+puppetlabs/puppetlabs-docker,476,question : docker service does it take care of /etc/default/docker on debian like OSes ?,open,Dan33l,contributor,2019-04-18 09:59:27 UTC
+puppetlabs/puppetlabs-docker,474,Documentation is misleading about Windows Support.,closed,glennsarti,member,2019-04-15 08:29:40 UTC
+puppetlabs/puppetlabs-docker,472,multiple networks and restart param,open,brightdroid,contributor,2019-04-08 21:53:24 UTC
+puppetlabs/puppetlabs-docker,469,restart unless condition missmatches,open,brightdroid,contributor,2019-04-05 12:15:26 UTC
+puppetlabs/puppetlabs-docker,467,Tests require docker binary to be installed to succeed,open,electrofelix,contributor,2019-04-01 17:05:04 UTC
+puppetlabs/puppetlabs-docker,464,docker::image is running images instead of just pull,closed,hugotanure,contributor,2019-03-22 17:45:28 UTC
+puppetlabs/puppetlabs-docker,463,Create systemd  service for docker_compose,open,tarjei,contributor,2019-03-22 08:30:06 UTC
+puppetlabs/puppetlabs-docker,461,docker-run.erb - undefined method `+' for nil:NilClass,open,timdeluxe,contributor,2019-03-19 14:39:04 UTC
+puppetlabs/puppetlabs-docker,457,Uninstalling Docker on Windows Injects Multiple Environment Variables,closed,AMoghrabi,contributor,2019-03-13 18:55:52 UTC
+puppetlabs/puppetlabs-docker,456,Incorrect StarLimit systemd unit options,open,elexpander,contributor,2019-03-13 16:05:08 UTC
+puppetlabs/puppetlabs-docker,455,Docker EE won't install on Windows Server 2019,closed,AMoghrabi,contributor,2019-03-13 02:40:49 UTC
+puppetlabs/puppetlabs-docker,449,More Puppet-like deployment of Docker Services,open,jacksgt,contributor,2019-03-07 10:15:33 UTC
+puppetlabs/puppetlabs-docker,445,net should allow more than one network,closed,brightdroid,contributor,2019-02-28 14:27:22 UTC
+puppetlabs/puppetlabs-docker,444,Dependency version ranges too strict,closed,olavmrk,contributor,2019-02-27 06:44:34 UTC
+puppetlabs/puppetlabs-azure_arm,20,azure_sql_server returns as succeeded even though no server gets created,open,Monual,contributor,2019-05-09 19:12:19 UTC
+puppetlabs/puppetlabs-azure_arm,19,Azure load balancer backend pools having issues as nic are not attaching ,open,akkirao,contributor,2019-05-06 22:15:09 UTC
+puppetlabs/puppetlabs-azure_arm,18,Azure_deployment having issues with no parameter slot,open,akkirao,contributor,2019-04-11 20:41:50 UTC
+puppetlabs/puppetlabs-azure_arm,17,"Trying to deploy azure_sql_database results in ""Invalid parameter elastic_pool_name""",open,Monual,contributor,2019-04-05 07:00:43 UTC
+puppetlabs/puppetlabs-azure_arm,15,"Attempting a new ""azure_server_farm_with_rich_sku"" leads to ""Invalid Parameter: allow_pending_state""",open,Monual,contributor,2019-04-03 17:22:26 UTC
+puppetlabs/puppetlabs-kubernetes,290,Etcd installation from package on centos,open,achevalet,contributor,2019-05-22 14:34:49 UTC
+puppetlabs/puppetlabs-kubernetes,288,kubetool container throws errors and doesn't generate expected yaml files,open,KrisBuytaert,contributor,2019-05-15 11:26:31 UTC
+puppetlabs/puppetlabs-kubernetes,284,no parameter named 'value',open,KrisBuytaert,contributor,2019-05-08 14:24:06 UTC
+puppetlabs/puppetlabs-kubernetes,283,apiserver_cert_extra_sans has no effect,closed,flostru,contributor,2019-05-08 11:57:36 UTC
+puppetlabs/puppetlabs-kubernetes,277,Token need to be manually recreated for new nodes,open,sunnz,contributor,2019-05-02 04:16:42 UTC
+puppetlabs/puppetlabs-kubernetes,276,It is not possible to set apiServerExtraArgs with v1alpha3 or v1beta1 config templates without setting a cloud_provider,closed,nickperry,contributor,2019-04-30 21:24:29 UTC
+puppetlabs/puppetlabs-kubernetes,275,This module should manage the `front-proxy-ca`,open,mrwulf,contributor,2019-04-26 23:28:59 UTC
+puppetlabs/puppetlabs-kubernetes,270,Unable to deploy Kubernetes 1.14.0,closed,ctas582,contributor,2019-04-09 13:00:18 UTC
+puppetlabs/puppetlabs-kubernetes,269,Exec wait_for_default_sa is executed on every puppet run,closed,yoshz,contributor,2019-04-09 06:58:07 UTC
+puppetlabs/puppetlabs-kubernetes,267,Ubuntu dependencies on debian!?,open,stasiek,contributor,2019-04-07 21:05:00 UTC
+puppetlabs/puppetlabs-kubernetes,260,Kubelet extra args not parsed correctly for controller nodes,closed,puetzp,contributor,2019-03-08 15:04:22 UTC
+puppetlabs/puppetlabs-kubernetes,258,Use controller as a worker?,closed,vrmerlin,contributor,2019-03-05 18:16:48 UTC
+puppetlabs/puppetlabs-kubernetes,256,Timeout error during kubeadm init step,closed,vrmerlin,contributor,2019-02-26 20:00:14 UTC
+puppetlabs/puppetlabs-helm,78,Add `--values` option for helm chart upgrade,closed,tclh123,contributor,2019-05-15 06:18:20 UTC
+puppetlabs/puppetlabs-helm,73,helm init flags being parsed incorrectly,open,puetzp,contributor,2019-03-18 12:52:36 UTC
+puppetlabs/puppetlabs-helm,68,helm::chart generates invalid command and fails,closed,dhollinger,contributor,2019-02-25 19:53:26 UTC
+puppetlabs/puppetlabs-bootstrap,82,Provide a non-JSON method of specifying extension requests and certificate attributes at the command line,open,jessereynolds,member,2019-04-11 14:50:58 UTC
+puppetlabs/puppetlabs-bootstrap,81,extension_request and custom_attribute should be pluralised ,open,jessereynolds,member,2019-04-11 13:56:28 UTC
+puppetlabs/puppetlabs-bootstrap,80,Specifying extension requests and custom attributes as per README fails with data type validation error,open,jessereynolds,member,2019-04-11 13:20:26 UTC
+puppetlabs/puppetlabs-bootstrap,79,Instructions in the README are inconsistent with module inbuilt help,open,jessereynolds,member,2019-04-11 13:11:01 UTC
